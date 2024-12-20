@@ -98,3 +98,115 @@ Here’s a version of your note where the special LaTeX-style brackets and symbo
 ---
 
 This version avoids LaTeX syntax and special characters, making it easier to copy-paste without issues. Let me know if you’d like further changes!
+# ----------------------------------------------------------------
+
+Here is the revised version with all special signs removed, formatted for direct copy and paste into a Markdown file:
+
+---
+
+### Graph Terminology
+
+1. **Graph (G)**:  
+   A graph is a pair G = (V, E), where:  
+   - V = Set of vertices (nodes).  
+   - E = Set of edges (connections between vertices).  
+
+2. **Vertex (v)**:  
+   An individual element in the set V.  
+   - Example: v1, v2, etc.  
+
+3. **Edge (e)**:  
+   A connection between two vertices, represented as an ordered or unordered pair.  
+   - Example: (v1, v2) or {v1, v2}.  
+
+4. **Adjacency**:  
+   Two vertices are adjacent if there is an edge connecting them.  
+   - Example: If (v1, v2) is an edge, v1 and v2 are adjacent.  
+
+5. **Degree**:  
+   The degree of a vertex is the number of edges incident to it.  
+   - In-degree: Number of edges directed into the vertex (for directed graphs).  
+   - Out-degree: Number of edges directed out of the vertex (for directed graphs).  
+
+6. **Self-loop**:  
+   An edge that connects a vertex to itself.  
+   - Example: (v1, v1).  
+
+7. **Proper Edge**:  
+   A proper edge is an edge that connects two different vertices.  
+   - Example: (v1, v2), where v1 ≠ v2.  
+
+8. **Multi-edge (Parallel Edge)**:  
+   Multiple edges connecting the same pair of vertices.  
+   - Example: Two edges (v1, v2) and (v1, v2) are parallel edges between v1 and v2.  
+
+9. **Directed Graph (Digraph)**:  
+   A graph where edges have a direction (ordered pairs).  
+   - Example: (v1, v2) indicates a directed edge from v1 to v2.  
+
+10. **Undirected Graph**:  
+    A graph where edges do not have a direction (unordered pairs).  
+    - Example: {v1, v2} indicates an edge between v1 and v2.  
+
+11. **Weighted Graph**:  
+    A graph where each edge has a weight (or cost) associated with it.  
+    - Example: (v1, v2, 5) indicates an edge between v1 and v2 with weight 5.  
+
+12. **Simple Graph**:  
+    A graph without self-loops or multiple edges between any pair of vertices.  
+    - Example: No multiple edges or loops are allowed.  
+
+13. **Complete Graph**:  
+    A graph where every pair of distinct vertices is connected by a unique edge.  
+    - Example: A complete graph with 3 vertices, K3, has edges (v1, v2), (v1, v3), (v2, v3).  
+
+14. **Null Graph**:  
+    A graph with no edges, but it can have one or more vertices.  
+    - Example: V = {v1, v2}, E = {}.  
+
+15. **Disconnected Graph**:  
+    A graph where not all vertices are connected by paths. There are disconnected components in the graph.  
+
+16. **Connected Graph**:  
+    A graph where there is a path between every pair of vertices.  
+
+17. **Subgraph**:  
+    A subgraph is a graph formed by selecting a subset of vertices and edges from a larger graph.  
+
+18. **Isomorphic Graphs**:  
+    Two graphs are isomorphic if there is a one-to-one correspondence between their vertices and edges, preserving the adjacency relationship.  
+
+19. **Planar Graph**:  
+    A graph that can be drawn in a plane without any edges crossing.  
+
+20. **Regular Graph**:  
+    A graph where every vertex has the same degree.  
+    - Example: In a 3-regular graph, each vertex has degree 3.  
+
+21. **Cycle**:  
+    A path in which the starting and ending vertex is the same, without repeating any other vertices.  
+
+22. **Path**:  
+    A sequence of edges that connects a sequence of distinct vertices.  
+
+23. **Cut**:  
+    A partition of the vertices of a graph into two disjoint subsets.  
+
+24. **Degree Sequence**:  
+    The sequence of vertex degrees in a graph, arranged in non-increasing order.  
+
+25. **Clique**:  
+    A subset of vertices such that every pair of vertices in the subset is adjacent.  
+
+26. **Independent Set**:  
+    A set of vertices in a graph such that no two vertices in the set are adjacent.  
+
+27. **Matching**:  
+    A set of edges without common vertices. A maximum matching is a matching that includes the largest number of edges possible.  
+
+28. **Graph Complement**:  
+    The complement of a graph G = (V, E) is a graph G' with the same vertices but with edges that are not present in G.  
+
+---  
+
+This version is formatted for Markdown and ready for use. Let me know if any further changes are needed!
