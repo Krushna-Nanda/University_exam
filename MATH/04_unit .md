@@ -12,6 +12,9 @@ Here’s a version of your note where the special LaTeX-style brackets and symbo
 2. **Vertex (v)**:  
    An individual element in the set V.  
    - Example: v1, v2, etc.
+  
+    Isolated Vertex & Pendant Vertex: A vertex having 0 is called an isolated vertex and a vertex having degree 1 is called a pendant vertex.
+ Finite and Infinite graph: A graph with a finite number of vertices as well as edges is called a finite graph otherwise it is an infinite graph.
 
 3. **Edge (e)**:  
    A connection between two vertices.  
