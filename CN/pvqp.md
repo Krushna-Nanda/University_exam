@@ -1,3 +1,5 @@
+# 2022 - 2023
+
 Certainly! Here's the list of previous year questions with the **module name** in bold:
 
 ---
@@ -96,3 +98,107 @@ Certainly! Here's the list of previous year questions with the **module name** i
 ---
 
 This is the full set of previous year questions with their respective **module names**. Let me know if you need anything else!
+
+
+# ===================================================
+
+# 2021 - 2022
+
+Thank you for sharing the 2021-2022 previous year questions! Here's a breakdown of each question along with its corresponding **module**:
+
+---
+
+### **Part-I (2 x 10 = 20 Marks)**
+
+**2-mark questions:**
+- **(a)** What is meant by data communication?  
+  **Module I: Overview of the Internet**
+
+- **(b)** What are the responsibilities of the data link layer?  
+  **Module II: Data Link Layer**
+
+- **(c)** What is ARQ?  
+  **Module II: Data Link Layer**
+
+- **(d)** Write short notes on Ethernet.  
+  **Module II: Data Link Layer**
+
+- **(e)** What is a Hub?  
+  **Module III: Connecting Devices**
+
+- **(f)** Define LAN.  
+  **Module I: Overview of the Internet**
+
+- **(g)** Differentiate between IPv4 and IPv6.  
+  **Module IV: Internetworking**
+
+- **(h)** What is the purpose of the Domain Name System?  
+  **Module V: Application Layer**
+
+- **(i)** What is TELNET?  
+  **Module V: Application Layer**
+
+- **(j)** What is FTP?  
+  **Module V: Application Layer**
+
+---
+
+### **Part-II (6 x 8 = 48 Marks)**
+
+**6-mark questions:**
+- **(a)** What is the key idea of the Stop & Wait Protocol? Explain in detail.  
+  **Module II: Data Link Layer (Sliding Window protocols)**
+
+- **(b)** What is CSMA/CD? Why do we use it? Explain in detail.  
+  **Module II: Data Link Layer (CSMA/CD protocol)**
+
+- **(c)** What is the role of layers, protocols, interfaces, and services? Explain.  
+  **Module I: Overview of the Internet (OSI and TCP/IP models)**
+
+- **(d)** Explain ICMP and IGMP protocols used in the network layer.  
+  **Module IV: Internetworking (ICMP, IGMP)**
+
+- **(e)** Explain Connectionless and connection-oriented protocols.  
+  **Module III: Network Layer (Connectionless vs. Connection-oriented)**
+
+- **(f)** What is framing? What are various methods used for framing? Explain them with examples.  
+  **Module II: Data Link Layer (Framing techniques)**
+
+- **(g)** What do you understand by the Selective Repeat Sliding Window protocol? Also, discuss the size of the sliding window at both the sender site and receiver site.  
+  **Module II: Data Link Layer (Sliding Window protocols)**
+
+- **(h)** Why do we need a media access control protocol? Explain ALOHA in detail.  
+  **Module II: Data Link Layer (ALOHA protocol)**
+
+- **(i)** Why is a routing protocol required? Explain flooding and multicast.  
+  **Module III: Network Layer (Routing protocols, Flooding, Multicast)**
+
+- **(j)** Explain the effect of noise on coaxial cable and twisted pair cable.  
+  **Module I: Overview of the Internet (Transmission impairments)**
+
+- **(k)** Draw and explain the header format of a Real Time Transport Protocol.  
+  **Module V: Application Layer (RTP protocol)**
+
+- **(l)** List the steps in TCP connection establishment.  
+  **Module V: Transport Protocols (TCP connection establishment)**
+
+---
+
+### **Part-III (16 Marks)**
+
+**16-mark questions:**
+- **(3)** What is meant by framing and error control? Discuss the different framing techniques used by the data link layer.  
+  **Module II: Data Link Layer (Framing and error control techniques)**
+
+- **(4)** What do you mean by Carrier Sense? What are various Carrier Sense Multiple Access (CSMA) Protocols? Describe in detail with a diagram.  
+  **Module II: Data Link Layer (CSMA protocols)**
+
+- **(5)** How is the transport layer used for connection management? What is the need for the UDP protocol? Explain.  
+  **Module V: Transport Protocols (Connection management, UDP)**
+
+- **(6)** How does information get passed from one layer to the next in the OSI reference model? Explain.  
+  **Module I: Overview of the Internet (OSI reference model)**
+
+---
+
+This is the analysis of the questions from the 2021-2022 exam with the corresponding **module names**. Let me know if you need further clarification or assistance!
