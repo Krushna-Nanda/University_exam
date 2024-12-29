@@ -202,3 +202,94 @@ Thank you for sharing the 2021-2022 previous year questions! Here's a breakdown 
 ---
 
 This is the analysis of the questions from the 2021-2022 exam with the corresponding **module names**. Let me know if you need further clarification or assistance!
+
+# here is the most imp one 
+
+Here are the questions that appear in **both** the previous year papers (2022-2023 and 2021-2022), categorized according to the units they correspond to:
+
+### **Common Questions (Across Both Years):**
+
+#### **Part-I (2 x 10 = 20 Marks)**
+1. **Differentiate between IPv4 and IPv6**  
+   - **Module**: **Module IV** (Internetworking)
+   - **Years**: 2022-2023, 2021-2022
+
+2. **What is WLAN?**  
+   - **Module**: **Module II** (Medium Access Sublayer)
+   - **Years**: 2022-2023, 2021-2022
+
+3. **Explain the usage of Ethernet**  
+   - **Module**: **Module II** (Data Link Layer)
+   - **Years**: 2022-2023, 2021-2022
+
+4. **Define LAN**  
+   - **Module**: **Module III** (Connecting Devices)
+   - **Years**: 2022-2023, 2021-2022
+
+5. **What is the purpose of the Domain Name System (DNS)?**  
+   - **Module**: **Module V** (Application Layer)
+   - **Years**: 2022-2023, 2021-2022
+
+6. **What is FTP?**  
+   - **Module**: **Module V** (Application Layer)
+   - **Years**: 2022-2023, 2021-2022
+
+#### **Part-II (6 x 8 = 48 Marks)**
+1. **What is the key idea of the Stop & Wait Protocol?**  
+   - **Module**: **Module II** (Data Link Layer)
+   - **Years**: 2022-2023, 2021-2022
+
+2. **What is CSMA/CD? Why do we use it?**  
+   - **Module**: **Module II** (Data Link Layer)
+   - **Years**: 2022-2023, 2021-2022
+
+3. **Explain ICMP and IGMP protocols used in the network layer**  
+   - **Module**: **Module IV** (Internetworking)
+   - **Years**: 2022-2023, 2021-2022
+
+4. **Explain Connectionless and Connection-oriented protocols**  
+   - **Module**: **Module IV** (Internetworking)
+   - **Years**: 2022-2023, 2021-2022
+
+5. **What is framing? What are various methods used for framing?**  
+   - **Module**: **Module II** (Data Link Layer)
+   - **Years**: 2022-2023, 2021-2022
+
+6. **What do you understand by the Selective Repeat Sliding Window protocol?**  
+   - **Module**: **Module II** (Data Link Layer)
+   - **Years**: 2022-2023, 2021-2022
+
+7. **Why do we need a media access control protocol?**  
+   - **Module**: **Module II** (Medium Access Sublayer)
+   - **Years**: 2022-2023, 2021-2022
+
+8. **Why is a routing protocol required? Explain flooding and multicast.**  
+   - **Module**: **Module IV** (Internetworking)
+   - **Years**: 2022-2023, 2021-2022
+
+#### **Part-III (Answer Any Two out of Four - 16 Marks)**
+1. **What is meant by framing and error control? Discuss the different framing techniques used by the data link layer.**  
+   - **Module**: **Module II** (Data Link Layer)
+   - **Years**: 2022-2023, 2021-2022
+
+2. **What do you mean by Carrier Sense? What are various Carrier Sense Multiple Access (CSMA) Protocols?**  
+   - **Module**: **Module II** (Medium Access Sublayer)
+   - **Years**: 2022-2023, 2021-2022
+
+3. **How is the transport layer used for connection management? What is the need for the UDP protocol?**  
+   - **Module**: **Module V** (Transport Protocols)
+   - **Years**: 2022-2023, 2021-2022
+
+4. **How does information get passed from one layer to the next in the OSI reference model?**  
+   - **Module**: **Module I** (Overview of the Internet)
+   - **Years**: 2022-2023, 2021-2022
+
+---
+
+### **Summary of Common Modules in Both Years:**
+- **Module II** (Data Link Layer) appears frequently, covering topics like **framing**, **error control**, **protocols like CSMA/CD**, **media access control**, and **sliding window protocols**.
+- **Module IV** (Internetworking) is also represented, with focus on **IP addressing (IPv4, IPv6)**, **ICMP**, **IGMP**, and **routing protocols** like **flooding** and **multicast**.
+- **Module V** (Application Layer) is consistently tested, particularly through **FTP** and **DNS**.
+- **Module I** (Overview of the Internet) is mentioned in both years with questions like **OSI reference model** and **layering**.
+
+These modules cover core concepts that form the foundation of networking and are likely to remain significant in future exams as well.
