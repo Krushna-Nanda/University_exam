@@ -115,37 +115,76 @@ Let me know if you'd like to dive deeper into any specific question!
 
 # 2023 - 2024
 
+Here is the extracted and formatted content with the corresponding module information added below each question:
+
+---
+
 **Part-I (2 x 10 = 20 Marks)**
 
 Answer the following questions:
 
 a) What is a discriminator in the ER model?  
+**Module: Database Design (Unit 2)**  
+
 b) How many n-ary relations can be formed over n sets having p elements each?  
+**Module: Counting and Relations (Unit 3)**  
+
 c) What is lossless join decomposition?  
+**Module: Schema Refinement and Normal Forms (Unit 3)**  
+
 d) What is a foreign key? Give an example.  
+**Module: Database Design (Unit 2)**  
+
 e) Define 5NF (Fifth Normal Form).  
+**Module: Schema Refinement and Normal Forms (Unit 3)**  
+
 f) Differentiate candidate key vs. super key.  
+**Module: Database Design (Unit 2)**  
+
 g) What do you mean by the ACID property of transactions?  
+**Module: DBMS Transactions (Unit 4)**  
+
 h) What are the various causes of database failure?  
+**Module: DBMS Transactions (Unit 4)**  
+
 i) What is deadlock in a database?  
+**Module: DBMS Transactions (Unit 4)**  
+
 j) What are the various states of a transaction in a database?  
+**Module: DBMS Transactions (Unit 4)**  
 
 ---
 
 **Part-II (6 x 8 = 48 Marks)**
 
-Only Focused-Short Answer Type Questions (Answer Any Eight out of Twelve):  
+Only Focused-Short Answer Type Questions (Answer Any Eight out of Twelve):
 
 a) Discuss in detail views and also creating, altering, and destroying of views.  
+**Module: SQL and Advanced Database Concepts (Unit 4)**  
+
 b) Discuss the anomalies in designing a relational database.  
+**Module: Schema Refinement and Normal Forms (Unit 3)**  
+
 c) Consider the relation R(ABCDEFG) and the set of functional dependencies {BCD → A, BC → E, A → F, F → G, C → D, A → G}. Decompose R up to 3rd Normal Form (3NF).  
+**Module: Schema Refinement and Normal Forms (Unit 3)**  
+
 d) Let's consider a relational table R with attributes A, B, C, D, and E. The set of functional dependencies (FDs) defined on relation R are FDs = {A → B; BC → E; ED → A}. Decompose relation R up to Boyce-Codd Normal Form (BCNF).  
+**Module: Schema Refinement and Normal Forms (Unit 3)**  
+
 e) i. Write a relational algebra (RA) query for the following SQL statement: `SELECT Roll No, Name, Age FROM Student WHERE Branch = 'IT' AND Age > 15;`  
    ii. Write a tuple relational calculus (TRC) query for the following SQL statement: `SELECT Instructor ID FROM Instructor WHERE Salary > 100,000;`  
+**Module: SQL and Advanced Database Concepts (Unit 4)**  
+
 f) i. Write a correlated sub-query to retrieve employee details of an organization earning the highest salary.  
    ii. Express R ⋈ S (natural join) in terms of π (projection), σ (selection), and × (Cartesian product) operators.  
+**Module: SQL and Advanced Database Concepts (Unit 4)**  
+
 g) Differentiate nested loop, hash join, and merge join.  
+**Module: SQL and Advanced Database Concepts (Unit 4)**  
+
 h) Explain about Integrity Constraints over relations in detail.  
+**Module: Database Design (Unit 2)**  
+
 i) Consider the transactions T1, T2, and T3 and the schedules S1 and S2 given below. Test for conflict serializability of S1 and S2.  
 
     T1: r1(X); r1(Z); w1(X); w1(Z)  
@@ -154,25 +193,33 @@ i) Consider the transactions T1, T2, and T3 and the schedules S1 and S2 given be
 
     S1: r1(X); r3(Y); r3(X); r2(Y); r2(Z); w3(Y); w2(Z); r1(Z); w1(X); w1(Z)  
     S2: r1(X); r3(Y); r2(Y); r3(X); r1(Z); r2(Z); w3(Y); w1(X); w2(Z); w1(Z)  
+**Module: DBMS Transactions (Unit 4)**  
 
 j) Consider the following database schedule with two transactions, T1 and T2:  
 
     S = r2(X); r1(X); r2(Y); w1(X); r1(Y); w2(X); a1; a2  
 
     where ri(Z) denotes a read operation by transaction Ti on a variable Z, wi(Z) denotes a write operation by Ti on a variable Z and ai denotes an abort by transaction Ti. Comment on the following properties of the schedule: cascadelessness, recoverability, deadlock, conflict serializability.  
+**Module: DBMS Transactions (Unit 4)**  
 
 k) Explain about aggregate operators in SQL with examples.  
+**Module: SQL and Advanced Database Concepts (Unit 4)**  
+
 l) Explain about remote backup systems.  
+**Module: Advanced Database Topics (Unit 4)**  
 
 ---
 
 **Part-III (Only Long Answer Type Questions - Answer Any Two out of Four) (16 marks each)**
 
 Q3) Construct an ER-diagram for a company that is organized into departments. Each department has a unique name, a unique number, and a particular employee who manages the department. We keep track of the start date when that employee began managing the department. A department may have several locations. A department controls a number of projects, each of which has a unique number and a single location. We store each employee's name, social security number, address, salary, sex, and birth date. An employee is assigned to one department but may work on several projects, which are not necessarily controlled by the same department. We keep track of the number of hours per week that an employee works on each project. We also keep track of the direct supervisor of each employee. We want to keep track of the dependents of each employee for insurance purposes. We keep each dependent's first name, sex, birth date, and relationship to the employee. Write the steps to convert an ER-diagram into equivalent relational tables. Convert the above ER-diagram into equivalent relational tables.  
+**Module: Database Design (Unit 2)**  
 
 Q4) Explain the 3-schema database architecture. Discuss the roles of database DB users and DB administrators.  
+**Module: Database Management Systems Overview (Unit 1)**  
 
 Q5) What is a lock in DBMS? Describe the two-phase locking (2PL) protocol. What are the variations of the 2PL protocol? Discuss the cascadelessness, recoverability, deadlock, and conflict serializability of all variations.  
+**Module: DBMS Transactions (Unit 4)**  
 
 Q6) Write short notes on any two of the following:  
 
@@ -180,3 +227,4 @@ Q6) Write short notes on any two of the following:
     ii. Query optimization  
     iii. Data warehouse  
     iv. Log-based Database Recovery  
+**Module: SQL and Advanced Database Concepts (Unit 4)**
