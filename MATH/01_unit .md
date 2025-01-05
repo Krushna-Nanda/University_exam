@@ -210,3 +210,20 @@ A Venn diagram can depict \( A \cup B \), \( A \cap B \), and \( A \setminus B \
 
 Let me know if you'd like any specific part explained further!
 
+# ===========================
+
+
+## Summary Table of Set Operations
+
+| **Operation**            | **Symbol**   | **Description**                                          |
+|--------------------------|--------------|----------------------------------------------------------|
+| Union                    | \( \cup \)   | All elements in either set or both.                      |
+| Intersection             | \( \cap \)   | All elements common to both sets.                        |
+| Difference               | \( \setminus \) | All elements in set \( A \) but not in \( B \).           |
+| Symmetric Difference     | \( \Delta \) | Elements in \( A \) or \( B \), but not both.            |
+| Complement               | \( A' \)     | All elements in the universal set but not in \( A \).    |
+| Cartesian Product        | \( A \times B \) | Set of all ordered pairs from \( A \) and \( B \).        |
+| Subset                   | \( \subseteq \) | Set \( A \) is contained within \( B \).                 |
+| Proper Subset            | \( \subset \) | Set \( A \) is a subset of \( B \), but not equal.       |
+| Power Set                | \( P(A) \)   | Set of all subsets of \( A \).                           |
+| Disjoint                 | \( A \cap
