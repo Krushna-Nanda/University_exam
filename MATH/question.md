@@ -17,3 +17,5 @@
 5. Prove that:
    1 + 3 + 5 + ... + (2n - 1) = n^2
    for all natural numbers n.
+   
+6. 1 + 2 + 2^2 + ⋯ + 2^n = 2^(n+1) - 1
