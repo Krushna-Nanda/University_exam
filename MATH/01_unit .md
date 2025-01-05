@@ -227,3 +227,87 @@ Let me know if you'd like any specific part explained further!
 | Proper Subset            | \( \subset \) | Set \( A \) is a subset of \( B \), but not equal.       |
 | Power Set                | \( P(A) \)   | Set of all subsets of \( A \).                           |
 | Disjoint                 | \( A \cap
+
+
+# =============================================================================================
+
+Here’s the solution in a clean, normal format for easy copy-pasting:
+
+---
+
+**Given Information:**
+
+- Total students: 120  
+- Students studying French (F): 20  
+- Students studying English (E): 50  
+- Students studying Hindi (H): 70  
+- Students studying both English and French (E ∩ F): 5  
+- Students studying both English and Hindi (E ∩ H): 20  
+- Students studying both Hindi and French (H ∩ F): 10  
+- Students studying all three languages (F ∩ E ∩ H): 3  
+
+---
+
+**(i) Hindi alone**  
+Formula:  
+Hindi alone = |H| - |H ∩ E| - |H ∩ F| + |F ∩ E ∩ H|  
+
+Calculation:  
+Hindi alone = 70 - 20 - 10 + 3 = 43  
+
+**Answer:** Hindi alone = 43  
+
+---
+
+**(ii) French alone**  
+Formula:  
+French alone = |F| - |F ∩ E| - |F ∩ H| + |F ∩ E ∩ H|  
+
+Calculation:  
+French alone = 20 - 5 - 10 + 3 = 8  
+
+**Answer:** French alone = 8  
+
+---
+
+**(iii) English but not Hindi**  
+Steps:  
+
+1. English alone = |E| - |E ∩ H| - |E ∩ F| + |F ∩ E ∩ H|  
+   English alone = 50 - 20 - 5 + 3 = 28  
+
+2. English and French but not Hindi = (E ∩ F) - (F ∩ E ∩ H)  
+   English and French but not Hindi = 5 - 3 = 2  
+
+3. Total = English alone + (English and French but not Hindi)  
+   Total = 28 + 2 = 30  
+
+**Answer:** English but not Hindi = 30  
+
+---
+
+**(iv) Hindi but not French**  
+Steps:  
+
+1. Hindi alone = |H| - |H ∩ F| - |H ∩ E| + |F ∩ E ∩ H|  
+   Hindi alone = 70 - 10 - 20 + 3 = 43  
+
+2. Hindi and English but not French = (H ∩ E) - (F ∩ E ∩ H)  
+   Hindi and English but not French = 20 - 3 = 17  
+
+3. Total = Hindi alone + (Hindi and English but not French)  
+   Total = 43 + 17 = 60  
+
+**Answer:** Hindi but not French = 60  
+
+---
+
+**Final Answers:**  
+1. Hindi alone = 43  
+2. French alone = 8  
+3. English but not Hindi = 30  
+4. Hindi but not French = 60  
+
+--- 
+
+You can copy and paste this format easily. Let me know if anything else is needed! 😊
