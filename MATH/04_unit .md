@@ -32,6 +32,8 @@ Here’s a version of your note where the special LaTeX-style brackets and symbo
    - For **directed graphs**:
      - **In-degree**: Number of edges directed into the vertex.  
      - **Out-degree**: Number of edges directed out of the vertex.
+    
+     - The **complement of a graph** is a new graph created by keeping the same vertices as the original graph but adding edges between vertices that were **not connected** in the original graph. Essentially, it has edges where the original graph does not, and vice versa.
 
 6. **Directed Graph (Digraph)**:  
    A graph where the edges have a direction (ordered pairs).  
