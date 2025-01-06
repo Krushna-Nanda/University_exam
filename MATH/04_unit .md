@@ -24,6 +24,7 @@ Here’s a version of your note where the special LaTeX-style brackets and symbo
 4. **Adjacency**:  
    Two vertices are **adjacent** if they are connected by an edge.  
    - Example: Vertices v1 and v2 are adjacent if there is an edge (v1, v2) or {v1, v2}.
+   - 4.1 --- In graph theory, an adjacent edge refers to two edges in a graph that share a common vertex.
 
 5. **Degree**:  
    The **degree** of a vertex is the number of edges incident to it.  
