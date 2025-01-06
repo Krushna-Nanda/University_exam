@@ -67,13 +67,28 @@ Here’s a version of your note where the special LaTeX-style brackets and symbo
 14. **Subgraph**:  
    A **subgraph** is a graph formed by a subset of the vertices and edges of a larger graph.
 
-15. **Isomorphism**:  
+Here are the simplest definitions of types of graph :
+
+The definitions displayed in the image are:
+
+1.  **Bi-partite graph:** A graph G(V, E) is called a bi-partite graph if its vertex set V(G) can be partitioned into two non-empty disjoint subsets V₁(G) and V₂(G) in such a way that each edge e ∈ E(G) has one end point in V₁(G) and the other end point in V₂(G). The partition V = V₁ ∪ V₂ is called a bipartition of G.
+
+2.  **Complete Bi-partite graph:** A Bi-partite graph G(V, E) is called a Complete bi-partite graph if every vertex in the first partition is connected to every vertex in the second partition, denoted by Kₘ,ₙ.
+
+
+### **Cycle Graph (Cₙ)**
+A **cycle graph** is a graph that consists of a single cycle, where each vertex is connected to exactly two other vertices, forming a closed loop. It has **n** vertices and **n** edges, with each vertex having degree 2.
+
+### **Wheel Graph (Wₙ)**
+A **wheel graph** is a graph that consists of a cycle graph with an additional central vertex connected to all other vertices in the cycle. It has **n** vertices: one central vertex, and **n-1** vertices forming a cycle. The central vertex is connected to every other vertex in the cycle, forming a "wheel" shape.
+
+16. **Isomorphism**:  
    Two graphs are **isomorphic** if there is a one-to-one correspondence between their vertices and edges, preserving adjacency.
 
-16. **Bipartite Graph**:  
+17. **Bipartite Graph**:  
    A graph whose vertices can be divided into two disjoint sets, such that no two vertices within the same set are adjacent.
 
-17. **Tree**:  
+18. **Tree**:  
    A **tree** is a connected acyclic graph.  
    - It has no cycles and is connected.
 
@@ -93,11 +108,7 @@ Here’s a version of your note where the special LaTeX-style brackets and symbo
 22. **Graph Coloring**:  
    **Graph coloring** involves assigning colors to vertices or edges such that adjacent vertices (or edges) have different colors.
 
-23. **Dijkstra’s Algorithm**:  
-   A shortest-path algorithm that finds the shortest path from a source vertex to all other vertices in a weighted graph.
 
-24. **Traveling Salesman Problem (TSP)**:  
-   A problem of finding the shortest possible route that visits every vertex exactly once and returns to the starting point.
 
 ---
 
@@ -110,14 +121,7 @@ Here is the revised version with all special signs removed, formatted for direct
 
 ### Graph Terminology
 
-1. **Graph (G)**:  
-   A graph is a pair G = (V, E), where:  
-   - V = Set of vertices (nodes).  
-   - E = Set of edges (connections between vertices).  
 
-2. **Vertex (v)**:  
-   An individual element in the set V.  
-   - Example: v1, v2, etc.  
 
 3. **Edge (e)**:  
    A connection between two vertices, represented as an ordered or unordered pair.  
