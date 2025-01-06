@@ -214,3 +214,57 @@ Here is the revised version with all special signs removed, formatted for direct
 ---  
 
 This version is formatted for Markdown and ready for use. Let me know if any further changes are needed!
+
+# Theorm 
+
+the no of odd degree vertices in a graph is alwasy even 
+
+Yes, it is true that **the number of vertices with an odd degree in any graph is always even**. This is a well-known result in graph theory, often referred to as the **Handshaking Lemma**.
+
+### Why is this the case?
+The **Handshaking Lemma** states that:
+
+- The sum of the degrees of all vertices in a graph is **twice the number of edges**. 
+  - This is because each edge contributes 1 to the degree of two vertices, so every edge is counted twice in the total degree sum.
+
+### Formally:
+If a graph has **n** vertices and **e** edges, the sum of the degrees of all the vertices is:
+\[
+\sum_{v \in V} \deg(v) = 2e
+\]
+This sum is **even**, because it is twice the number of edges.
+
+Now, consider the degrees of the individual vertices:
+- If a vertex has an **even degree**, it contributes an even number to the total sum.
+- If a vertex has an **odd degree**, it contributes an odd number to the total sum.
+
+For the total degree sum to be **even**, the number of vertices with an odd degree must be even, because the sum of an odd number of odd terms is odd, and the sum of an even number of odd terms is even.
+
+Thus, **the number of vertices with an odd degree must always be even** to ensure the sum is even.
+
+In every case, the number of vertices with an odd degree is always even.
+
+Certainly! Here's the simplified version of your explanation in plain text format, ready for easy copy-pasting into Notepad:
+
+---
+
+**Simple Rule:**
+- Even number of odd terms = Even sum
+- Odd number of odd terms = Odd sum
+
+**Example:**
+
+1. **2 odd terms:**
+   3 + 5 = 8 (even)
+
+2. **3 odd terms:**
+   3 + 5 + 7 = 15 (odd)
+
+3. **4 odd terms:**
+   1 + 3 + 5 + 7 = 16 (even)
+
+4. **5 odd terms:**
+   1 + 3 + 5 + 7 + 9 = 25 (odd)
+
+---
+
