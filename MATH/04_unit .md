@@ -83,8 +83,26 @@ A **cycle graph** is a graph that consists of a single cycle, where each vertex 
 ### **Wheel Graph (Wₙ)**
 A **wheel graph** is a graph that consists of a cycle graph with an additional central vertex connected to all other vertices in the cycle. It has **n** vertices: one central vertex, and **n-1** vertices forming a cycle. The central vertex is connected to every other vertex in the cycle, forming a "wheel" shape.
 
-16. **Isomorphism**:  
-   Two graphs are **isomorphic** if there is a one-to-one correspondence between their vertices and edges, preserving adjacency.
+19. **Planar Graph**:  
+    A graph that can be drawn in a plane without any edges crossing.
+
+    A **regular graph** is a type of graph where **every vertex has the same degree** (i.e., the same number of edges incident to it). 
+
+### **Key Point:**
+- In a regular graph, each vertex has the same number of edges connecting it to other vertices.
+
+### **Example:**
+- A **3-regular graph** is a graph where every vertex has exactly 3 edges.
+- If you have a graph with 5 vertices, and each vertex is connected to exactly 3 other vertices, then it's a 3-regular graph.
+
+### **Types:**
+- **k-regular graph:** A graph where every vertex has degree \(k\).
+  - Example: In a **4-regular graph**, every vertex connects to exactly 4 other vertices.
+
+---
+
+
+16. In general, two graphs are said to be isomorphic if they are perhaps the same graphs, but just drawn differently with different names. i.e. two graphs are thought of as isomorphic if they have identical behavior in terms of graph-theoretic properties.
 
 17. **Bipartite Graph**:  
    A graph whose vertices can be divided into two disjoint sets, such that no two vertices within the same set are adjacent.
@@ -92,19 +110,11 @@ A **wheel graph** is a graph that consists of a cycle graph with an additional c
 18. **Tree**:  
    A **tree** is a connected acyclic graph.  
    - It has no cycles and is connected.
+"In graph theory, a tree is a connected undirected graph that has no cycles."
 
 18. **Spanning Tree**:  
    A **spanning tree** of a graph is a subgraph that includes all the vertices of the original graph and is a tree.
 
-19. **Eulerian Path**:  
-   A path in a graph that visits every edge exactly once.  
-   - A graph has an Eulerian path if it has exactly 0 or 2 vertices of odd degree.
-
-20. **Hamiltonian Path**:  
-   A path in a graph that visits every vertex exactly once.
-
-21. **Planar Graph**:  
-   A **planar graph** can be drawn on a plane without any edges crossing.
 
 22. **Graph Coloring**:  
    **Graph coloring** involves assigning colors to vertices or edges such that adjacent vertices (or edges) have different colors.
@@ -120,18 +130,7 @@ Here is the revised version with all special signs removed, formatted for direct
 
 ---
 
-### Graph Terminology
-
-
-
-3. **Edge (e)**:  
-   A connection between two vertices, represented as an ordered or unordered pair.  
-   - Example: (v1, v2) or {v1, v2}.  
-
-5. **Degree**:  
-   The degree of a vertex is the number of edges incident to it.  
-   - In-degree: Number of edges directed into the vertex (for directed graphs).  
-   - Out-degree: Number of edges directed out of the vertex (for directed graphs).  
+### Graph Terminology 
 
 6. **Self-loop**:  
    An edge that connects a vertex to itself.  
@@ -178,12 +177,6 @@ Here is the revised version with all special signs removed, formatted for direct
 17. **Subgraph**:  
     A subgraph is a graph formed by selecting a subset of vertices and edges from a larger graph.  
 
-18. **Isomorphic Graphs**:  
-    Two graphs are isomorphic if there is a one-to-one correspondence between their vertices and edges, preserving the adjacency relationship.  
-
-19. **Planar Graph**:  
-    A graph that can be drawn in a plane without any edges crossing.  
-
 20. **Regular Graph**:  
     A graph where every vertex has the same degree.  
     - Example: In a 3-regular graph, each vertex has degree 3.  
@@ -192,10 +185,7 @@ Here is the revised version with all special signs removed, formatted for direct
     A path in which the starting and ending vertex is the same, without repeating any other vertices.  
 
 22. **Path**:  
-    A sequence of edges that connects a sequence of distinct vertices.  
-
-23. **Cut**:  
-    A partition of the vertices of a graph into two disjoint subsets.  
+    A sequence of edges that connects a sequence of distinct vertices.    
 
 24. **Degree Sequence**:  
     The sequence of vertex degrees in a graph, arranged in non-increasing order.   
