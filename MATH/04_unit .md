@@ -442,3 +442,12 @@ A Minimum Spanning Tree is a subset of the edges in a connected graph that:
 ---
 
 Let me know if you want a **step-by-step problem** solved or a focused explanation!
+
+What is a Planar Graph?
+A planar graph can be drawn in a plane such that no edges cross each other.
+
+Condition for Planarity (Kuratowski's Theorem):
+A graph is planar if and only if it does not contain a subgraph that is a subdivision of either:
+
+K₅ (complete graph on 5 vertices), or
+K₃,₃ (complete bipartite graph with 3 vertices in each set).
