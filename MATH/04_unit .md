@@ -338,3 +338,70 @@ A **Bipartite Graph** is a special type of graph where:
 ---
 
 Would you like to dive deeper into any of these concepts or see some solved examples?
+
+# ================================================================================================
+
+### **Euler Graph**  
+An **Euler graph** is a graph in which there exists an **Eulerian circuit**.  
+- An **Eulerian circuit** is a path that starts and ends at the same vertex and **visits every edge exactly once**.  
+- For a graph to be an Euler graph, these conditions must be met:  
+  1. All vertices in the graph have an **even degree**.  
+  2. The graph must be **connected** (all vertices are part of the same component).  
+
+**Example:**  
+A square with all four corners connected is an Euler graph because you can traverse each edge exactly once and return to the starting point.  
+
+---
+
+### **Hamiltonian Graph**  
+A **Hamiltonian graph** is a graph in which there exists a **Hamiltonian circuit**.  
+- A **Hamiltonian circuit** is a path that starts and ends at the same vertex and **visits every vertex exactly once**.  
+- There are no simple rules like Euler's, but certain conditions (like Dirac's and Ore's Theorems) help identify Hamiltonian graphs.  
+
+**Example:**  
+A pentagon with all corners connected is a Hamiltonian graph because you can visit all vertices exactly once and return to the starting point.
+
+---
+
+### Easy Way to Remember  
+- **Euler Graph**: Focuses on **edges** → Visits every **edge** once.  
+- **Hamiltonian Graph**: Focuses on **vertices** → Visits every **vertex** once.
+
+
+# =========================================================================================
+
+No, **Eulerian circuit** and **Eulerian path** are not the same, though they are closely related. Here's the difference:
+
+---
+
+### **Eulerian Circuit**  
+- An **Eulerian circuit** is a path that:
+  1. Starts and ends at the **same vertex**.
+  2. Travels along **every edge exactly once**.
+
+**Conditions for an Eulerian Circuit**:  
+- All vertices have an **even degree**.  
+- The graph must be **connected** (ignoring isolated vertices).
+
+**Example**: A square with all corners connected can have an Eulerian circuit because you can start and end at the same vertex while traversing all edges exactly once.
+
+---
+
+### **Eulerian Path**  
+- An **Eulerian path** is a path that:
+  1. **Does not need to start and end at the same vertex**.
+  2. Travels along **every edge exactly once**.
+
+**Conditions for an Eulerian Path**:  
+- Exactly **0 or 2 vertices** have an **odd degree**.  
+- The graph must be **connected** (ignoring isolated vertices).
+
+**Example**: A triangle with one extra edge connecting two vertices can have an Eulerian path but not an Eulerian circuit.
+
+---
+
+### Key Difference:
+- **Eulerian Circuit**: Starts and ends at the same vertex.  
+- **Eulerian Path**: Does not need to start and end at the same vertex.
+
+If a graph has an Eulerian circuit, it automatically has an Eulerian path.
