@@ -22,9 +22,8 @@ Here’s a version of your note where the special LaTeX-style brackets and symbo
    - Example: (v1, v2) or {v1, v2}.
 
 4. **Adjacency**:  
-   Two vertices are **adjacent** if they are connected by an edge.  
-   - Example: Vertices v1 and v2 are adjacent if there is an edge (v1, v2) or {v1, v2}.
-   - 4.1 --- In graph theory, an adjacent edge refers to two edges in a graph that share a common vertex.
+   Two vertices are adjacent if there is an edge connecting them.  
+   - Example: If (v1, v2) is an edge, v1 and v2 are adjacent.  
 
 5. **Degree**:  
    The **degree** of a vertex is the number of edges incident to it.  
@@ -129,10 +128,6 @@ Here is the revised version with all special signs removed, formatted for direct
    A connection between two vertices, represented as an ordered or unordered pair.  
    - Example: (v1, v2) or {v1, v2}.  
 
-4. **Adjacency**:  
-   Two vertices are adjacent if there is an edge connecting them.  
-   - Example: If (v1, v2) is an edge, v1 and v2 are adjacent.  
-
 5. **Degree**:  
    The degree of a vertex is the number of edges incident to it.  
    - In-degree: Number of edges directed into the vertex (for directed graphs).  
@@ -203,16 +198,7 @@ Here is the revised version with all special signs removed, formatted for direct
     A partition of the vertices of a graph into two disjoint subsets.  
 
 24. **Degree Sequence**:  
-    The sequence of vertex degrees in a graph, arranged in non-increasing order.  
-
-25. **Clique**:  
-    A subset of vertices such that every pair of vertices in the subset is adjacent.  
-
-26. **Independent Set**:  
-    A set of vertices in a graph such that no two vertices in the set are adjacent.  
-
-27. **Matching**:  
-    A set of edges without common vertices. A maximum matching is a matching that includes the largest number of edges possible.  
+    The sequence of vertex degrees in a graph, arranged in non-increasing order.   
 
 28. **Graph Complement**:  
     The complement of a graph G = (V, E) is a graph G' with the same vertices but with edges that are not present in G.  
