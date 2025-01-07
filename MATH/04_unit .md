@@ -405,3 +405,40 @@ No, **Eulerian circuit** and **Eulerian path** are not the same, though they are
 - **Eulerian Path**: Does not need to start and end at the same vertex.
 
 If a graph has an Eulerian circuit, it automatically has an Eulerian path.
+
+# ===================================================================================
+
+Got it! Let’s stick strictly to what’s in your syllabus:
+
+---
+
+### **Trees**  
+#### **Tree Traversal**:  
+There are two types of tree traversal mentioned in your syllabus:  
+1. **Preorder Traversal**  
+   - Visit the root node first, then the left subtree, and finally the right subtree.  
+   - Order: `Root → Left → Right`.
+
+2. **Inorder Traversal**  
+   - Visit the left subtree first, then the root node, and finally the right subtree.  
+   - Order: `Left → Root → Right`.
+
+3. **Postorder Traversal**  
+   - Visit the left subtree first, then the right subtree, and finally the root node.  
+   - Order: `Left → Right → Root`.
+
+---
+
+#### **Minimum Spanning Tree (MST)**:  
+A Minimum Spanning Tree is a subset of the edges in a connected graph that:
+1. Connects all the vertices.
+2. Has the **minimum total edge weight**.
+3. Forms a tree (no cycles).
+
+**Algorithms to Find MST**:  
+1. **Prim's Algorithm**: Start from any vertex and grow the MST by adding the smallest edge that connects a new vertex.  
+2. **Kruskal's Algorithm**: Sort edges by weight and add them to the MST one by one, ensuring no cycles are formed.
+
+---
+
+Let me know if you want a **step-by-step problem** solved or a focused explanation!
