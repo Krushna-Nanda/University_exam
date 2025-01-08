@@ -83,6 +83,18 @@ A **cycle graph** is a graph that consists of a single cycle, where each vertex 
 ### **Wheel Graph (Wₙ)**
 A **wheel graph** is a graph that consists of a cycle graph with an additional central vertex connected to all other vertices in the cycle. It has **n** vertices: one central vertex, and **n-1** vertices forming a cycle. The central vertex is connected to every other vertex in the cycle, forming a "wheel" shape.
 
+**Weighted Graph**:  
+    A graph where each edge has a weight (or cost) associated with it.  
+    - Example: (v1, v2, 5) indicates an edge between v1 and v2 with weight 5.  
+
+12. **Simple Graph**:  
+    A graph without self-loops or multiple edges between any pair of vertices.  
+    - Example: No multiple edges or loops are allowed.  
+
+15. **Disconnected Graph**:  
+    A graph where not all vertices are connected by paths. There are disconnected components in the graph.   
+
+
 19. **Planar Graph**:  
     A graph that can be drawn in a plane without any edges crossing.
 
@@ -98,13 +110,8 @@ A **wheel graph** is a graph that consists of a cycle graph with an additional c
 ### **Types:**
 - **k-regular graph:** A graph where every vertex has degree \(k\).
   - Example: In a **4-regular graph**, every vertex connects to exactly 4 other vertices.
-
----
-
-
-16. In general, two graphs are said to be isomorphic if they are perhaps the same graphs, but just drawn differently with different names. i.e. two graphs are thought of as isomorphic if they have identical behavior in terms of graph-theoretic properties.
-
-17. **Bipartite Graph**:  
+ 
+  - 17. **Bipartite Graph**:  
    A graph whose vertices can be divided into two disjoint sets, such that no two vertices within the same set are adjacent.
 
 18. **Tree**:  
@@ -116,14 +123,19 @@ A **wheel graph** is a graph that consists of a cycle graph with an additional c
    A **spanning tree** of a graph is a subgraph that includes all the vertices of the original graph and is a tree.
 
 
-22. **Graph Coloring**:  
-   **Graph coloring** involves assigning colors to vertices or edges such that adjacent vertices (or edges) have different colors.
-
-
 
 ---
 
-This version avoids LaTeX syntax and special characters, making it easier to copy-paste without issues. Let me know if you’d like further changes!
+
+16. In general, two graphs are said to be isomorphic if they are perhaps the same graphs, but just drawn differently with different names. i.e. two graphs are thought of as isomorphic if they have identical behavior in terms of graph-theoretic properties.
+
+
+22. **Graph Coloring**:  
+   **Graph coloring** involves assigning colors to vertices or edges such that adjacent vertices (or edges) have different colors.
+
+---
+
+
 # ----------------------------------------------------------------
 
 Here is the revised version with all special signs removed, formatted for direct copy and paste into a Markdown file:
@@ -142,57 +154,11 @@ Here is the revised version with all special signs removed, formatted for direct
 
 8. **Multi-edge (Parallel Edge)**:  
    Multiple edges connecting the same pair of vertices.  
-   - Example: Two edges (v1, v2) and (v1, v2) are parallel edges between v1 and v2.  
+   - Example: Two edges (v1, v2) and (v1, v2) are parallel edges between v1 and v2.   
 
-9. **Directed Graph (Digraph)**:  
-   A graph where edges have a direction (ordered pairs).  
-   - Example: (v1, v2) indicates a directed edge from v1 to v2.  
-
-10. **Undirected Graph**:  
-    A graph where edges do not have a direction (unordered pairs).  
-    - Example: {v1, v2} indicates an edge between v1 and v2.  
-
-11. **Weighted Graph**:  
-    A graph where each edge has a weight (or cost) associated with it.  
-    - Example: (v1, v2, 5) indicates an edge between v1 and v2 with weight 5.  
-
-12. **Simple Graph**:  
-    A graph without self-loops or multiple edges between any pair of vertices.  
-    - Example: No multiple edges or loops are allowed.  
-
-13. **Complete Graph**:  
-    A graph where every pair of distinct vertices is connected by a unique edge.  
-    - Example: A complete graph with 3 vertices, K3, has edges (v1, v2), (v1, v3), (v2, v3).  
-
-14. **Null Graph**:  
-    A graph with no edges, but it can have one or more vertices.  
-    - Example: V = {v1, v2}, E = {}.  
-
-15. **Disconnected Graph**:  
-    A graph where not all vertices are connected by paths. There are disconnected components in the graph.  
-
-16. **Connected Graph**:  
-    A graph where there is a path between every pair of vertices.  
-
-17. **Subgraph**:  
-    A subgraph is a graph formed by selecting a subset of vertices and edges from a larger graph.  
-
-20. **Regular Graph**:  
-    A graph where every vertex has the same degree.  
-    - Example: In a 3-regular graph, each vertex has degree 3.  
-
-21. **Cycle**:  
-    A path in which the starting and ending vertex is the same, without repeating any other vertices.  
-
-22. **Path**:  
-    A sequence of edges that connects a sequence of distinct vertices.    
-
+11. 
 24. **Degree Sequence**:  
     The sequence of vertex degrees in a graph, arranged in non-increasing order.   
-
-28. **Graph Complement**:  
-    The complement of a graph G = (V, E) is a graph G' with the same vertices but with edges that are not present in G.  
-
 ---  
 
 This version is formatted for Markdown and ready for use. Let me know if any further changes are needed!
