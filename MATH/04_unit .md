@@ -382,3 +382,42 @@ Assume that all vertices of G are of even degree. Construct an Euler line starti
 This means G has an Eulerian circuit.
 
 Therefore, G is Eulerian.
+
+#            ================================================================
+
+### Theorem: 
+The maximum number of edges in a complete graph with \( n \) vertices is \( \frac{n(n-1)}{2} \).
+
+---
+
+### Proof:
+
+1. **Definition of a Complete Graph**  
+   A complete graph, denoted as \( K_n \), is a graph where each vertex is connected to every other vertex. There are no self-loops or parallel edges.
+
+2. **Counting the Number of Edges**  
+   In a complete graph with \( n \) vertices:  
+   - Each vertex is connected to \( n-1 \) other vertices (it does not connect to itself).  
+   - Since the graph is **undirected**, every edge is counted twice if we simply sum the degrees of all vertices.
+
+   Thus, the total number of edges is given by the total number of unique **pairs** of vertices.
+
+3. **Number of Unique Pairs**  
+   To compute the total number of unique pairs of vertices, we use the combination formula:  
+   \[
+   \binom{n}{2} = \frac{n(n-1)}{2}
+   \]
+   This gives the total number of edges in \( K_n \).
+
+4. **Why This is the Maximum**  
+   - In a complete graph, every possible edge between vertices exists.  
+   - Adding any more edges would require either self-loops or parallel edges, which are not allowed in a simple graph.  
+   - Therefore, \( \frac{n(n-1)}{2} \) is the maximum number of edges possible.
+
+---
+
+### Conclusion:
+The maximum number of edges in a complete graph with \( n \) vertices is:
+\[
+\frac{n(n-1)}{2}
+\]
