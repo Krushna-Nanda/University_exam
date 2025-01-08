@@ -352,3 +352,33 @@ A graph is planar if and only if it does not contain a subgraph that is a subdiv
 
 K₅ (complete graph on 5 vertices), or
 K₃,₃ (complete bipartite graph with 3 vertices in each set).
+
+# ------------------------------------------------------------------------
+
+Here's the core mathematical content, removing the extraneous text from the YouTube interface and related videos:
+
+**Theorem:** A connected graph G is Eulerian if and only if all the vertices of G are of even degree.
+
+**Proof:**
+
+**Necessary Condition:**
+
+Assume that G is Eulerian. Then G contains an Eulerian circuit.
+
+Every time we meet an internal vertex (say vᵢ), we traverse two new edges: one edge for entering and another for exiting, without repeating any edges.
+
+Therefore, the degree of each vᵢ = degree(vᵢ) = 2 * (number of times vᵢ occurs in the circuit).
+
+When we start from the initial vertex (say vₛ), we exit through one edge and in the end, we enter the same vertex through another edge.
+
+Therefore, degree(vₛ) = 2.
+
+Thus, all the vertices of G are of even degree.
+
+**Sufficient Condition:**
+
+Assume that all vertices of G are of even degree. Construct an Euler line starting from vertex vₛ. Since every vertex has an even degree, we can enter into every vertex through an edge and exit from the same vertex through another edge. This process continues until we return to vₛ.
+
+This means G has an Eulerian circuit.
+
+Therefore, G is Eulerian.
