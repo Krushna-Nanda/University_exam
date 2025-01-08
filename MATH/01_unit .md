@@ -311,3 +311,7 @@ Steps:
 --- 
 
 You can copy and paste this format easily. Let me know if anything else is needed! 😊
+
+
+The Principle of Inclusion and Exclusion is a combinatorial technique used to count the elements of a union of overlapping sets by avoiding overcounting. It provides a way to calculate the size of the union of multiple sets.
+Boolean Algebra is a branch of mathematics that deals with binary variables and logical operations. It is named after George Boole, who first introduced it in the 19th century. Boolean algebra is the foundation of digital logic design and computer science.
