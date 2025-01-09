@@ -421,3 +421,54 @@ The maximum number of edges in a complete graph with \( n \) vertices is:
 \[
 \frac{n(n-1)}{2}
 \]
+
+
+
+=======================
+
+To prove that if \( G \) is **minimally connected**, then \( G \) is a **tree**, let us proceed step by step:
+
+---
+
+### Definitions:
+
+1. **Minimally Connected Graph**:  
+   A graph \( G \) is minimally connected if it is connected, and removing **any edge** from \( G \) makes it disconnected.
+
+2. **Tree**:  
+   A graph \( G \) is a tree if:
+   - \( G \) is **connected**, and  
+   - \( G \) contains **no cycles** (it is acyclic).
+
+---
+
+### Proof:
+We aim to show that a minimally connected graph \( G \) is a tree.
+
+---
+
+#### Step 1: \( G \) is connected.  
+By definition of a minimally connected graph, \( G \) is connected. Hence, there is a path between any two vertices in \( G \).
+
+---
+
+#### Step 2: \( G \) is acyclic.  
+To prove this, assume that \( G \) contains a cycle. If \( G \) has a cycle, then we can remove any edge from the cycle without disconnecting the graph, because there will still be an alternate path between the vertices of the removed edge (due to the cycle).
+
+This contradicts the assumption that \( G \) is **minimally connected** (removing any edge disconnects \( G \)).  
+
+Hence, \( G \) cannot have a cycle, and \( G \) is **acyclic**.
+
+---
+
+#### Step 3: \( G \) satisfies the definition of a tree.  
+From Steps 1 and 2:
+- \( G \) is connected (Step 1),
+- \( G \) is acyclic (Step 2).
+
+Thus, \( G \) satisfies the definition of a **tree**: a connected, acyclic graph.
+
+---
+
+### Conclusion:
+If \( G \) is minimally connected, then \( G \) is a tree.
