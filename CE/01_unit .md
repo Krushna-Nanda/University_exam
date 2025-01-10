@@ -116,9 +116,10 @@ Intonation helps make speech sound natural and helps listeners understand whethe
 ---
 # What are the main types of communication? Provide examples for verbal and non-verbal communication.
 
-Verbal communication is the use of words to share information with other people. It can be both spoken (using speech) and written (using writing).
-Nonverbal communication is the process of sending and receiving messages without using words, Non-verbal communication is when we communicate without using words , It involves gestures, facial expressions, body movements, or even the way we use our voice to send messages.
+### **Smart Opening Paragraph**  
+"Communication can be broadly categorized into two main types: verbal and non-verbal. While verbal communication relies on words to convey a message, non-verbal communication uses body language, gestures, and facial expressions to communicate without words."
 
+Verbal communication is the use of words to share information with other people. It can be both spoken (using speech) and written (using writing).
 
 ### **Main Types of Communication**
 
@@ -127,6 +128,8 @@ Nonverbal communication is the process of sending and receiving messages without
 
    - **Spoken Communication**: Direct interaction through spoken words.
      - Example: A conversation between two people, a phone call, or a speech by a politician.
+    
+    Nonverbal communication is the process of sending and receiving messages without using words, Non-verbal communication is when we communicate without using words , It involves gestures, facial expressions, body movements, or even the way we use our voice to send messages.
 **Verbal Communication (Using Words):**
 
 1. **Face-to-face Conversations**: Talking directly with someone in person.
@@ -167,11 +170,6 @@ Nonverbal communication is the process of sending and receiving messages without
 
    - **Posture**: How a person holds their body while communicating.
      - Example: Standing tall to express confidence or slouching to indicate disinterest.
-
----
-
-### **Smart Opening Paragraph**  
-"Communication can be broadly categorized into two main types: verbal and non-verbal. While verbal communication relies on words to convey a message, non-verbal communication uses body language, gestures, and facial expressions to communicate without words."
 
 ---
 # Barrier to effective communication
