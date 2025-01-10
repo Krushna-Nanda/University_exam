@@ -137,11 +137,9 @@ Verbal communication is the use of words to share information with other people.
 3. **Phone Calls/Video Conferences**: Talking over the phone or online.
 4. **Interviews**: Asking and answering questions for information or jobs.
 5. **Meetings**: Discussing ideas or making decisions with a group.
-6. **Informal Chats**: Casual talks with friends or colleagues.
-7. **Lectures/Seminars**: Teaching or sharing knowledge in a classroom setting.
    
-   - **Written Communication**: Messages conveyed through writing.
-     - Example: An email, a text message, or a formal report.
+ **Written Communication**: Messages conveyed through writing.
+  Example: An email, a text message, or a formal report.
     
    - **Written Communication (Using Writing):**
 
@@ -149,10 +147,8 @@ Verbal communication is the use of words to share information with other people.
 2. **Letters**: Formal messages sent on paper or online.
 3. **Reports/Docs**: Written details or information about something.
 4. **Memos**: Short notes or messages within an organization.
-5. **Text Messages/Instant Messaging**: Quick written messages on phones or apps.
-6. **Books/Articles**: Written works for learning or sharing information.
-7. **Social Media Posts**: Writing shared on platforms like Facebook, Twitter, or Instagram.
 
+  
 1. **Non-Verbal Communication**:  
    Involves transmitting messages without the use of words, relying on body language, gestures, facial expressions, or tone.
 
