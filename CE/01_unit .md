@@ -37,13 +37,7 @@ Sure! Here's what I wrote earlier for you:
 #### Barriers to Effective Listening  
 - **Internal**: Distractions, biases, or lack of interest.  
 - **External**: Noise, interruptions, or unclear messages.  
-- **Solution**: Stay focused, avoid multitasking, and clarify doubts.
-
-#### Listening Comprehension Exercises  
-- Practice summarizing key points after listening to a conversation, podcast, or audio clip.  
-- Ask yourself:  
-  - What was the main idea?  
-  - What were the supporting details?
+- **Solution**: Stay focused, avoid multitasking, and clarify doubts
 
 ---
 
@@ -277,6 +271,67 @@ Feeling sleepy and not listening to someone talking.
 
 Let me know if you’d like any further adjustments!
 
+# public 
 
+**Smart Opening:**  
+"Public speaking is an important skill that helps us share ideas clearly. To speak well, we need to be clear, confident, and connect with our audience. Practicing through group discussions and role plays can make us better speakers by helping us improve these skills in real situations."
+
+### Essential Skills for Public Speaking
+
+1. **Clarity of Speech**
+   - Speak slowly and clearly.
+   - Avoid mumbling or rushing.
+   - Example: When giving a speech, take pauses between important points so the audience can follow.
+
+2. **Confidence**
+   - Maintain good posture and eye contact.
+   - Speak with a strong, clear voice.
+   - Example: Standing tall and looking at the audience shows that you're confident about your message.
+
+3. **Body Language**
+   - Use hand gestures to emphasize points.
+   - Avoid fidgeting or looking down.
+   - Example: When discussing an idea, moving your hands to demonstrate size or shape keeps the audience engaged.
+
+4. **Engagement with Audience**
+   - Ask questions or make the speech interactive.
+   - Pay attention to the audience's reactions and adjust accordingly.
+   - Example: Asking, "How many of you have experienced this?" invites participation.
+
+5. **Organization of Thoughts**
+   - Structure your speech: Introduction, Body, Conclusion.
+   - Example: Start with an attention-grabber, explain your points clearly, then summarize.
+
+6. **Use of Language**
+   - Use simple and clear language.
+   - Avoid complex words that confuse the audience.
+   - Example: Instead of saying "utilize," say "use."
+
+### How Group Discussions and Role Plays Enhance Speaking Skills
+
+1. **Improves Communication**
+   - Group discussions encourage you to express ideas clearly.
+   - Example: Talking with others in a discussion helps you explain your point in simple ways.
+
+2. **Boosts Confidence**
+   - Regular practice in role plays and discussions makes speaking easier.
+   - Example: In a role play, acting out different situations makes you more comfortable speaking in public.
+
+3. **Enhances Listening Skills**
+   - Group discussions require active listening to respond appropriately.
+   - Example: Listening carefully to others' ideas in a discussion helps you learn how to respond confidently.
+
+4. **Promotes Quick Thinking**
+   - Role plays help you think on your feet and respond without much time to prepare.
+   - Example: Pretending to be a manager in a role play teaches you how to handle questions quickly.
+
+5. **Improves Teamwork**
+   - In group discussions, working with others helps you learn to present ideas that match the group's theme.
+   - Example: Collaborating on a topic in a discussion makes your point stronger and clearer.
+
+---
+
+**Conclusion:**  
+Public speaking requires key skills like clarity, confidence, and good body language. Group discussions and role plays are great ways to practice these skills. They help you think quickly, communicate effectively, and become more confident when speaking in front of others.
 
 
