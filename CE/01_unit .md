@@ -201,3 +201,34 @@ Nonverbal communication is the process of sending and receiving messages without
 ---
 
 Let me know if you need this expanded or clarified further!
+
+# active listening techniques
+
+### **Two Active Listening Techniques**
+
+1. **Paraphrasing**  
+   Paraphrasing involves restating what the speaker has said in your own words to ensure understanding. It shows the speaker that you are paying attention and trying to fully grasp their message.  
+
+   - **Example**:  
+     If someone says, "I’m feeling overwhelmed with all these deadlines," you could reply, "So, you’re finding it difficult to manage all your tasks right now?"  
+
+   - **Why It’s Effective**:  
+     It clarifies any confusion and demonstrates empathy, encouraging the speaker to share more openly.  
+
+---
+
+2. **Non-Verbal Feedback**  
+   Non-verbal feedback includes maintaining eye contact, nodding, and using facial expressions to show interest and understanding. These cues help build trust and make the speaker feel valued.  
+
+   - **Example**:  
+     Nodding while someone speaks or leaning slightly forward to show engagement.  
+
+   - **Why It’s Effective**:  
+     It creates a positive environment for communication and reassures the speaker that they have your full attention.  
+
+---
+
+### **Smart Opening Paragraph**  
+"Active listening is more than just hearing; it’s about fully engaging with the speaker to understand their message. Techniques like paraphrasing and non-verbal feedback help enhance communication and build stronger connections."  
+
+Let me know if you’d like any further adjustments!
