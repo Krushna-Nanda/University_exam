@@ -196,24 +196,6 @@ Let me know if you need this expanded or clarified further!
 
 **Barriers to Effective Listening**
 
-**1. Physical Barriers:**  
-External things like noise or distractions that make it hard to hear or focus.
-
-**Example:**  
-Loud music or people talking in the background.
-
-**2. Psychological Barriers:**  
-Feelings or thoughts like stress or worry that stop you from listening well.
-
-**Example:**  
-Worrying about a test while someone is talking to you.
-
-**3. Language Barriers:**  
-When the words or language used are hard to understand.
-
-**Example:**  
-Someone using big words or a different language.
-
 **4. Prejudices and Biases:**  
 Judging the speaker or topic before listening properly.
 
