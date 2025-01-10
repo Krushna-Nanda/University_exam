@@ -7,11 +7,6 @@ Got it! Here are the more concise, attention-grabbing opening paragraphs for eac
 Ethics in workplace communication is essential for building trust, respect, and professionalism. It ensures clear, honest, and transparent exchanges of information, which help prevent misunderstandings and strengthen team relationships. Maintaining ethical standards fosters a positive work environment and promotes effective collaboration.
 
 ---
-
-### **Key Roles and Responsibilities of Team Members in a Collaborative Environment**
-
-In any team, communication, reliability, and problem-solving are key responsibilities. Team members must work together, respect each other’s strengths, and support one another to achieve shared goals. Collaboration thrives when everyone contributes actively and efficiently, ensuring the success of the team.
-
 ---
 
 ### **Two Common Interview Questions and the Best Way to Answer Them**
@@ -35,8 +30,10 @@ Ethics in workplace communication refers to adhering to moral principles when ex
 4. **Improves Collaboration**: When people communicate ethically, it encourages open, constructive dialogue, leading to better teamwork.  
 
 ---
+### **Key Roles and Responsibilities of Team Members in a Collaborative Environment**
 
-### **Key Roles and Responsibilities of Team Members in a Collaborative Environment**  
+In any team, communication, reliability, and problem-solving are key responsibilities. Team members must work together, respect each other’s strengths, and support one another to achieve shared goals. Collaboration thrives when everyone contributes actively and efficiently, ensuring the success of the team.
+
 1. **Communication**: Team members should actively participate in discussions, share ideas, and listen to others.  
 2. **Reliability**: Each member must complete their tasks on time and deliver quality work.  
 3. **Support**: Helping others when needed and offering constructive feedback.  
