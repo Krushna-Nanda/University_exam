@@ -131,3 +131,65 @@ HTTP (HyperText Transfer Protocol) is used to transfer web pages and other resou
 (j) **Explain the concept of a periodic analog signal.**  
 **Module I: Overview of the Internet**  
 A periodic analog signal repeats a pattern over time, such as a sine wave. Examples include radio waves or alternating current (AC) signals.
+
+### Part-I: 2-Mark Questions
+
+(a) **What is meant by data communication?**  
+**Module I: Overview of the Internet**  
+Data communication refers to the exchange of data between devices or systems over a communication medium, such as cables or wireless networks. It involves sending and receiving data in the form of signals, ensuring the accurate and timely transfer of information.
+
+---
+
+(b) **What are the responsibilities of the data link layer?**  
+**Module II: Data Link Layer**  
+The data link layer ensures reliable communication between two directly connected devices. It handles framing, error detection and correction, flow control, and media access management to prevent data collision and ensure smooth data transmission.
+
+---
+
+(c) **What is ARQ?**  
+**Module II: Data Link Layer**  
+ARQ (Automatic Repeat Request) is an error-control mechanism in data communication. It ensures data reliability by retransmitting corrupted or lost data packets based on feedback from the receiver.
+
+---
+
+(d) **Write short notes on Ethernet.**  
+**Module II: Data Link Layer**  
+Ethernet is a widely used LAN technology that defines a set of protocols for transmitting data over wired networks using frames. It uses CSMA/CD (Carrier Sense Multiple Access with Collision Detection) to manage access to the shared medium and supports speeds ranging from 10 Mbps to 100 Gbps.
+
+---
+
+(e) **What is a Hub?**  
+**Module III: Connecting Devices**  
+A hub is a basic networking device that connects multiple devices in a LAN, allowing data to be transmitted between them. It works by broadcasting data to all connected devices, without distinguishing between them, which can lead to collisions.
+
+---
+
+(f) **Define LAN.**  
+**Module I: Overview of the Internet**  
+A LAN (Local Area Network) is a network that connects devices within a limited geographical area, such as a home, office, or building. It typically uses Ethernet or Wi-Fi technology to facilitate high-speed data transfer.
+
+---
+
+(g) **Differentiate between IPv4 and IPv6.**  
+**Module IV: Internetworking**  
+- IPv4 uses 32-bit addresses, allowing for approximately 4.3 billion unique IP addresses.  
+- IPv6 uses 128-bit addresses, allowing for an extremely large address space to accommodate the growing number of devices.  
+- IPv6 also supports better security and routing features compared to IPv4.
+
+---
+
+(h) **What is the purpose of the Domain Name System?**  
+**Module V: Application Layer**  
+The Domain Name System (DNS) is used to translate human-readable domain names (like www.example.com) into IP addresses (like 192.168.1.1), enabling browsers and other applications to locate and communicate with servers over the internet.
+
+---
+
+(i) **What is TELNET?**  
+**Module V: Application Layer**  
+TELNET is a protocol used to remotely access and manage devices over a network. It provides a command-line interface for users to log into remote systems, but it lacks encryption, making it less secure compared to modern alternatives like SSH.
+
+---
+
+(j) **What is FTP?**  
+**Module V: Application Layer**  
+FTP (File Transfer Protocol) is used to transfer files between a client and a server over a network. It supports both uploading and downloading of files and provides commands to manage directories and file permissions.
