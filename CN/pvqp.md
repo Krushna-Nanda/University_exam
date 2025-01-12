@@ -2,49 +2,53 @@
 
 ---
 
-### **Part-I (2 x 10 = 20 Marks)**  
-Answer the following questions:
+Certainly! Here's the updated breakdown with the corresponding units (modules) mentioned next to each question:
 
-a) Define the term 'protocol' in the context of computer networks.  
-b) Describe the key difference between analog and digital signals.  
-c) What is the OSI model, and how does it differ from the TCP/IP model?  
-d) Explain the concept of 'Layering' in computer networks.  
-e) List two common transmission impairments in data communication.  
-f) What are CRC codes, and what is their purpose in data communication?  
-g) Define the term 'multiplexing' in network communication.  
-h) Describe the purpose of a 'hub' in networking.  
-i) What is meant by 'store and forward packet switching'?  
-j) Explain the term 'sliding window protocol' and its use in networking.  
+---
+
+### **Part-I (2 x 10 = 20 Marks)**
+
+**a) Define the term 'protocol' in the context of computer networks.** (Module I)  
+**b) Describe the key difference between analog and digital signals.** (Module I)  
+**c) What is the OSI model, and how does it differ from the TCP/IP model?** (Module I)  
+**d) Explain the concept of 'Layering' in computer networks.** (Module I)  
+**e) List two common transmission impairments in data communication.** (Module I)  
+**f) What are CRC codes, and what is their purpose in data communication?** (Module II)  
+**g) Define the term 'multiplexing' in network communication.** (Module III)  
+**h) Describe the purpose of a 'hub' in networking.** (Module III)  
+**i) What is meant by 'store and forward packet switching'?** (Module III)  
+**j) Explain the term 'sliding window protocol' and its use in networking.** (Module II)  
 
 ---
 
 ### **Part-II (6 x 8 = 48 Marks)**  
-Only Focused-Short Answer Type Questions (Answer Any Eight out of Twelve):  
+*(Answer Any Eight out of Twelve)*
 
-a) Discuss the historical development of the Internet and its standardization process.  
-b) Compare and contrast guided and unguided transmission media.  
-c) Explain how the sliding window protocol works on noiseless channels.  
-d) Describe how the ALOHA and CSMA protocols manage multiple access on a network.  
-e) Differentiate between repeaters, hubs, bridges, and routers in the context of connecting devices.  
-f) Outline the optimality principle in routing algorithms and its significance.  
-g) Compare circuit switching and packet switching in terms of efficiency and use cases.  
-h) Discuss the impact of flooding in network communication and how it is controlled.  
-i) Explain the purpose of the shortest path routing protocol and where it is best applied.  
-j) Describe the Internet Protocol (IP) address mapping process, including ICMP, IGMP, ARP, RARP, and DHCP.  
-k) Analyze the differences between connectionless and connection-oriented networks.  
-l) Detail the key components and functions of the Transport Layer in the OSI model.  
+**a) Discuss the historical development of the Internet and its standardization process.** (Module I)  
+**b) Compare and contrast guided and unguided transmission media.** (Module I)  
+**c) Explain how the sliding window protocol works on noiseless channels.** (Module II)  
+**d) Describe how the ALOHA and CSMA protocols manage multiple access on a network.** (Module II)  
+**e) Differentiate between repeaters, hubs, bridges, and routers in the context of connecting devices.** (Module III)  
+**f) Outline the optimality principle in routing algorithms and its significance.** (Module III)  
+**g) Compare circuit switching and packet switching in terms of efficiency and use cases.** (Module III)  
+**h) Discuss the impact of flooding in network communication and how it is controlled.** (Module III)  
+**i) Explain the purpose of the shortest path routing protocol and where it is best applied.** (Module IV)  
+**j) Describe the Internet Protocol (IP) address mapping process, including ICMP, IGMP, ARP, RARP, and DHCP.** (Module IV)  
+**k) Analyze the differences between connectionless and connection-oriented networks.** (Module IV)  
+**l) Detail the key components and functions of the Transport Layer in the OSI model.** (Module V)  
 
 ---
 
-### **Part-III (Only Long Answer Type Questions - Answer Any Two out of Four) (16 Marks Each)**  
+### **Part-III (Only Long Answer Type Questions - Answer Any Two out of Four) (16 Marks Each)**
 
-**Q3)** Provide an in-depth analysis of the TCP/IP Protocol Suite, including a detailed comparison with the OSI Model and their implications on network architecture and communication.  
+**Q3) Provide an in-depth analysis of the TCP/IP Protocol Suite, including a detailed comparison with the OSI Model and their implications on network architecture and communication.** (Module I / Module IV)  
+**Q4) Describe the entire process of error detection and correction in the Data Link Layer, including a detailed explanation of CRC codes and how they are applied in practice.** (Module II)  
+**Q5) Discuss the design issues of the Network Layer, including packet switching and routing algorithms, and analyze their impact on the performance and reliability of network communication.** (Module III)  
+**Q6) Conduct a comprehensive examination of TCP, including its service model, sliding window, congestion control, and how it ensures reliable process-to-process delivery in the Transport Layer.** (Module V)
 
-**Q4)** Describe the entire process of error detection and correction in the Data Link Layer, including a detailed explanation of CRC codes and how they are applied in practice.  
+---
 
-**Q5)** Discuss the design issues of the Network Layer, including packet switching and routing algorithms, and analyze their impact on the performance and reliability of network communication.  
-
-**Q6)** Conduct a comprehensive examination of TCP, including its service model, sliding window, congestion control, and how it ensures reliable process-to-process delivery in the Transport Layer.  
+This layout clearly identifies which module each question is from, helping you organize your preparation accordingly. Let me know if you'd like further details! 
 
 ==============================================
 
