@@ -68,4 +68,66 @@ The **sliding window protocol** is a flow control mechanism used in reliable dat
 
 --- 
 
-Let me know if you need any elaboration!
+### Part-I: 2-Mark Questions
+
+(a) **Differentiate between IPv4 and IPv6.**  
+**Module IV: Internetworking**  
+- IPv4 uses 32-bit addresses, allowing approximately 4.3 billion unique addresses.  
+- IPv6 uses 128-bit addresses, providing a vastly larger address space.  
+- IPv4 uses dot-decimal notation (e.g., 192.168.0.1), while IPv6 uses hexadecimal separated by colons (e.g., 2001:0db8::1).  
+
+---
+
+(b) **What is a frame?**  
+**Module I: Overview of the Internet**  
+A frame is a data packet at the Data Link Layer, encapsulating data for transmission over a physical medium. It includes headers and trailers for synchronization, addressing, and error detection.  
+
+---
+
+(c) **Differentiate between LAN and MAN.**  
+**Module I: Overview of the Internet**  
+- LAN (Local Area Network): Covers a small area like a home or office, typically using Ethernet.  
+- MAN (Metropolitan Area Network): Covers a larger area like a city, often using technologies like fiber optics or cable.  
+
+---
+
+(d) **What is the use of a router?**  
+**Module III: Connecting Devices**  
+A router directs data packets between different networks. It determines the best path for data to travel and connects devices to the internet.  
+
+---
+
+(e) **What is WLAN?**  
+**Module II: Data Link Layer**  
+WLAN (Wireless Local Area Network) is a wireless network that allows devices to connect and communicate using Wi-Fi, eliminating the need for cables.  
+
+---
+
+(f) **Explain the usage of Ethernet.**  
+**Module II: Data Link Layer**  
+Ethernet is a wired communication standard used for LANs, offering high-speed data transfer and reliable connectivity using cables like CAT5 or CAT6.  
+
+---
+
+(g) **Define the data rate limit.**  
+**Module I: Overview of the Internet**  
+The data rate limit refers to the maximum amount of data transmitted over a communication channel per second, often determined by the medium's bandwidth and signal quality.  
+
+---
+
+(h) **Explain differences between UDP and TCP.**  
+**Module V: Transport Protocols**  
+- TCP (Transmission Control Protocol) is connection-oriented, ensuring reliable data delivery.  
+- UDP (User Datagram Protocol) is connectionless, faster, but does not guarantee delivery or order.  
+
+---
+
+(i) **Why do we use HTTP?**  
+**Module V: Application Layer**  
+HTTP (HyperText Transfer Protocol) is used to transfer web pages and other resources over the internet, enabling communication between clients (browsers) and servers.  
+
+---
+
+(j) **Explain the concept of a periodic analog signal.**  
+**Module I: Overview of the Internet**  
+A periodic analog signal repeats a pattern over time, such as a sine wave. Examples include radio waves or alternating current (AC) signals.
