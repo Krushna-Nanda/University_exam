@@ -143,3 +143,41 @@ This table gives you a clear comparison of the features between **SRAM** and **D
 
 **Example**:  
 - When a computer’s hard disk or SSD transfers large files, DMA allows the disk to send data directly to memory, without waiting for the CPU to mediate each byte.
+
+# Meomory Hierarchy :
+
+### **Memory Hierarchy**  
+- **Definition**: A system that organizes different types of memory based on speed and capacity, from fastest to slowest.
+- **Levels**:  
+  1. **Registers** (fastest)  
+  2. **Cache Memory**  
+  3. **Main Memory (RAM)**  
+  4. **Secondary Storage** (slowest)
+ 
+  ![Memory Hierarchy](https://media.geeksforgeeks.org/wp-content/uploads/20230609020524/Memory-Hierarchy-Design.png)
+
+### **Cache Memory**  
+- **Definition**: A small, fast memory between the CPU and RAM that stores frequently used data for quick access.
+- **Advantage**: Reduces CPU waiting time, improving performance.
+- **Example**: L1, L2, and L3 cache.
+
+### **Virtual Memory**  
+- **Definition**: A memory management technique that uses a portion of the hard drive as temporary RAM, allowing programs to exceed physical memory limits.
+- **How It Works**: Swaps data between RAM and storage when needed.
+- **Advantage**: Allows the system to run larger applications than physical memory alone can support.
+
+### **Secondary Storage**  
+- **Magnetic Hard Disks**  
+  - **Definition**: A non-volatile storage device that uses magnetic fields to store data on rotating disks.
+  - **Example**: Traditional HDDs in computers.
+  - **Advantage**: High capacity, cost-effective.
+
+- **Optical Disks**  
+  - **Definition**: Storage media that use laser light to read and write data.
+  - **Example**: CDs, DVDs.
+  - **Advantage**: Portable, used for media storage and distribution.
+
+- **Magnetic Tape Systems**  
+  - **Definition**: A storage system that uses tape coated with a magnetic material to store data.
+  - **Example**: Used for backup and archival purposes.
+  - **Advantage**: High capacity and low cost per GB, but slower access speed.
