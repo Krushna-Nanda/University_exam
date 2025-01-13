@@ -81,7 +81,7 @@ This table gives you a clear comparison of the features between **SRAM** and **D
 
 #  Read-only Memories: ROM, PROM, EPROM, EEPROM, Flash Memory
 
-
+Retains data even when power is turned off.
 
 ### 1. **ROM (Read-Only Memory)**
    - **Definition**: ROM is a type of non-volatile memory that stores data permanently. The data stored in ROM cannot be modified (or can be modified only with difficulty), making it useful for storing firmware or permanent instructions.
@@ -181,3 +181,79 @@ This table gives you a clear comparison of the features between **SRAM** and **D
   - **Definition**: A storage system that uses tape coated with a magnetic material to store data.
   - **Example**: Used for backup and archival purposes.
   - **Advantage**: High capacity and low cost per GB, but slower access speed.
+ 
+# PLA AND FPGA
+
+### **Programmable Logic Arrays (PLAs)**  
+- **Definition**: PLAs are digital devices used to implement combinational logic circuits. They consist of a programmable AND array and a programmable OR array.
+- **How it works**: Users can program the connections in both arrays to create custom logic functions.
+- **Advantages**:  
+  - Flexible and customizable.  
+  - Can replace multiple standard logic gates with a single PLA.  
+- **Example**: Used in control systems, data path design, and small embedded systems.
+
+### **Field-Programmable Gate Arrays (FPGAs)**  
+- **Definition**: FPGAs are integrated circuits that can be configured by the user to perform a wide range of tasks, similar to a PLA but with more complexity and flexibility. They contain a matrix of logic blocks and interconnecting resources that can be programmed.
+- **How it works**: FPGAs allow users to define the logic and functionality of the circuits after manufacturing.
+- **Advantages**:  
+  - Reconfigurable hardware to suit different applications.  
+  - Can implement both combinational and sequential circuits.  
+  - High-speed parallel processing.  
+- **Example**: Used in complex applications like digital signal processing (DSP), telecommunications, and embedded systems.  
+
+In summary, **PLAs** are simpler and more limited in scope, while **FPGAs** offer far greater flexibility and can implement more complex circuits and functionalities.
+
+# iFFI TIME LEFT THEN LOOK FOR IT ---------------
+
+### **Hardware Description Languages (HDLs)**
+
+#### **Verilog**
+- **Definition**: A hardware description language used to model and design digital circuits at various levels of abstraction (structural, behavioral, and register-transfer level).
+- **Key Features**:  
+  - Describes hardware behavior in terms of logic gates or operations.
+  - Supports both simulation and synthesis.
+- **Advantage**:  
+  - Widely used for designing integrated circuits.
+  - Supports both high-level and low-level descriptions.
+- **Disadvantage**:  
+  - Syntax can be complex for beginners.
+- **Applications**:  
+  - Used in digital design, FPGA and ASIC design, verification, and simulation.
+
+---
+
+#### **VHDL (VHSIC Hardware Description Language)**
+- **Definition**: A hardware description language that describes the behavior and structure of electronic systems, particularly used for FPGA and ASIC design.
+- **Key Features**:  
+  - Describes hardware in a concurrent manner.
+  - Supports both simulation and synthesis.
+- **Advantage**:  
+  - Highly flexible and precise in describing hardware.
+  - Rich set of features for simulation.
+- **Disadvantage**:  
+  - Steep learning curve.
+- **Applications**:  
+  - Digital circuit design, embedded systems, and FPGA programming.
+
+---
+
+### **Digital Simulation Tools**
+- **Definition**: Tools used to simulate and test digital circuit designs before implementation.
+- **Key Features**:  
+  - Provides feedback on functionality and performance.
+  - Helps in debugging and optimizing designs.
+- **Popular Tools**:  
+  - **ModelSim**: For Verilog and VHDL simulation.  
+  - **Xilinx ISE**: For FPGA design and simulation.  
+  - **Cadence**: For analog and mixed-signal simulation.
+- **Advantage**:  
+  - Enables early verification of digital designs.
+  - Reduces cost and time for hardware prototyping.
+- **Disadvantage**:  
+  - Simulations can be time-consuming.
+- **Applications**:  
+  - Used in IC design, verification, and optimization of digital circuits.
+
+---
+
+This structure simplifies your understanding and makes it easy to memorize the core aspects of HDLs and digital simulation tools.
