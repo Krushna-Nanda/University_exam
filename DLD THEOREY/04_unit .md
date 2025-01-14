@@ -1,6 +1,6 @@
 #### Internal Organization of Memory Chips :
 ---
-
+**Address Lines**: These lines are used to select specific memory locations (by choosing a particular row or column).
 ### **Internal Organization of Memory Chips**
 
 Memory chips are organized in a **grid-like structure** of rows and columns. This structure enables efficient data storage and retrieval.
