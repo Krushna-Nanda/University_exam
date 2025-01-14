@@ -190,8 +190,15 @@ Retains data even when power is turned off.
  
   ![Memory Hierarchy](https://media.geeksforgeeks.org/wp-content/uploads/20230609020524/Memory-Hierarchy-Design.png)
 
+### **Register:**
+ 
+Definition: Registers are small, high-speed storage units located directly inside the CPU. They are the fastest type of memory in a computer system.
+- **Purpose**: Holds data temporarily for quick processing.
+- **Capacity**: Limited storage (few bytes).
+- **Usage**: Stores instructions, addresses, and intermediate data during computation.
+
 ### **Cache Memory**  
-- **Definition**: A small, fast memory between the CPU and RAM that stores frequently used data for quick access.
+- **Definition**: Cache memory is a special type of high-speed memory located close to the CPU in a computer. It stores frequently used data and instructions, So that the CPU can access them quickly, improving the overall speed and efficiency of the computer.
 - **Advantage**: Reduces CPU waiting time, improving performance.
 - **Example**: L1, L2, and L3 cache.
 
