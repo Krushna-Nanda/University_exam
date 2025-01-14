@@ -71,8 +71,9 @@ This gives you a quick and clear overview of **RAM** and its two main types!
   - Retains data without needing refresh cycles, making it faster than DRAM.  
   - Larger in size because each memory cell uses 6 transistors.  
 - **Applications**: Commonly used in:  
-  - CPU cache (L1, L2, L3 caches).  
-  - High-speed buffers and registers.  
+  - CPU cache (L1, L2, L3 caches). Stores frequently accessed data for fast retrieval.
+  - High-speed buffers and registers.
+  - Embedded Systems: Used in small devices where speed is crucial.
 - **Advantages**:  
   - Extremely fast read/write operations.  
   - Very reliable due to no leakage issues.  
@@ -88,7 +89,7 @@ This gives you a quick and clear overview of **RAM** and its two main types!
   - Smaller size per cell (1 transistor + 1 capacitor), enabling higher storage density.  
   - Requires constant refreshing, which slows it down compared to SRAM.  
 - **Applications**: Widely used in:  
-  - Main memory (RAM) in computers.  
+  - Main memory (RAM) in computers. Stores data and instructions that are actively used by the CPU.
   - Graphics memory in GPUs.  
 - **Advantages**:  
   - Higher storage capacity due to compact cell design.  
