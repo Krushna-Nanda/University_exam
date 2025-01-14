@@ -38,3 +38,34 @@ This is why **DRAM** is generally used for larger, cheaper memory (e.g., system 
 - **L3 Cache**: Largest, slowest of the three, and shared by all cores.
 
 Each level of cache serves to reduce the time it takes for the CPU to access data, optimizing overall system performance.
+
+
+# --------------------------------------------------------------
+
+### **K-map (Karnaugh Map)**
+
+A **K-map** is a graphical tool used for simplifying Boolean expressions to reduce the number of terms in a logical expression, which helps in designing more efficient digital circuits.
+
+### **Process:**
+1. **Draw the K-map**: Create a grid based on the number of variables (2, 3, 4, etc.).
+2. **Fill the cells**: Place 1s (for SOP) or 0s (for POS) in the cells based on the minterms or maxterms.
+3. **Group adjacent cells**: Form groups of 1s or 0s in powers of 2 (1, 2, 4, 8, etc.).
+4. **Write the simplified expression**: Combine variables that stay constant in each group.
+
+### **Types:**
+- **2-variable K-map**: 2x2 grid.
+- **3-variable K-map**: 2x4 grid.
+- **4-variable K-map**: 4x4 grid.
+- Higher-variable K-maps: More complex grids.
+
+### **Advantages:**
+- **Simplifies expressions**: Reduces complex Boolean expressions.
+- **Visual and intuitive**: Easier to understand than algebraic methods.
+- **Minimizes circuit components**: Reduces the number of gates in a circuit.
+
+### **Applications:**
+- **Digital Circuit Design**: Optimizing logic circuits.
+- **Combinational Logic Optimization**: For adders, multiplexers, etc.
+- **Control Systems**: Simplifying logic for control operations.
+
+This method is widely used for designing efficient digital systems.
