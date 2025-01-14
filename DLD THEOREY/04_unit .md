@@ -7,6 +7,8 @@ Memory chips are organized in a **grid-like structure** of rows and columns. Thi
 
 ---
 
+[Image of Memory Chip Organization](https://gateoverflow.in/?qa=blob&qa_blobid=5888667984025442142)
+
 ### **Key Components**
 
 1. **Address Lines**  
