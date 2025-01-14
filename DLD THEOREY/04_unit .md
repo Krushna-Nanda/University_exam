@@ -24,7 +24,7 @@ Memory chips are organized in a **grid-like structure** of rows and columns. Thi
    - Manage operations like:
      - **Read**: Retrieve data from memory.
      - **Write**: Store data into memory.
-     - **Enable**: Activate the memory chip for operation.
+     - **Enable**: Activate the memory chip for operation.This refers to the Chip Enable (CE) control line. When it is active, it enables the memory chip to perform operations (reading or writing).
 
 ---
 
