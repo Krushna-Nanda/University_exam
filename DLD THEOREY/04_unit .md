@@ -16,6 +16,7 @@ Memory chips are organized in a **grid-like structure** of rows and columns. Thi
 2. **Data Lines**  
    - Responsible for transferring data into and out of the memory cells.
    - Connects the memory chip to the external data bus.
+   - Transfers data into memory cells and retrieves data from memory cells.
 
 3. **Control Lines**  
    - Manage operations like:
