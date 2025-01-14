@@ -102,18 +102,13 @@ Here’s the **key differences between SRAM and DRAM** in table format:
 
 | **SRAM** | **DRAM** |
 |----------|----------|
-| Stores data in transistors. | Stores data in capacitors. |
-| Does not require refreshing. | Requires periodic refreshing. |
-| Faster than DRAM. | Slower than SRAM. |
 | Expensive. | Cheaper. |
 | Low-density (smaller capacity). | High-density (larger capacity). |
 | Low power consumption. | High power consumption. |
 | Generates less heat. | Generates more heat. |
-| Used in cache memory. | Used in main memory (RAM in computers). |
-| Lower latency. | Higher latency. |
+| Lower latency: The time it takes to access data is minimal, resulting in faster data retrieval. |Higher latency: The time it takes to access data is longer, causing a delay in data retrieval. |
 | More resistant to radiation. | Less resistant to radiation. |
-| Higher data transfer rate. | Lower data transfer rate. |
-| Used in high-speed, performance-sensitive applications (like CPU cache). | Used in general-purpose applications (like main memory). |
+
 
 This table gives you a clear comparison of the features between **SRAM** and **DRAM**!
 
