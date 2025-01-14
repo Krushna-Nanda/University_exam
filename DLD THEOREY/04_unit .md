@@ -86,7 +86,7 @@ This gives you a quick and clear overview of **RAM** and its two main types!
 ### **3. Dynamic Memories (DRAM)**  
 - **Definition**: DRAM (Dynamic Random-Access Memory) stores each bit of data in a capacitor and a transistor. Since capacitors lose charge over time, the data needs to be refreshed periodically to prevent loss.  
 - **Features**:  
-  - Smaller size per cell (1 transistor + 1 capacitor), enabling higher storage density.  
+  - DRAM, uses only 1 capacitor and 1 transistor per memory cell, making it much smaller and more dense, allowing for larger memory capacities in the same space.
   - Requires constant refreshing, which slows it down compared to SRAM.  
 - **Applications**: Widely used in:  
   - Main memory (RAM) in computers. Stores data and instructions that are actively used by the CPU.
