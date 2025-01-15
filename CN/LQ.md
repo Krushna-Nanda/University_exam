@@ -285,3 +285,20 @@ TCP's congestion control prevents network overload by regulating the rate of dat
 - Ensures fair resource allocation among multiple TCP connections.  
 
 ---
+### **TCP Congestion Avoidance (Simplified)**
+
+**Definition**:  
+Congestion Avoidance is the phase in TCP where the sender gradually increases its congestion window (cwnd) to avoid congestion in the network, ensuring the data transmission rate does not overwhelm the network.
+### **Key Points**:
+
+- **After Slow Start**: Once the congestion window (cwnd) exceeds a certain threshold, it grows **linearly** instead of exponentially to prevent congestion.
+- **Linear Growth**: The sender increases the cwnd by 1 MSS (Maximum Segment Size) for each round-trip time (RTT).
+- **Prevent Overload**: This gradual increase ensures that the network isn’t overloaded with data.
+- **Loss Detection**: If packet loss happens, TCP reduces cwnd and may restart the process.
+
+### **Impact**:
+- Ensures network stability.
+- Allows fair use of network resources by all connections.
+
+**In Short**:  
+Congestion Avoidance helps prevent congestion by increasing the data transmission rate slowly, ensuring the network can handle it without crashing.
