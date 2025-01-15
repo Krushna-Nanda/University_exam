@@ -229,7 +229,7 @@ Yes, I understand your preferred format for generating answers. Here's a compreh
 - **Reliable Delivery**: Guarantees in-order and error-free data delivery using acknowledgments (ACK) and retransmissions.
 - **Flow Control**: Manages data transmission based on the receiver's buffer size to avoid overwhelming it.
 - **Error Control**: Ensures data integrity using checksums, detecting and correcting errors in transmission.
-- **Full Duplex Communication**: Allows bidirectional data flow simultaneously.
+- **Full Duplex Communication**: TCP supports simultaneous bidirectional data transfer, allowing both sender and receiver to send and receive data at the same time.
 
 ---
 
