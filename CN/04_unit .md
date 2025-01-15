@@ -103,3 +103,49 @@ When you upload a file to a website using FTP:
 - **Resumes Interrupted Transfers**: If a file transfer is interrupted, FTP can resume from where it left off.
 - **Authentication and Security**: FTP ensures secure access through a username and password, with the option for anonymous access.
 - **Directory Management**: FTP allows you to navigate, create, and manage directories remotely.
+
+# ===================
+
+### **Client-Server Application**
+
+A **client-server application** is a network architecture where two entities, a **client** and a **server**, communicate with each other to perform tasks or exchange information. 
+
+---
+
+### **Definition:**
+
+- **Client**: The client is the application or device that requests services or resources from another device (server). It typically initiates the communication.
+- **Server**: The server is the application or device that provides services or resources in response to client requests. It listens for incoming client requests and processes them.
+
+---
+
+### **How It Works:**
+
+1. **Request**: The client sends a request to the server for a service, such as retrieving a web page or accessing a file.
+2. **Processing**: The server processes the request, performs the necessary actions, and retrieves the requested data or resources.
+3. **Response**: The server sends the response back to the client, which then displays or processes the data.
+
+---
+
+### **Key Characteristics:**
+
+- **Separation of Roles**: The client and server have distinct roles. The client does not provide resources but instead consumes them, while the server provides resources or services.
+- **Communication**: Communication between the client and server typically happens over a network using protocols such as HTTP, FTP, or others.
+- **Reliability**: Servers are usually more powerful and reliable, as they handle multiple client requests simultaneously.
+
+---
+
+### **Examples:**
+
+1. **Web Browsing (HTTP)**:
+   - **Client**: Your web browser (e.g., Chrome, Firefox).
+   - **Server**: The web server hosting the website (e.g., `www.example.com`).
+   - The browser (client) requests a web page from the server, and the server responds with the requested HTML content.
+
+2. **Email (SMTP/POP3/IMAP)**:
+   - **Client**: Your email application (e.g., Outlook, Gmail).
+   - **Server**: The mail server that stores and processes emails (e.g., Gmail's server).
+   - The email client requests to send or retrieve messages from the mail server.
+
+
+
