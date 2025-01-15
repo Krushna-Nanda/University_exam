@@ -247,5 +247,41 @@ TCP ensures reliable, ordered, and efficient data delivery through its robust se
 
 --- 
 
+### **TCP Sliding Window**  
+**Definition**:  
+The sliding window mechanism in TCP is a flow control technique that manages the amount of data a sender can transmit before receiving an acknowledgment from the receiver.  
 
+**How It Works**:  
+- **Window Size**: The sender can send multiple packets (up to the window size) without waiting for an acknowledgment.  
+- **Dynamic Adjustment**: The window size is dynamically adjusted based on the receiver’s advertised capacity (receiver window) and network conditions.  
+- **Acknowledgments**: The receiver sends cumulative acknowledgments indicating the highest byte received in sequence.  
+- **Efficiency**: This mechanism ensures efficient use of network resources and prevents the sender from overwhelming the receiver.  
 
+**Advantages**:  
+- Allows continuous data transmission for better performance.  
+- Minimizes idle time between transmissions.  
+
+---
+
+### **TCP Congestion Control**  
+**Definition**:  
+TCP's congestion control prevents network overload by regulating the rate of data transmission based on network capacity.  
+
+**Key Mechanisms**:  
+1. **Slow Start**:  
+   - Initially, TCP starts with a small congestion window (cwnd) and doubles it every round-trip time (RTT) until it reaches the slow start threshold (ssthresh) or encounters congestion.  
+
+2. **Congestion Avoidance**:  
+   - After reaching the ssthresh, cwnd increases linearly to prevent congestion.  
+
+3. **Fast Retransmit**:  
+   - If three duplicate acknowledgments are received, TCP assumes packet loss and retransmits the lost segment without waiting for a timeout.  
+
+4. **Fast Recovery**:  
+   - After fast retransmit, TCP skips the slow start phase and increases cwnd gradually to avoid further congestion.  
+
+**Impact**:  
+- Maintains network stability by adapting to changing conditions.  
+- Ensures fair resource allocation among multiple TCP connections.  
+
+---
