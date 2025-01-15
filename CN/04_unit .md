@@ -69,3 +69,37 @@ The Domain Name System (DNS) is a key component of the Internet's infrastructure
    - **Network Efficiency**: DNS speeds up browsing by caching results and reducing the need for full resolution with each request.
 
 ---
+### **HTTP (HyperText Transfer Protocol)**
+
+**Definition**:  
+HTTP is a protocol used for transferring web pages and other resources between a web browser (client) and a web server. When you type a website URL in a browser, HTTP is used to request and display the page.
+
+**Example**:  
+When you visit `https://www.google.com`:
+- The browser sends an HTTP request to the Google server.
+- The server responds with the requested HTML page (the Google homepage).
+- The browser displays the page.
+
+**Advantages**:
+- **Simple and Lightweight**: HTTP requests are easy to process, making browsing websites fast and efficient.
+- **Stateless**: Every HTTP request is independent, meaning no session data is saved between requests, reducing server load.
+- **Scalable**: HTTP can handle requests from millions of users without much complexity.
+
+---
+
+### **FTP (File Transfer Protocol)**
+
+**Definition**:  
+FTP is used for transferring files between a client and a server over a network. It allows users to upload or download files to/from remote servers.
+
+**Example**:  
+When you upload a file to a website using FTP:
+- You connect to the server using an FTP client (e.g., FileZilla).
+- You provide the server’s IP address, username, and password.
+- Once authenticated, you can upload a file from your local machine to the server, or download files from the server to your computer.
+
+**Advantages**:
+- **Efficient File Transfer**: FTP can transfer large files quickly and supports multiple file transfers at once.
+- **Resumes Interrupted Transfers**: If a file transfer is interrupted, FTP can resume from where it left off.
+- **Authentication and Security**: FTP ensures secure access through a username and password, with the option for anonymous access.
+- **Directory Management**: FTP allows you to navigate, create, and manage directories remotely.
