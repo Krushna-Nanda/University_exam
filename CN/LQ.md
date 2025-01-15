@@ -235,11 +235,20 @@ Yes, I understand your preferred format for generating answers. Here's a compreh
 
 ### **2. Sliding Window Mechanism**
 
-- **Definition**: A flow control mechanism where the sender transmits multiple packets before receiving an acknowledgment, improving efficiency.
-- **Dynamic Window Size**: Adjusts based on network and receiver conditions.
-- **Operation**:
-  - **Sender’s Perspective**: Sends data within the window; waits for ACK to slide the window forward.
-  - **Receiver’s Perspective**: Advertises available buffer size to control sender’s transmission.
+### **TCP Sliding Window**  
+**Definition**:  
+The sliding window mechanism in TCP is a flow control technique that manages the amount of data a sender can transmit before receiving an acknowledgment from the receiver.  
+
+**How It Works**:  
+- **Window Size**: The sender can send multiple packets (up to the window size) without waiting for an acknowledgment.  
+- **Dynamic Adjustment**: The window size is dynamically adjusted based on the receiver’s advertised capacity (receiver window) and network conditions.  
+- **Acknowledgments**: The receiver sends cumulative acknowledgments indicating the highest byte received in sequence.  
+- **Efficiency**: This mechanism ensures efficient use of network resources and prevents the sender from overwhelming the receiver.  
+
+**Advantages**:  
+- Allows continuous data transmission for better performance.  
+- Minimizes idle time between transmissions.  
+
 - **Advantage**: Maximizes throughput by maintaining a continuous data flow.
 
 ---
@@ -272,22 +281,6 @@ Yes, I understand your preferred format for generating answers. Here's a compreh
 ### **Conclusion**
 
 TCP ensures reliable, ordered, and efficient data delivery through its robust service model, sliding window mechanism, congestion control, and error-handling capabilities. These features make TCP essential for process-to-process communication in modern networks.
-
---- 
-
-### **TCP Sliding Window**  
-**Definition**:  
-The sliding window mechanism in TCP is a flow control technique that manages the amount of data a sender can transmit before receiving an acknowledgment from the receiver.  
-
-**How It Works**:  
-- **Window Size**: The sender can send multiple packets (up to the window size) without waiting for an acknowledgment.  
-- **Dynamic Adjustment**: The window size is dynamically adjusted based on the receiver’s advertised capacity (receiver window) and network conditions.  
-- **Acknowledgments**: The receiver sends cumulative acknowledgments indicating the highest byte received in sequence.  
-- **Efficiency**: This mechanism ensures efficient use of network resources and prevents the sender from overwhelming the receiver.  
-
-**Advantages**:  
-- Allows continuous data transmission for better performance.  
-- Minimizes idle time between transmissions.  
 
 ---
 
