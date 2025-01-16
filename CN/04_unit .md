@@ -181,3 +181,42 @@ A **client-server application** is a network architecture where two entities, a 
 
 This format compares IPv4 and IPv6 side by side for clarity.
 
+
+### **j) Describe the Internet Protocol (IP) address mapping process, including ICMP, IGMP, ARP, RARP, and DHCP.**
+
+---
+
+- **IP Address Mapping**: The process of associating an IP address with a physical address (MAC address) or vice versa.
+
+- **ICMP (Internet Control Message Protocol)**:
+- ICMP is used for sending error messages and operational information about network conditions (e.g., when a host is unreachable, or a route is down).
+  - Used for error reporting and diagnostics (e.g., ping).
+  - Ping: To check the reachability of a device on the network.
+
+- **IGMP (Internet Group Management Protocol)**:
+
+  - IGMP is used to manage membership in multicast groups. Devices use IGMP to report their interest in receiving multicast transmissions.
+  - Allows devices to join or leave multicast groups.
+  - Functionality: It is used by IPv4 networks to manage multicast group memberships.
+
+- **ARP (Address Resolution Protocol)**:
+  - Maps a known IP address to a MAC address.
+  - Used by devices to determine the MAC address of a host in a local network.
+
+- **RARP (Reverse Address Resolution Protocol)**:
+  - Definition: RARP is the reverse of ARP, used to map a MAC address to an IP address. This protocol was used by diskless machines to 
+    obtain an IP address from a network server.
+  -  Note: RARP has been largely replaced by DHCP (Dynamic Host Configuration Protocol).
+
+- **DHCP (Dynamic Host Configuration Protocol)**:
+  - Automatically assigns an IP address to a device on the network.
+  - Reduces the need for manual IP configuration on devices.
+Definition: DHCP is used to automatically assign IP addresses and other network configuration parameters (like gateway and DNS servers) to devices on a network.
+How it Works:
+DHCP Discover: A device broadcasts a request for an IP address.
+DHCP Offer: The DHCP server responds with an available IP address.
+DHCP Request: The device requests the offered IP address.
+DHCP Acknowledge: The server confirms the assignment of the IP address.
+
+---
+
