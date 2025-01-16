@@ -191,29 +191,6 @@ Here are the answers for **j**, **k**, and **l** with clear and concise formatti
 
 ---
 
-
-### **k) Analyze the differences between connectionless and connection-oriented networks.**
-
----
-
-- **Connectionless Network**:
-  - **Definition**: Data is sent without establishing a connection between sender and receiver.
-  - **Features**:
-    - Each data packet is routed independently.
-    - No guarantee of delivery or ordering.
-  - **Examples**: UDP (User Datagram Protocol).
-  - **Use Cases**: Real-time communications like streaming, VoIP.
-
-- **Connection-Oriented Network**:
-  - **Definition**: A connection is established before data transmission and maintained throughout the session.
-  - **Features**:
-    - Reliable, data is delivered in order.
-    - Acknowledgements are sent, and retransmissions occur in case of packet loss.
-  - **Examples**: TCP (Transmission Control Protocol).
-  - **Use Cases**: File transfer, email, web browsing.
-
----
-
 ### **l) Detail the key components and functions of the Transport Layer in the OSI model.**
 
 ---
