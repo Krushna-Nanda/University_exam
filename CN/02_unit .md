@@ -1,3 +1,5 @@
+One station acts as the primary station (master), and the other station(s) act as secondary stations (slaves).
+The primary station has full control over the communication process and manages when secondary stations can transmit data.
 ### **Short Note on HDLC (High-Level Data Link Control)**
 
 **Definition**:  
