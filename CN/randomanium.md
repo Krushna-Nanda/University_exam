@@ -107,3 +107,29 @@ Let’s walk through an example step-by-step:
 1. **Duplicate ACKs** are a signal of packet loss.
 2. **Three duplicate ACKs** trigger **Fast Retransmit**, which resends the lost packet immediately.
 3. This reduces waiting time compared to relying solely on timeouts.
+
+
+# handshake
+
+
+Certainly! Here's a professional explanation of the **Three-Way Handshake**:
+
+---
+
+### **Three-Way Handshake - Professional Explanation:**
+
+1. **Step 1: SYN (Synchronization)**
+   - The sender initiates the connection by sending a **SYN** (synchronize) packet to the receiver. This indicates the sender’s desire to establish a connection and begins the handshake process.
+
+2. **Step 2: SYN-ACK (Acknowledgment)**
+   - The receiver responds with a **SYN-ACK** (synchronize-acknowledge) packet. This serves two purposes:
+     - It acknowledges the sender's **SYN** packet by incrementing the sequence number.
+     - It also sends its own **SYN** to signal readiness for connection.
+
+3. **Step 3: ACK (Acknowledgment)**
+   - The sender acknowledges the receiver's **SYN-ACK** packet by sending an **ACK** (acknowledge) packet. This final step completes the handshake and establishes the connection between the sender and receiver, allowing data transfer to begin.
+
+---
+
+### **Summary:**
+- The Three-Way Handshake ensures that both parties agree to and are ready for communication before data transfer begins. This process helps establish a reliable connection and synchronization between the sender and receiver.
