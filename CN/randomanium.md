@@ -133,3 +133,80 @@ Certainly! Here's a professional explanation of the **Three-Way Handshake**:
 
 ### **Summary:**
 - The Three-Way Handshake ensures that both parties agree to and are ready for communication before data transfer begins. This process helps establish a reliable connection and synchronization between the sender and receiver.
+
+
+#  slidy wala exmaple 
+
+
+Here are **examples** to explain the working of the **Go-Back-N Protocol** and **Selective Repeat Protocol**, structured like the one you provided:
+
+---
+
+### **Go-Back-N Protocol Example**  
+**Key Features**:
+- Sender can send multiple packets (up to the window size) without waiting for an acknowledgment (ACK) for each one.
+- If an error or loss occurs, the sender **retransmits all packets starting from the one that was lost or corrupted**.
+
+#### Example:
+Let’s say:
+- **Window size = 4 packets**.
+- Sender sends packets: P1, P2, P3, P4.
+- Receiver sends acknowledgments (ACKs) back for correctly received packets.
+
+**Scenario**:
+1. **Round 1**:
+   - Sender sends **P1, P2, P3, P4**.
+   - Receiver gets **P1, P2, P3**, but **P4 is lost**.
+   - Receiver only sends an ACK for **P3** (last correctly received packet).
+
+2. **Round 2**:
+   - Sender receives ACK for **P3** but detects that P4 was not acknowledged.
+   - **Go Back** and retransmit packets starting from P4:
+     - Sender retransmits **P4, P5, P6, P7** (up to the window size).
+
+3. **Round 3**:
+   - Receiver now correctly receives all retransmitted packets and sends ACKs for **P4, P5, P6, P7**.
+
+---
+
+### **Selective Repeat Protocol Example**  
+**Key Features**:
+- Sender can send multiple packets (up to the window size) without waiting for an acknowledgment (ACK) for each one.
+- If an error or loss occurs, **only the specific lost or corrupted packet is retransmitted**, not the entire window.
+
+#### Example:
+Let’s say:
+- **Window size = 4 packets**.
+- Sender sends packets: P1, P2, P3, P4.
+- Receiver sends acknowledgments (ACKs) back for correctly received packets.
+
+**Scenario**:
+1. **Round 1**:
+   - Sender sends **P1, P2, P3, P4**.
+   - Receiver gets **P1, P3, P4**, but **P2 is corrupted**.
+   - Receiver sends:
+     - ACK for **P1**.
+     - **Negative ACK (NACK)** for **P2** (indicating an error).
+     - ACKs for **P3 and P4**.
+
+2. **Round 2**:
+   - Sender retransmits **P2** only (not the entire window).
+   - Receiver gets **P2** and sends an ACK for it.
+
+3. **Round 3**:
+   - Sender moves the window forward and sends **P5, P6, P7, P8**.
+
+---
+
+### **Comparison of the Two Examples**:
+| **Aspect**            | **Go-Back-N Protocol**                          | **Selective Repeat Protocol**                    |
+|------------------------|------------------------------------------------|-------------------------------------------------|
+| **Error Handling**     | Retransmits all packets starting from the error. | Retransmits only the specific erroneous packet. |
+| **Efficiency**         | Lower, as more retransmissions are required.    | Higher, as fewer retransmissions occur.         |
+| **ACK Mechanism**      | Cumulative ACK (acknowledges all prior packets).| Individual ACK for each packet.                |
+
+---
+
+### **Takeaway**:
+- **Go-Back-N**: Simpler but less efficient for noisy channels.
+- **Selective Repeat**: More complex but highly efficient for noisy channels.
