@@ -191,33 +191,6 @@ Here are the answers for **j**, **k**, and **l** with clear and concise formatti
 
 ---
 
-### **j) Describe the Internet Protocol (IP) address mapping process, including ICMP, IGMP, ARP, RARP, and DHCP.**
-
----
-
-- **IP Address Mapping**: The process of associating an IP address with a physical address (MAC address) or vice versa.
-
-- **ICMP (Internet Control Message Protocol)**:
-  - Used for error reporting and diagnostics (e.g., ping).
-  - Helps in reporting network issues like unreachable destinations.
-
-- **IGMP (Internet Group Management Protocol)**:
-  - Used to manage multicast group memberships.
-  - Allows devices to join or leave multicast groups.
-
-- **ARP (Address Resolution Protocol)**:
-  - Maps a known IP address to a MAC address.
-  - Used by devices to determine the MAC address of a host in a local network.
-
-- **RARP (Reverse Address Resolution Protocol)**:
-  - Maps a known MAC address to an IP address.
-  - Typically used by diskless workstations to obtain an IP address from a server.
-
-- **DHCP (Dynamic Host Configuration Protocol)**:
-  - Automatically assigns an IP address to a device on the network.
-  - Reduces the need for manual IP configuration on devices.
-
----
 
 ### **k) Analyze the differences between connectionless and connection-oriented networks.**
 
