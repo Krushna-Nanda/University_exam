@@ -109,12 +109,13 @@ This version is shorter while maintaining key details for easy recall.
   - **Limitation**: Causes network traffic congestion as it does not filter or manage traffic.
 
 - **Bridges**:
-  - **Function**: Connects two or more network segments and filters traffic based on MAC addresses.
+  - **Function**:A bridge is a network device that connects two or more separate networks and filters traffic between them based on MAC addresses
   - **Usage**: Reduces traffic and improves performance by segmenting networks.
   - **Limitation**: Works only at the data link layer (Layer 2) and can become overwhelmed with heavy traffic.
 
 - **Routers**:
-  - **Function**: Connects multiple networks, forwarding data packets based on IP addresses.
+  - **Function**: Connects multiple networks, forwarding data packets based on IP addresses.A router is a network device that connects multiple networks and directs data packets between them. It operates at the Network Layer (Layer 3) of the OSI model and uses IP addresses to determine the best path for data to travel across networks. Routers are responsible for forwarding data packets between devices on different networks, such as from a local area network (LAN) to the internet.
+  - 
   - **Usage**: Directs data to its destination across different networks and routes data between subnets.
   - **Limitation**: More complex and typically slower than hubs or bridges due to its advanced routing functions.
 
