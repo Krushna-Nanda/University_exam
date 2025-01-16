@@ -253,14 +253,27 @@ The sliding window mechanism in TCP is a flow control technique that manages the
 
 ---
 
-### **3. Congestion Control**
+### **TCP Congestion Control**  
+**Definition**:  
+TCP's congestion control prevents network overload by regulating the rate of data transmission based on network capacity.  
 
-- **Purpose**: Prevents network congestion by controlling the rate of data transmission.
-- **Mechanisms**:
-  - **Slow Start**: Begins with a small congestion window, doubling its size every round-trip time (RTT).
-  - **Congestion Avoidance**: Increases the window size linearly once the threshold is reached.
-  - **Fast Retransmit**: Detects lost packets using duplicate ACKs and retransmits them immediately.
-  - **Fast Recovery**: Avoids slow start after packet loss; resumes with congestion avoidance phase.
+**Key Mechanisms**:  
+1. **Slow Start**:  
+   - Initially, TCP starts with a small congestion window (cwnd) and doubles it every round-trip time (RTT) until it reaches the slow start threshold (ssthresh) or encounters congestion.  
+
+2. **Congestion Avoidance**:  
+   - After reaching the ssthresh, cwnd increases linearly to prevent congestion.  
+
+3. **Fast Retransmit**:  
+   - If three duplicate acknowledgments are received, TCP assumes packet loss and retransmits the lost segment without waiting for a timeout. Detects lost packets using duplicate ACKs and retransmits them immediately.
+
+4. **Fast Recovery**:  
+   - After fast retransmit, TCP skips the slow start phase and increases cwnd gradually to avoid further congestion.  
+
+**Impact**:  
+- Maintains network stability by adapting to changing conditions.  
+- Ensures fair resource allocation among multiple TCP connections.  
+
 - **Benefits**: Maintains network stability and avoids excessive packet loss.
 
 ---
@@ -281,29 +294,6 @@ The sliding window mechanism in TCP is a flow control technique that manages the
 ### **Conclusion**
 
 TCP ensures reliable, ordered, and efficient data delivery through its robust service model, sliding window mechanism, congestion control, and error-handling capabilities. These features make TCP essential for process-to-process communication in modern networks.
-
----
-
-### **TCP Congestion Control**  
-**Definition**:  
-TCP's congestion control prevents network overload by regulating the rate of data transmission based on network capacity.  
-
-**Key Mechanisms**:  
-1. **Slow Start**:  
-   - Initially, TCP starts with a small congestion window (cwnd) and doubles it every round-trip time (RTT) until it reaches the slow start threshold (ssthresh) or encounters congestion.  
-
-2. **Congestion Avoidance**:  
-   - After reaching the ssthresh, cwnd increases linearly to prevent congestion.  
-
-3. **Fast Retransmit**:  
-   - If three duplicate acknowledgments are received, TCP assumes packet loss and retransmits the lost segment without waiting for a timeout.  
-
-4. **Fast Recovery**:  
-   - After fast retransmit, TCP skips the slow start phase and increases cwnd gradually to avoid further congestion.  
-
-**Impact**:  
-- Maintains network stability by adapting to changing conditions.  
-- Ensures fair resource allocation among multiple TCP connections.  
 
 ---
 ### **TCP Congestion Avoidance (Simplified)**
