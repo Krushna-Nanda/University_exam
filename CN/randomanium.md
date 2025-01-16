@@ -52,3 +52,58 @@ In congestion avoidance:
 - After the threshold: Window grows **slowly** (linearly, one packet at a time per RTT).
 
 This way, the sender avoids sending too much data too quickly, preventing packet loss and keeping the network running smoothly!
+
+
+### **Fast Retransmit Explanation**
+In TCP, the **Fast Retransmit** mechanism is used to detect and recover from packet loss **quickly**, without waiting for a timeout. It works by relying on **duplicate acknowledgments (ACKs)** sent by the receiver when it receives out-of-order packets.
+
+---
+
+### **Key Idea**
+- If the sender receives **three duplicate ACKs**, it assumes that a packet has been lost and retransmits it **immediately**, instead of waiting for a timeout (which takes longer).
+
+---
+
+### **Example**
+Let’s walk through an example step-by-step:
+
+#### **Setup:**
+- The sender wants to send 5 packets: **P1, P2, P3, P4, P5**.
+- The receiver acknowledges packets in order.
+
+#### **Normal Case (No Packet Loss):**
+1. Sender sends **P1, P2, P3, P4, P5**.
+2. Receiver sends ACKs for each packet in order: **ACK1, ACK2, ACK3, ACK4, ACK5**.
+3. Everything works perfectly.
+
+---
+
+#### **With Packet Loss (Fast Retransmit Scenario):**
+1. **Sender sends:** P1, P2, P3, P4, P5.
+2. **Packet P2 is lost** in the network.
+3. Receiver receives **P1**, but then **P3, P4, P5** arrive **out of order** because **P2 is missing**.
+4. Receiver sends **duplicate ACKs** for **P1** because it is still waiting for P2:
+   - **ACK1** (normal acknowledgment for P1).
+   - **Duplicate ACK1** (after receiving P3, because P2 is missing).
+   - **Duplicate ACK1** (after receiving P4, still waiting for P2).
+   - **Duplicate ACK1** (after receiving P5, still waiting for P2).
+
+5. **Sender receives 3 duplicate ACKs (ACK1) for P2**:
+   - Sender assumes **P2 is lost** (based on the rule of 3 duplicate ACKs).
+   - Sender immediately retransmits **P2** without waiting for a timeout.
+
+6. **Receiver receives the retransmitted P2**:
+   - Now, the receiver sends **ACK5** (indicating it has received all packets in order up to P5).
+
+---
+
+### **Why Fast Retransmit is Useful**
+- **Without Fast Retransmit:** The sender would wait for a **timeout** to detect packet loss, which could take a long time and delay the flow of data.
+- **With Fast Retransmit:** The sender quickly detects packet loss after 3 duplicate ACKs and retransmits the lost packet, reducing delays.
+
+---
+
+### **Summary**
+1. **Duplicate ACKs** are a signal of packet loss.
+2. **Three duplicate ACKs** trigger **Fast Retransmit**, which resends the lost packet immediately.
+3. This reduces waiting time compared to relying solely on timeouts.
