@@ -39,8 +39,74 @@ k) Show the detailed steps to convert given infix to postfix: p+q*r+(s*t+u)*v
 
 **Q5.** Differentiate between structure and union, with an appropriate example that demonstrates the storage of the data members. You are required to rank the students of a classroom based on their marks in a particular subject. Define a student structure containing the members ID, Name, Marks, and Rank. Provide user input facility for 10 students' data (ID, Name, Marks). Give the rank values as per the student ranking in the class. Define functions to print the data as a table. (16 marks)
 
+
+
+
+
+# 2023
+
+Here are the Part III questions extracted from the image you provided:
+
+**Part-III: Only Long Answer Type Questions (Answer Any Two out of Four)**
+
+*   **Q3.** Explain the syntax of user-defined functions with a suitable example. Explain the different types of functions based on parameters. Write a C function to arrange the elements of an input array in ascending order. (16 marks)
+
+*   **Q4.** Discuss the various operators used in C programming with suitable examples. Illustrate the declaration and initialization of one-dimensional and two-dimensional arrays. Write a C program to calculate the sum of the top 3 elements of an input two-dimensional array. (16 marks)
+
+*   **Q5.** What is a structure? Explain the components of a structure. Distinguish between structure and union with suitable examples. Define a structure called `cricket` that will describe the following information:
+    *   player name
+    *   team name
+    *   batting average
+
+    Using `cricket`, declare an array `player` with 50 elements and write a program to read the information about all 50 players and print a team-wise list containing names of players with their batting average. (16 marks)
+
+*   **Q6.** What is postfix notation? Explain with an example. Write the algorithm for converting from infix to postfix. Show the detailed steps to convert the given infix to postfix: `p + q * r + (s * t + u) * v` (16 marks)
+
+
 **Q6.** Compare stack and queue data structure. Convert the following infix expression to its equivalent postfix expression: (A + B) / ((D - E) * F). Evaluate the following Postfix expression: 12, 7, 3, 2, 1, 5, +, +, *.
 
 --- 
+
+# 2 mark 2023
+
+Here are the full questions sequentially:
+
+---
+
+**Q2. Only Focused-Short Answer Type Questions (Answer Any Eight out of Twelve) (6 x 8)**
+
+a) Define constant. List the different types of C constants.
+
+b) An electricity board charges the following rates for the use of electricity: for the first 150 units Rs 1 per unit; for the next 100 units Rs 2 per unit; beyond 250 units Rs 3 per unit. All users are charged a minimum of Rs. 75 as meter charge. If the total amount is more than Rs 300, then an additional surcharge of 12.5% of the total amount is charged. Write a program to read the number of units consumed and print out the charges. Use single-line comments to denote the charge ranges.
+
+c) Distinguish between entry-controlled loop and exit-controlled loop. Write a program to find the sum of all prime numbers from 1 to n (taking n as user input).
+
+d) What is recursion in C functions? Define a recursive function that takes input as number of terms 'n' and returns the nth Fibonacci term.
+
+e) Write a program to print the values of sin(x) in the interval 0 to 180 degrees in steps of 15 degrees. x is in degrees. Do not use any library functions. The accuracy of sin(x) must not be less than 0.00001.
+
+f) Write the syntax of different branching statements and explain their working with examples. Write a C program to print all the leap years between 1 to 2000.
+
+g) Write a C program to multiply two matrices of dimension n*n and store the result in another matrix.
+
+h) Write a program in C to reverse a string by using a pointer.
+
+i) Write a program in C to read a text file named input.txt consisting of meaningful sentences (at least 1000 words). Count the total number of words and display the most frequently occurring word along with its count.
+
+j) How do you push and pop elements in a stack? Show the content of an initially empty stack after performing each of the following operations: push(10), push(20), push(30), pop, push(40), pop, pop, push(30).
+
+k) Why do we use asymptotic notations in the study of algorithms? Describe commonly used asymptotic notation and give their significance.
+
+l) What are the queues? Write down the algorithm for inserting and deleting elements from a circular queue implemented using arrays.
+
+---
+
+**Part-III: Only Long Answer Type Questions (Answer Any Two out of Four)**
+
+**Q3.** Explain the syntax of user-defined functions with a suitable example. Explain the different types of functions based on parameters. Write a C function to arrange the elements of an input array in ascending order. (16 marks)
+
+--- 
+
+Let me know if you'd like to discuss any of these questions in more detail!
 
 Let me know if you need help with any specific questions!
