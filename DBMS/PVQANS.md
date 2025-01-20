@@ -73,3 +73,73 @@
 ### **Conclusion**
 - **2PL Protocol** helps ensure proper synchronization in concurrent transactions.
 - Variations like Strict and Rigorous 2PL improve reliability, while Conservative 2PL eliminates deadlocks.
+
+  # --------------------------------------------------------
+
+  ### **Q6) Short Notes on Two Topics**
+
+---
+
+### **i. Cursor vs. Trigger**
+
+#### **Cursor**:
+- **Definition**: A database object that allows traversal over rows in a result set, row by row.
+- **Usage**:
+  - Used to **process individual rows** of a query.
+  - Can fetch data **one row at a time**.
+- **Types**:
+  - **Implicit Cursor**: Automatically managed by DBMS for single-row queries.
+  - **Explicit Cursor**: Manually controlled for multi-row queries.
+- **Example**: Looping through rows to update or process each row.
+  
+#### **Trigger**:
+- **Definition**: A set of SQL statements that automatically execute in response to certain events (INSERT, UPDATE, DELETE) on a table.
+- **Usage**:
+  - Automatically triggered by changes in the database.
+  - Used for **data validation**, **audit logging**, or **enforcing business rules**.
+- **Example**: Automatically updating a "last_modified" column when data changes.
+
+---
+
+### **ii. Query Optimization**
+
+#### **Definition**: The process of improving query performance by minimizing resource usage (CPU, memory, I/O).
+  
+#### **Techniques**:
+- **Using Indexes**: Speed up searches by reducing the number of rows to scan.
+- **Query Refactoring**: Rewriting the query for better efficiency (e.g., using joins instead of subqueries).
+- **Join Ordering**: Rearranging the order of joins to minimize computation.
+- **Using Efficient Aggregations**: Avoiding unnecessary groupings or calculations.
+
+#### **Goal**: Achieve faster query execution and reduced resource usage.
+
+---
+
+### **iii. Data Warehouse**
+
+#### **Definition**: A centralized repository for storing large volumes of historical data from various sources for analysis and reporting.
+
+#### **Features**:
+- **Data Integration**: Combines data from multiple sources.
+- **Time-Variant**: Stores data over long periods for trend analysis.
+- **Subject-Oriented**: Focuses on key business areas (e.g., sales, finance).
+  
+#### **Purpose**: Supports **decision-making** through data analysis and business intelligence tools.
+
+---
+
+### **iv. Log-based Database Recovery**
+
+#### **Definition**: A method of recovering a database to a consistent state after a failure by using a **transaction log**.
+
+#### **How it Works**:
+- **Transaction Log**: A record of all database changes (INSERT, UPDATE, DELETE).
+- **Recovery Process**:
+  - **Undo**: Rollback uncommitted transactions.
+  - **Redo**: Apply committed transactions that were not yet written to disk.
+  
+#### **Goal**: Ensure database consistency and durability after a crash.
+
+---
+
+These notes are simplified for easy memorization, focusing on definitions, key points, and examples.
