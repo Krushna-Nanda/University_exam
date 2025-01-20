@@ -202,3 +202,169 @@ Cardinality defines the number of occurrences of one entity that can be associat
 ---
 
 Let me know if you'd like examples for any specific part or want to dive into **Conceptual Design with ER diagrams**!
+
+# integrity constarint
+
+### **Integrity Constraints in a Database**
+
+Integrity constraints are rules that ensure the accuracy and consistency of data in a relational database. They enforce logical rules to maintain data integrity and prevent invalid data from being stored in the database.
+
+Here are the major types of integrity constraints:
+
+---
+
+### **1. Domain Integrity**
+- **Definition**: Ensures that data in a column adheres to the defined data type, format, and range of values.
+- **Purpose**: Prevents invalid data from being entered into a column.
+- **Examples**:
+  - Data types (`INT`, `VARCHAR`, `DATE`, etc.).
+  - Constraints like `NOT NULL`, `DEFAULT`, and `CHECK`.
+
+**Example:**
+```sql
+CREATE TABLE Students (
+    StudentID INT NOT NULL,
+    Name VARCHAR(100) NOT NULL,
+    Age INT CHECK (Age >= 18)
+);
+```
+- `NOT NULL`: Ensures the column cannot have NULL values.
+- `CHECK`: Ensures the `Age` is 18 or above.
+
+---
+
+### **2. Entity Integrity**
+- **Definition**: Ensures that each row in a table is uniquely identifiable.
+- **Purpose**: Prevents duplicate rows and ensures no `NULL` values in primary key columns.
+- **Enforced by**: The **Primary Key** constraint.
+
+**Example:**
+```sql
+CREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY,
+    Name VARCHAR(100)
+);
+```
+- The `PRIMARY KEY` ensures each `EmployeeID` is unique and non-NULL.
+
+---
+
+### **3. Referential Integrity**
+- **Definition**: Ensures that a foreign key value in a referencing table matches a primary key value in the referenced table, or is `NULL`.
+- **Purpose**: Maintains the relationships between tables and prevents orphaned rows.
+- **Enforced by**: The **Foreign Key** constraint, with options like `ON DELETE CASCADE` or `ON UPDATE SET NULL`.
+
+**Example:**
+```sql
+CREATE TABLE Customers (
+    CustomerID INT PRIMARY KEY,
+    Name VARCHAR(100)
+);
+
+CREATE TABLE Orders (
+    OrderID INT PRIMARY KEY,
+    CustomerID INT,
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID) ON DELETE CASCADE
+);
+```
+- If a customer is deleted, all their orders will also be deleted.
+
+---
+
+### **4. Unique Integrity**
+- **Definition**: Ensures that all the values in a column (or combination of columns) are unique across rows.
+- **Purpose**: Prevents duplicate values in columns that are not primary keys.
+- **Enforced by**: The **Unique** constraint.
+
+**Example:**
+```sql
+CREATE TABLE Users (
+    UserID INT PRIMARY KEY,
+    Email VARCHAR(100) UNIQUE
+);
+```
+- `Email` must be unique across all rows.
+
+---
+
+### **5. Key Integrity**
+- **Definition**: Ensures that a primary key or unique key uniquely identifies a row.
+- **Purpose**: Avoids duplicate rows and ensures efficient querying.
+- **Enforced by**: Primary keys, unique keys, and candidate keys.
+
+---
+
+### **6. Check Constraint**
+- **Definition**: Ensures that column values satisfy a specific logical condition.
+- **Purpose**: Enforces additional business rules at the column level.
+- **Examples**:
+  - Restricting a column's range of values.
+  - Ensuring data adheres to a specific pattern.
+
+**Example:**
+```sql
+CREATE TABLE Products (
+    ProductID INT PRIMARY KEY,
+    Price DECIMAL(10, 2) CHECK (Price > 0),
+    Stock INT CHECK (Stock >= 0)
+);
+```
+- Ensures that `Price` is positive and `Stock` is non-negative.
+
+---
+
+### **7. Default Constraint**
+- **Definition**: Assigns a default value to a column if no value is provided.
+- **Purpose**: Simplifies data entry by automatically filling a column with a predefined value.
+
+**Example:**
+```sql
+CREATE TABLE Accounts (
+    AccountID INT PRIMARY KEY,
+    AccountStatus VARCHAR(20) DEFAULT 'Active'
+);
+```
+- If no value is provided for `AccountStatus`, it will default to `'Active'`.
+
+---
+
+### **8. NULL and NOT NULL Constraints**
+- **Definition**:
+  - `NULL`: Allows a column to store `NULL` values.
+  - `NOT NULL`: Ensures a column cannot have `NULL` values.
+- **Purpose**: Ensures mandatory fields are always filled.
+
+**Example:**
+```sql
+CREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    Department VARCHAR(50) NULL
+);
+```
+- `Name` must always have a value, but `Department` can be `NULL`.
+
+---
+
+### **Summary Table**
+
+| **Constraint**         | **Purpose**                                                      | **Example**                                  |
+|-------------------------|------------------------------------------------------------------|----------------------------------------------|
+| **Domain Integrity**    | Ensures valid data types, ranges, and formats.                 | `CHECK`, `NOT NULL`, `DEFAULT`               |
+| **Entity Integrity**    | Ensures unique identification of rows.                         | `PRIMARY KEY`                                |
+| **Referential Integrity** | Maintains relationships between tables.                      | `FOREIGN KEY`                                |
+| **Unique Integrity**    | Ensures unique values in a column.                             | `UNIQUE`                                     |
+| **Key Integrity**       | Ensures proper use of keys for identification.                | `PRIMARY KEY`, `CANDIDATE KEY`               |
+| **Check Constraint**    | Validates logical conditions for column values.               | `CHECK`                                      |
+| **Default Constraint**  | Automatically assigns a value if none is provided.            | `DEFAULT`                                    |
+| **NULL / NOT NULL**     | Allows or restricts `NULL` values in a column.                | `NOT NULL`                                   |
+
+---
+
+### **Most Important for Exams**
+1. **Primary Key (Entity Integrity)**
+2. **Foreign Key with ON DELETE CASCADE (Referential Integrity)**
+3. **NOT NULL and CHECK (Domain Integrity)**
+4. **UNIQUE Constraint**
+
+Would you like further explanation or examples on any specific type?
