@@ -143,3 +143,23 @@
 ---
 
 These notes are simplified for easy memorization, focusing on definitions, key points, and examples.
+
+# ==========================
+
+### **Database Users vs. Database Administrators (DBAs)**
+
+#### **Database Users**:
+- **End Users**: Interact with the database to perform tasks like querying or entering data (e.g., casual users, power users).
+- **Application Programmers**: Develop software applications that interact with the database.
+- **Database Designers**: Design the structure of the database, creating tables, relationships, and keys.
+- **Data Analysts**: Use the database to extract and analyze data, generating reports for decision-making.
+
+#### **Database Administrators (DBAs)**:
+- **Responsibilities**:
+  - **Design**: Create the database schema and structure.
+  - **Security**: Manage user access, authentication, and encryption.
+  - **Performance**: Monitor and optimize database performance.
+  - **Backup & Recovery**: Ensure data is backed up regularly and recoverable.
+  - **Maintenance**: Handle updates, patches, and troubleshoot issues.
+
+In short, DBAs manage and maintain the database, while users interact with it to perform specific tasks.
