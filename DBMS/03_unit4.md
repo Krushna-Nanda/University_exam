@@ -185,3 +185,73 @@ Got it! Here's a simple representation of the `students` table in a tabular form
    - **Result**: 92 (The highest grade is 92, from Alice Green)
 
 This table structure allows you to easily visualize how the aggregate functions operate on the data.
+
+# =            ====
+
+Here’s how you can write queries in **Relational Algebra** using the **Selection (σ)** and **Projection (π)** operators. I’ll explain both operators and provide examples.
+
+---
+
+### **Operators Overview**:
+1. **Selection (σ)**:
+   - Used to retrieve rows (tuples) that satisfy a given condition.
+   - Syntax:  
+     **σ<condition>(Relation)**  
+     Example: `σMarks > 50(Student)` retrieves all students with marks greater than 50.
+
+2. **Projection (π)**:
+   - Used to retrieve specific columns (attributes) from a table.
+   - Syntax:  
+     **π<attribute_list>(Relation)**  
+     Example: `πRoll_No, Name(Student)` retrieves only the `Roll_No` and `Name` columns from the `Student` table.
+
+---
+
+### **Example Queries Using Selection and Projection**:
+
+#### Example 1: Retrieve students who scored more than 75 marks.
+```plaintext
+σMarks > 75(Student)
+```
+- Retrieves all rows from the `Student` table where `Marks` > 75.
+
+#### Example 2: Retrieve only the `Roll_No` and `Name` of students who scored more than 75 marks.
+```plaintext
+πRoll_No, Name(σMarks > 75(Student))
+```
+- First, **select** rows where `Marks > 75`, then **project** only the `Roll_No` and `Name` columns.
+
+#### Example 3: Retrieve all unique subjects taught by teachers.
+```plaintext
+πSubject(Teacher)
+```
+- Projects only the `Subject` column from the `Teacher` table.
+
+#### Example 4: Retrieve names of students enrolled in "Mathematics".
+```plaintext
+πName(σSubject = 'Mathematics'(Student_Subject))
+```
+- Selects rows where the `Subject` is "Mathematics" from the `Student_Subject` table, then projects only the `Name` column.
+
+---
+
+### How to Combine Selection and Projection:
+
+You can chain multiple **selection** and **projection** operations to build more complex queries. For instance:
+
+#### Example 5: Retrieve the names and marks of students who scored more than 90 in "Science".
+```plaintext
+πName, Marks(σMarks > 90 ∧ Subject = 'Science'(Student_Subject))
+```
+- First, apply a **selection** condition for `Marks > 90` and `Subject = 'Science'`.
+- Then, **project** the `Name` and `Marks` columns.
+
+---
+
+### Notes:
+- **σ** (Selection) filters rows based on conditions.
+- **π** (Projection) filters columns (attributes) to show specific ones.
+- You can combine them to refine the query further.
+- Parentheses are used to define the order of operations.
+
+Let me know if you want a specific query example written in relational algebra!
