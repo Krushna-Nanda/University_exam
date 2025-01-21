@@ -137,3 +137,8 @@ Not exactly. Here's what "locking" means in the context of databases:
 In simpler terms:
 - **Locking** means securing the data so others can’t touch it temporarily.
 - **Releasing the lock** means unlocking the data so others can use it again.
+
+
+So, serializability is like saying, "Hey, can I rearrange these transactions to make it look like they happened one after the other, without breaking anything?"
+
+On the other hand, conflict serializability is a bit more specific. It says, "I can rearrange these transactions by only swapping operations that directly conflict (like two transactions trying to modify the same data), and if I can do that, then it’s as good as a serial execution."
