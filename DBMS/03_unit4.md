@@ -137,3 +137,51 @@ TCL is used to manage transactions within the database, ensuring that changes ar
 | **TCL**                | Manages transactions within the database        | `COMMIT`, `ROLLBACK`, `SAVEPOINT`              | `COMMIT;` |
 
 Each type of SQL language serves a specific role in interacting with the database, from defining structures to manipulating and querying data, controlling access, and managing transactions.
+
+
+# aggeraget 
+
+Aggregate Functions:
+These are functions in SQL that operate on a set of rows (or values) and return a single result. They perform calculations or operations on multiple rows to return a summary value.
+Common aggregate functions include:
+COUNT(): Returns the number of rows that match a specified condition.
+SUM(): Returns the total sum of a numeric column.
+AVG(): Returns the average value of a numeric column.
+MIN(): Returns the minimum value from a set of rows.
+MAX(): Returns the maximum value from a set of rows.
+
+Got it! Here's a simple representation of the `students` table in a tabular format with some sample data, which you can use to apply the aggregate functions:
+
+### **students** Table
+
+| id  | name        | age | grade |
+|-----|-------------|-----|-------|
+| 1   | John Doe    | 20  | 85    |
+| 2   | Jane Smith  | 22  | 90    |
+| 3   | Sam Brown   | 21  | 75    |
+| 4   | Alice Green | 23  | 92    |
+| 5   | Bob White   | 20  | 88    |
+
+### Now, let's apply the aggregate functions:
+
+1. **COUNT()** – Count the number of rows in the table:
+   - Example: `SELECT COUNT(*) FROM students;`
+   - **Result**: 5 (There are 5 students)
+
+2. **SUM()** – Sum the `grade` column:
+   - Example: `SELECT SUM(grade) FROM students;`
+   - **Result**: 430 (85 + 90 + 75 + 92 + 88)
+
+3. **AVG()** – Find the average grade:
+   - Example: `SELECT AVG(grade) FROM students;`
+   - **Result**: 86 (430 / 5)
+
+4. **MIN()** – Find the minimum grade:
+   - Example: `SELECT MIN(grade) FROM students;`
+   - **Result**: 75 (The lowest grade is 75, from Sam Brown)
+
+5. **MAX()** – Find the maximum grade:
+   - Example: `SELECT MAX(grade) FROM students;`
+   - **Result**: 92 (The highest grade is 92, from Alice Green)
+
+This table structure allows you to easily visualize how the aggregate functions operate on the data.
