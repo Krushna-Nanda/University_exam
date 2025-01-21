@@ -22,8 +22,10 @@
 ### **Variations of 2PL Protocol**
 
 #### 1. **Basic 2PL**:
-   - Locks follow the two phases (growing and shrinking).
-   - **Issue**: May cause cascading rollbacks (one failure affects others).
+  How it works: In Basic 2PL, a transaction follows two phases:
+Growing phase: The transaction can acquire locks but can't release them.
+Shrinking phase: After a transaction starts releasing locks, it can't acquire new ones.
+Issue: It may cause cascading rollbacks. If one transaction fails, all transactions that depend on its results (and haven't committed yet) must also be rolled back.
 
 #### 2. **Strict 2PL**:
    - Exclusive locks are held until the transaction **commits or aborts**.
