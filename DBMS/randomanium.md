@@ -105,3 +105,35 @@ If any step fails (like not enough balance), the whole transaction is canceled t
 In 2PL, locks are applied and released in two phases:
 1. **Growing Phase:** Locks are acquired but not released.
 2. **Shrinking Phase:** Locks are released, but no new locks are acquired.
+
+
+### **Conflict Serializability (Simple Explanation)**  
+Conflict serializability ensures that when multiple transactions run at the same time, their results are the same as if the transactions ran one after the other (in a serial order). This prevents data conflicts or errors.
+
+---
+
+### **Growing and Shrinking Phases with Example**  
+
+1. **Growing Phase:**  
+   - A transaction can take (acquire) locks on data but cannot release any locks yet.  
+   - **Example:** Imagine you are withdrawing money from an ATM:
+     - Step 1: Lock your account to check your balance (acquire a lock).  
+     - Step 2: Deduct money (acquire another lock).  
+     - During this phase, you keep adding locks but don’t release them.
+
+2. **Shrinking Phase:**  
+   - Once the transaction starts releasing locks, it cannot take any new locks.  
+   - **Example:** After the ATM finishes updating your balance:
+     - Step 3: It releases the lock on your account.  
+     - No more locks can be taken after this point.  
+
+This two-phase process ensures no conflicts happen when multiple transactions access the same data.
+
+Not exactly. Here's what "locking" means in the context of databases:
+
+- **Lock your account:** It means the transaction **locks** the data (like your account balance) so no one else can change or access it while the transaction is working. For example, when you withdraw money, the database locks your account to ensure the balance doesn't change until the withdrawal is complete.  
+- **Release the lock:** After the transaction is finished (money is withdrawn and balance is updated), the **lock is removed**. Now, other transactions can access the account.
+
+In simpler terms:
+- **Locking** means securing the data so others can’t touch it temporarily.
+- **Releasing the lock** means unlocking the data so others can use it again.
