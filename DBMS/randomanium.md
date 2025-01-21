@@ -73,3 +73,35 @@ I hope this explanation is clear! Let me know if you have any more questions.
 
 
 In short, DBAs manage and maintain the database, while users interact with it to perform specific tasks.
+
+
+A transaction is a small task in a database that makes changes or retrieves information. It’s like a step-by-step process to complete one job, ensuring the data stays correct.
+
+### Example:
+Imagine you are transferring ₹500 from your bank account to a friend's account. The transaction includes these steps:
+1. Check your balance.
+2. Deduct ₹500 from your account.
+3. Add ₹500 to your friend's account.
+
+If any step fails (like not enough balance), the whole transaction is canceled to keep the data correct.
+
+### **Examples of Locks:**
+
+1. **Shared Lock (S):**
+   - Example: Two users, A and B, want to check the balance of the same bank account at the same time. A shared lock allows both to read the balance without any conflict.
+   - Purpose: Multiple transactions can read the data but cannot modify it.
+
+2. **Exclusive Lock (X):**
+   - Example: User C wants to transfer money from their account. An exclusive lock ensures no other transaction can read or modify the account balance until the transfer is complete.
+   - Purpose: Only one transaction can modify the data, ensuring no conflicts occur.
+
+---
+
+### **2PL (Two-Phase Locking):**
+2PL falls under **lock-based concurrency control mechanisms**. It uses **both shared and exclusive locks**:
+- Shared locks (S) for read operations.
+- Exclusive locks (X) for write operations. 
+
+In 2PL, locks are applied and released in two phases:
+1. **Growing Phase:** Locks are acquired but not released.
+2. **Shrinking Phase:** Locks are released, but no new locks are acquired.
