@@ -139,4 +139,3 @@ l) Write short notes on cluster computing.
 
 ---
 
-# 2022 COA QUESTION PAPER
