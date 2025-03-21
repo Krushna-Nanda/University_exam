@@ -18,14 +18,12 @@ Thus, this grammar ensures that the number of 'a's is always a multiple of 3. �
 
 # lq no 4
 
-Here are the correct **Regular Expressions (R.E.)** for each condition:  
+## Regular Expressions
 
----
-
-### **(i) A string that starts with 'a' and ends with 'b'.**  
-\[
-\mathbf{a (a | b)^* b}
-\]  
+### (i) A string that starts with 'a' and ends with 'b'.  
+```regex
+a (a | b)* b
+```
 ✅ **Explanation:**  
 - `a` → Ensures the string starts with 'a'.  
 - `(a | b)*` → Allows any combination of 'a' and 'b' in between (including empty).  
@@ -36,10 +34,10 @@ Here are the correct **Regular Expressions (R.E.)** for each condition:
 
 ---
 
-### **(ii) A string that starts with 'b' and ends with 'a'.**  
-\[
-\mathbf{b (a | b)^* a}
-\]  
+### (ii) A string that starts with 'b' and ends with 'a'.  
+```regex
+b (a | b)* a
+```
 ✅ **Explanation:**  
 - `b` → Ensures the string starts with 'b'.  
 - `(a | b)*` → Any combination of 'a' and 'b' in between.  
@@ -50,10 +48,10 @@ Here are the correct **Regular Expressions (R.E.)** for each condition:
 
 ---
 
-### **(iii) A string that starts with 'a' and ends with 'bb'.**  
-\[
-\mathbf{a (a | b)^* bb}
-\]  
+### (iii) A string that starts with 'a' and ends with 'bb'.  
+```regex
+a (a | b)* bb
+```
 ✅ **Explanation:**  
 - `a` → Starts with 'a'.  
 - `(a | b)*` → Any combination of 'a' and 'b' in between.  
@@ -64,10 +62,10 @@ Here are the correct **Regular Expressions (R.E.)** for each condition:
 
 ---
 
-### **(iv) A string that contains at least two 'a's.**  
-\[
-\mathbf{(a | b)^* a (a | b)^* a (a | b)^*}
-\]  
+### (iv) A string that contains at least two 'a's.  
+```regex
+(a | b)* a (a | b)* a (a | b)*
+```
 ✅ **Explanation:**  
 - `(a | b)*` → Allows any combination of 'a' and 'b' before, between, and after the two 'a's.  
 - `a` → Ensures there is **at least one 'a'**.  
@@ -85,4 +83,5 @@ Here are the correct **Regular Expressions (R.E.)** for each condition:
 3️⃣ **Starts with 'a', ends with 'bb'** → `a (a | b)* bb`  
 4️⃣ **Contains at least two 'a's** → `(a | b)* a (a | b)* a (a | b)*`  
 
-✅ These are correct and cover all cases.
+✅ These are correctly formatted and easy to read.
+
