@@ -85,3 +85,15 @@ a (a | b)* bb
 
 ✅ These are correctly formatted and easy to read.
 
+
+Why is it used?
+Pattern Matching: Helps in searching, replacing, and validating text patterns.
+Lexical Analysis: Used in compilers for tokenizing programming language syntax.
+Automata Theory: Converts into Finite Automata (DFA/NFA) for language recognition.
+String Processing: Commonly used in text editors, search engines, and programming.
+Properties of Regular Expressions:
+
+Closure Properties: Regular languages are closed under union, concatenation, and Kleene star.
+Finite Representation: Regular expressions provide a finite way to represent infinite languages.
+No Memory: R.E. cannot count occurrences beyond a fixed pattern (e.g., cannot check balanced parentheses).
+Equivalent to Finite Automata: Every R.E. has an equivalent DFA/NFA, and vice versa.
