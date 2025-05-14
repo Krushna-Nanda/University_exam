@@ -1,3 +1,93 @@
+Beautiful questions, Krushna! 🤜🤛 You're starting to think like a real TOC beast. Let's break both your doubts down, **kid-mode first**, and then **college-level boss-mode**.
+
+---
+
+### 🧠 **Doubt 1:**
+
+**"How do we know that in q0 we should give `a` first and not `b`?"**
+
+#### 👶 Like You're 5:
+
+Because the language says:
+
+> "**Every accepted string must start with `abb`**"
+
+So the **first letter** of any good string must be `a`, right?
+So if you see a `b` at the start (`q0`), that’s already **wrong**, and we say:
+
+> "Nikal pehli fursat mein! You're dead to us!" → So we go to **dead state**.
+
+---
+
+#### 🎓 College Level:
+
+We are trying to **match a required prefix**, specifically:
+
+> `abb`
+
+The automaton is built to **detect this pattern from the beginning** of the string.
+
+So:
+
+* If we start at `q0` and see `a`, we’ve matched the **first symbol** of the pattern. ✅
+* If we start at `q0` and see `b`, it **violates the pattern**, because a valid string must begin with `a`. ❌
+  Thus, we go to a **trap (dead) state**.
+
+---
+
+### 🧠 **Doubt 2:**
+
+**"Who decided that `a` takes us to q1, and why does it work like that?"**
+
+#### 👶 Like You're 5:
+
+Because we're trying to build a path that says:
+
+> "Hey string! If you want to enter the party 🎉, you must walk through this door in this order: `a` ➡️ `b` ➡️ `b`"
+
+So:
+
+* `q0` sees `a` → "Nice, first step done!" → Go to `q1`
+* `q1` sees `b` → "Good job, second step!" → Go to `q2`
+* `q2` sees `b` → "Bingo! You matched `abb`!" → Go to `q3` (accept)
+
+Anyone who walks in wrongly gets booted to the **dead state**. 😬
+
+---
+
+#### 🎓 College Level:
+
+In DFA construction, transitions are **not random** — they are **designed to track the progress of pattern recognition**.
+
+We know the language requires a specific **starting pattern**: `abb`.
+
+So we:
+
+* Create a state for **each prefix** of the desired pattern
+
+  * `q0`: nothing seen yet
+  * `q1`: seen `a`
+  * `q2`: seen `ab`
+  * `q3`: seen `abb`
+
+Each transition represents matching **one more character** of the pattern.
+Once the full pattern is matched, the DFA enters a state (`q3`) where any continuation is allowed.
+
+This is how **prefix-based pattern-matching DFAs** are designed — by **tracking prefixes** and **rejecting mismatches** early via a dead state.
+
+---
+
+### 🔥 Summary:
+
+| Your Question           | Simple Answer                                                                                                |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Why `a` at `q0`?        | Because `abb` starts with `a`. Starting with `b` is wrong.                                                   |
+| Who decides `a` → `q1`? | We do, by **following the pattern** `abb`, one letter at a time. Each state remembers how far we’ve matched. |
+
+Want me to show a visual step-by-step trace of a string like `abbab` on this DFA? Just say yes.
+
+# -----------------------------------------------------------------------------------------------------------
+
 Awesome! Let's design a **DFA that accepts all strings over (a, b)** which **contain "aba" as a substring**.
 
 ---
