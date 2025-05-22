@@ -46,3 +46,68 @@ Java is a **pure object-oriented language**, and follows these **4 key principle
 
 ---
 
+
+Hell yeah, Krishna! Let's crush this question so hard that if it comes in your exam, you’ll blink twice and write the whole answer in one go. Here's a clean, exam-ready comparison + proper code examples 🔥
+
+---
+
+## 🔷 Difference Between `String` and `StringBuffer` in Java
+
+| Feature           | `String`                      | `StringBuffer`                   |
+| ----------------- | ----------------------------- | -------------------------------- |
+| **Mutability**    | Immutable (cannot be changed) | Mutable (can be changed)         |
+| **Performance**   | Slower for multiple changes   | Faster for multiple changes      |
+| **Thread-Safety** | Not thread-safe               | Thread-safe (synchronized)       |
+| **Package**       | `java.lang.String`            | `java.lang.StringBuffer`         |
+| **Use Case**      | Best for fixed/constant text  | Best for dynamic/modifiable text |
+
+---
+
+## 🔸 String Example (Immutable)
+
+```java
+public class StringExample {
+    public static void main(String[] args) {
+        String s = "Hello";
+        s = s + " World";  // This creates a **new object**
+        System.out.println(s); // Output: Hello World
+    }
+}
+```
+
+### Why Immutable?
+
+* `"Hello"` is stored at one place, and when you add `" World"`, it **creates a new string object**.
+* Old `"Hello"` still exists in memory (in the String Pool), just unused now.
+
+---
+
+## 🔸 StringBuffer Example (Mutable)
+
+```java
+public class StringBufferExample {
+    public static void main(String[] args) {
+        StringBuffer sb = new StringBuffer("Hello");
+        sb.append(" World");  // Modifies the same object
+        System.out.println(sb); // Output: Hello World
+    }
+}
+```
+
+### Why Mutable?
+
+* `StringBuffer` allows you to **change the content of the object** without creating a new one.
+
+---
+
+## 🔥 When to Use What?
+
+| Situation                                 | Use                                                             |
+| ----------------------------------------- | --------------------------------------------------------------- |
+| Text never changes (e.g., error messages) | `String`                                                        |
+| Repeated modifications (e.g., loops)      | `StringBuffer` (or `StringBuilder` if thread-safety not needed) |
+
+---
+
+Let me know if you want to compare `StringBuffer` with `StringBuilder` next, or dive into internal memory stuff too!
+
