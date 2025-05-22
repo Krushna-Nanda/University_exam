@@ -167,16 +167,42 @@ class Car {
 * Creates a new object by copying another object’s data.
 
 ```java
-class Car {
-    String brand;
+public class Classes {
+    public static void main(String[] args) {
 
-    Car(String brand) {
-        this.brand = brand;
+        Car obj1 = new Car("Red", "Toyota", 2020);
+        System.out.println("Original Object:");
+        obj1.displayDetails();
+        System.out.println("Copy Constructor Object:");
+        Car obj2 = new Car(obj1);
+        obj2.displayDetails();
+
+        
+    }
+}
+
+class Car{
+    String color;
+    String model;
+    int year;
+
+    Car(String color, String model, int year) {
+        this.color = color;
+        this.model = model;
+        this.year = year;
     }
 
-    // Copy constructor
-    Car(Car c) {
-        this.brand = c.brand;
+    Car(Car copyObj){
+        this.color = copyObj.color;
+        this.model = copyObj.model;
+        this.year = copyObj.year;
+
+    }
+
+    void displayDetails() {
+        System.out.println("Car Model: " + model);
+        System.out.println("Car Color: " + color);
+        System.out.println("Car Year: " + year);
     }
 }
 ```
