@@ -472,3 +472,143 @@ class B extends A {
 
 Let me know if you want me to create **a one-glance note/summary sheet** of this! Or want to test your understanding with some MCQs or code challenges 🔥💪
 
+Alright Krishna, let’s smash this 🔥 — here’s a full breakdown of **Member Access Rules in Inheritance** in Java, with clean explanations and solid examples.
+
+---
+
+## 💡 What are Member Access Rules?
+
+When a **subclass inherits** from a **superclass**, certain rules determine which **fields** and **methods** can be accessed and how.
+
+---
+
+### 🧠 ACCESS MODIFIERS — 4 Types:
+
+| Modifier    | Same Class | Same Package | Subclass (other pkg) | Everywhere |
+| ----------- | ---------- | ------------ | -------------------- | ---------- |
+| `private`   | ✅          | ❌            | ❌                    | ❌          |
+| *(default)* | ✅          | ✅            | ❌                    | ❌          |
+| `protected` | ✅          | ✅            | ✅                    | ❌          |
+| `public`    | ✅          | ✅            | ✅                    | ✅          |
+
+---
+
+### ✅ 1. **Private Members:**
+
+Private members of a superclass are **not inherited** and **cannot be accessed** by the subclass.
+
+```java
+class A {
+    private int x = 10;
+
+    private void show() {
+        System.out.println("Private Show from A");
+    }
+}
+
+class B extends A {
+    void display() {
+        // System.out.println(x); ❌ Not accessible
+        // show(); ❌ Not accessible
+    }
+}
+```
+
+---
+
+### ✅ 2. **Default (no modifier):**
+
+Accessible only **within the same package**.
+
+```java
+class A {
+    int x = 10; // default access
+
+    void show() {
+        System.out.println("Show from A");
+    }
+}
+
+class B extends A {
+    void display() {
+        System.out.println(x); // ✅ OK - same package
+        show(); // ✅ OK
+    }
+}
+```
+
+---
+
+### ✅ 3. **Protected:**
+
+Accessible in **same package** and by **subclasses even in other packages**.
+
+```java
+package pack1;
+public class A {
+    protected int x = 10;
+
+    protected void show() {
+        System.out.println("Protected Show from A");
+    }
+}
+```
+
+```java
+package pack2;
+import pack1.A;
+
+class B extends A {
+    void display() {
+        System.out.println(x);  // ✅ accessible due to inheritance
+        show();                 // ✅ OK
+    }
+}
+```
+
+---
+
+### ✅ 4. **Public:**
+
+Accessible **everywhere**, by everyone.
+
+```java
+class A {
+    public int x = 10;
+
+    public void show() {
+        System.out.println("Public Show from A");
+    }
+}
+
+class B extends A {
+    void display() {
+        System.out.println(x); // ✅ Accessible
+        show();                // ✅ Accessible
+    }
+}
+```
+
+---
+
+### ❗ Important Rules:
+
+* **Private**: not inherited at all.
+* **Default**: accessible only in the **same package**.
+* **Protected**: accessible to subclass (even in different packages).
+* **Public**: accessible **everywhere**.
+
+---
+
+### 🔥 Summary Table
+
+| Modifier    | Inherited? | Accessible in Subclass? | Notes                         |
+| ----------- | ---------- | ----------------------- | ----------------------------- |
+| `private`   | ❌          | ❌                       | Use getters/setters if needed |
+| `default`   | ✅          | ✅ (same pkg only)       | No keyword used               |
+| `protected` | ✅          | ✅                       | Used for inheritance          |
+| `public`    | ✅          | ✅                       | Open to all                   |
+
+---
+
+Let me know if you want me to create **a one-glance note/summary sheet** of this! Or want to test your understanding with some MCQs or code challenges 🔥💪
