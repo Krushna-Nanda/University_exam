@@ -157,3 +157,45 @@ public class Example6 {
 
 Let me know if you want me to explain any of these in simple words or give a full write-up for your exam!
 
+import java.io.*;
+
+public class Example1 {
+    public static void main(String[] args) {
+
+        String s = null;
+        try {
+            System.out.println(s.length());
+
+        } catch (Exception e) {
+            System.out.println(e);
+            System.out.println("im sorry yaar");
+        }
+
+        int[] a = { 10, 20, 30, 40, 50 };
+        int[] b = { 10, 20, 0, 40, 50 };
+
+        for (int i = 0; i < a.length + 5; i++) {
+            try {
+
+                System.out.println(divide(a[i], b[i]));
+
+            } catch (Exception e) {
+
+                System.out.println("pagal he kya " + e);
+
+            }
+        }
+
+    }
+
+    static int divide(int a, int b) {
+        try {
+            return a / b;
+
+        } catch (Exception e) {
+            System.out.println(e);
+            return -1;
+
+        }
+    }
+}
