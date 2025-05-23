@@ -57,3 +57,103 @@ Alright, bro, here’s the **lightning-fast, dependencies-aware order** to smash
 * Finally, multithreading rides on those basics but doesn’t depend on file I/O.
 
 Crush it in this sequence and you’ll never feel lost again. Ready to kick off with **Exception Handling Basics**? 🙌
+
+
+Alright bro, here’s the straight-up exam-ready answer with **3 most common Checked and Unchecked exceptions**, each with simple example code.
+
+---
+
+### 3 Most Common Checked Exceptions with Examples
+
+1. **IOException**
+
+* Happens during input/output failures (like file not found, stream error).
+
+```java
+import java.io.*;
+public class Example1 {
+    public static void main(String[] args) throws IOException {
+        FileReader fr = new FileReader("file.txt"); // Throws IOException if file missing
+    }
+}
+```
+
+2. **FileNotFoundException**
+
+* Happens when a file is not found at the specified path.
+
+```java
+import java.io.*;
+public class Example2 {
+    public static void main(String[] args) {
+        try {
+            FileInputStream fis = new FileInputStream("nofile.txt"); // Throws FileNotFoundException
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found!");
+        }
+    }
+}
+```
+
+3. **ClassNotFoundException**
+
+* Happens when trying to load a class dynamically but class not found.
+
+```java
+public class Example3 {
+    public static void main(String[] args) {
+        try {
+            Class.forName("com.example.UnknownClass"); // Throws ClassNotFoundException
+        } catch (ClassNotFoundException e) {
+            System.out.println("Class not found!");
+        }
+    }
+}
+```
+
+---
+
+### 3 Most Common Unchecked Exceptions with Examples
+
+1. **ArithmeticException**
+
+* Happens when illegal arithmetic operations occur, like divide by zero.
+
+```java
+public class Example4 {
+    public static void main(String[] args) {
+        int x = 10 / 0; // Throws ArithmeticException
+    }
+}
+```
+
+2. **NullPointerException**
+
+* Happens when you use a method or access a variable on a null object reference.
+
+```java
+public class Example5 {
+    public static void main(String[] args) {
+        String s = null;
+        System.out.println(s.length()); // Throws NullPointerException
+    }
+}
+```
+
+3. **ArrayIndexOutOfBoundsException**
+
+* Happens when you access an array element outside its bounds.
+
+```java
+public class Example6 {
+    public static void main(String[] args) {
+        int[] arr = new int[3];
+        int x = arr[5]; // Throws ArrayIndexOutOfBoundsException
+    }
+}
+```
+
+---
+
+Let me know if you want me to explain any of these in simple words or give a full write-up for your exam!
+
