@@ -612,3 +612,166 @@ class B extends A {
 ---
 
 Let me know if you want me to create **a one-glance note/summary sheet** of this! Or want to test your understanding with some MCQs or code challenges 🔥💪
+
+Chalo Krishna bhai, **"this"** aur **"super"** keywords ka full clear theory de deta hoon — 2 marks se leke viva tak sambhal lega ye explanation 😎
+
+---
+
+## ✅ `this` keyword in Java
+
+### 👉 Purpose:
+
+Used to **refer to the current object** of the class.
+
+### 🔥 Common Uses:
+
+1. **Differentiate instance variable from local variable**
+
+   ```java
+   class Example {
+       int x;
+       Example(int x) {
+           this.x = x;  // this.x = instance variable, x = parameter
+       }
+   }
+   ```
+
+2. **Call another constructor from the same class**
+
+   ```java
+   class Example {
+       Example() {
+           this(10); // calls the constructor with int parameter
+       }
+       Example(int x) {
+           System.out.println("x: " + x);
+       }
+   }
+   ```
+
+3. **Pass current object as argument**
+
+   ```java
+   class A {
+       void display(A obj) {
+           System.out.println("Object passed");
+       }
+       void show() {
+           display(this); // current object is passed
+       }
+   }
+   ```
+
+---
+
+4. **return current object as argument**
+
+```java
+public class Thiss {
+
+    public static void main(String[] args) {
+
+        A obj = new A();
+        // obj.show();
+        obj.display();
+        
+    }
+    
+
+}
+
+class A{
+    int a = 10;
+    String name = "krushna";
+
+    void display(){
+
+        A insideonj = objectReturn();
+
+        System.out.println("a = " + insideonj.a);
+        System.out.println("namenandu = " + insideonj.name);
+       
+    }
+
+    A objectReturn(){
+
+        return this;
+
+    }
+
+ 
+}
+```
+
+## ✅ `super` keyword in Java
+
+### 👉 Purpose:
+
+Used to **refer to the immediate parent class** object.
+
+### 🔥 Common Uses:
+
+1. **Access parent class variable or method** (when overridden)
+
+   ```java
+   class Parent {
+       int a = 10;
+   }
+   class Child extends Parent {
+       int a = 20;
+       void show() {
+           System.out.println(super.a); // prints 10 (parent's variable)
+       }
+   }
+   ```
+
+2. **Call parent class constructor**
+
+   ```java
+   class Parent {
+       Parent() {
+           System.out.println("Parent constructor");
+       }
+   }
+   class Child extends Parent {
+       Child() {
+           super(); // calls Parent constructor
+           System.out.println("Child constructor");
+       }
+   }
+   ```
+
+3. **Call overridden method of parent class**
+
+   ```java
+   class Parent {
+       void show() {
+           System.out.println("Parent show");
+       }
+   }
+   class Child extends Parent {
+       void show() {
+           super.show(); // calls parent version of show()
+           System.out.println("Child show");
+       }
+   }
+   ```
+
+---
+
+## 🧠 Summary Table:
+
+| Keyword | Refers To     | Use Case                                  |
+| ------- | ------------- | ----------------------------------------- |
+| `this`  | Current class | Disambiguation, constructor chaining      |
+| `super` | Parent class  | Access parent constructor/overridden vars |
+
+---
+
+Bhai simple line yaad rakh:
+
+> `"this" refers to the current object, "super" refers to the parent object.`
+
+Bole toh "this" apne baap ke saamne khud khada hai, aur "super" us baap ko respect se bula raha hai 😆
+
+Agla concept bata, full clarity ke saath karaata hoon!
