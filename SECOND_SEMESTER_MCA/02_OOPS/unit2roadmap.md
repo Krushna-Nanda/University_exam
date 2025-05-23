@@ -917,4 +917,106 @@ class Car implements CarName, Carcolour {
 
 }
 
+Let's break down the **I/O Streams in Java** in a super clear and easy way so you can revise it for your exam without getting confused. 💡
+
+---
+
+## 🔶 **Concepts of Streams in Java**
+
+* A **Stream** is a flow of data (like a pipeline).
+* There are two types of data in Java:
+
+  * **Byte data** (e.g., image, video, etc.)
+  * **Character data** (e.g., text)
+
+Java handles **input** (reading) and **output** (writing) using **Streams**.
+
+---
+
+## 🔶 **Types of Streams**
+
+Java has **2 main categories** of streams:
+
+### 1. **Byte Streams** (`InputStream`, `OutputStream`)
+
+* Used for reading/writing **binary data**.
+* Reads 1 byte at a time.
+
+**Important Classes:**
+
+* `FileInputStream` – to read from a file (byte by byte)
+* `FileOutputStream` – to write to a file (byte by byte)
+
+```java
+FileInputStream fis = new FileInputStream("file.txt");
+int i;
+while((i = fis.read()) != -1) {
+    System.out.print((char)i);
+}
+fis.close();
+```
+
+---
+
+### 2. **Character Streams** (`Reader`, `Writer`)
+
+* Used for **text data** (Unicode characters)
+* Reads 2 bytes at a time (for characters)
+
+**Important Classes:**
+
+* `FileReader` – to read characters from file
+* `FileWriter` – to write characters to file
+
+```java
+FileReader fr = new FileReader("file.txt");
+int i;
+while((i = fr.read()) != -1) {
+    System.out.print((char)i);
+}
+fr.close();
+```
+
+---
+
+## 🔷 **Reading Console Input**
+
+You can read input from the keyboard (console) in a few ways. One classic way is using `BufferedReader` with `InputStreamReader`.
+
+```java
+import java.io.*;
+
+public class ReadConsole {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.print("Enter your name: ");
+        String name = br.readLine();
+        System.out.println("Hello, " + name);
+    }
+}
+```
+
+---
+
+## 🔷 **Writing Console Output**
+
+Just use `System.out.print()` or `System.out.println()` – they're wrappers around `PrintStream`.
+
+```java
+System.out.println("This is console output.");
+```
+
+---
+
+## 🔁 Summary Table
+
+| **Stream Type**  | **Base Class**           | **Data Type**  | **Example Classes**               |
+| ---------------- | ------------------------ | -------------- | --------------------------------- |
+| Byte Stream      | InputStream/OutputStream | Binary         | FileInputStream, FileOutputStream |
+| Character Stream | Reader/Writer            | Text (Unicode) | FileReader, FileWriter            |
+
+---
+
+Let me know if you want quick revision notes, or practice questions on this too!
+
 ```
