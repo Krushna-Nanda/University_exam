@@ -292,3 +292,31 @@ public static void main(String[] args) {
 
 If you want, I can show you a simple code chain example where exception goes up the call stack and finally gets handled. Wanna see?
 
+# custom exception 
+
+// Step 1: Create your own exception class
+class MyException extends Exception {
+    public MyException(String message) {
+        super(message);  // Pass message to Exception class
+    }
+}
+
+public class Test {
+    // Step 2: Method that throws your custom exception
+    static void checkNumber(int num) throws MyException {
+        if (num < 0) {
+            throw new MyException("Number cannot be negative!");
+        } else {
+            System.out.println("Number is " + num);
+        }
+    }
+
+    public static void main(String[] args) {
+        try {
+            checkNumber(5);    // Works fine
+            checkNumber(-1);   // Throws MyException
+        } catch (MyException e) {
+            System.out.println("Caught Exception: " + e.getMessage());
+        }
+    }
+}
