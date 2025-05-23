@@ -199,3 +199,96 @@ public class Example1 {
         }
     }
 }
+
+Nice question, Krishna! So you asked:
+
+> **If `throws` sends an exception, then who is going to handle it?**
+
+Let's clear this up in simple terms.
+
+---
+
+### What `throws` really does:
+
+* `throws` **does NOT send or throw the exception itself**.
+* Instead, it **declares** that a method *might* throw that exception.
+* It’s a way of saying, **“Hey caller, this method can cause this exception, so be prepared to deal with it.”**
+
+---
+
+### Who handles the exception then?
+
+* **The caller of that method is responsible for handling the exception.**
+
+There are two possible scenarios:
+
+---
+
+### 1. The caller handles it with a try-catch block
+
+Example:
+
+```java
+public void methodA() throws IOException {
+    // some code that might throw IOException
+}
+
+public void methodB() {
+    try {
+        methodA();  // methodA declares throws IOException
+    } catch (IOException e) {
+        // handle exception here
+        System.out.println("Caught exception: " + e.getMessage());
+    }
+}
+```
+
+* Here, `methodA()` declares `throws IOException`.
+* `methodB()` **calls** `methodA()` and **catches** the exception.
+
+---
+
+### 2. The caller also declares `throws` and passes responsibility further up
+
+Example:
+
+```java
+public void methodA() throws IOException {
+    // some code
+}
+
+public void methodB() throws IOException {
+    methodA();  // doesn't catch, passes exception further up
+}
+
+public static void main(String[] args) {
+    try {
+        new YourClass().methodB();
+    } catch (IOException e) {
+        System.out.println("Handled in main: " + e.getMessage());
+    }
+}
+```
+
+* Here, `methodB()` also declares `throws IOException` and doesn't catch it.
+* The exception is passed to `main()`, which handles it.
+
+---
+
+### Summary:
+
+| `throws` | Who handles?                                           |
+| -------- | ------------------------------------------------------ |
+| Declares | The **caller** of the method must handle or declare it |
+
+---
+
+### So in the end:
+
+* **`throws` passes the buck to the caller.**
+* The exception **must be handled at some point**, or your program will crash with an uncaught exception error.
+
+---
+
+If you want, I can show you a simple code chain example where exception goes up the call stack and finally gets handled. Wanna see?
+
