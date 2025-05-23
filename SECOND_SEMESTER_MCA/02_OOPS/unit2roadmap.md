@@ -839,3 +839,44 @@ This is **abstraction in real-world development**. You **hide the logic**, expos
 
 ---
 
+# encapuslation 
+
+```java
+public class Encapsulation {
+
+    public static void main(String[] args) {
+
+        BankAccount account = new BankAccount();
+        System.out.println("Initial Balance: " + account.returnBalance());
+
+        account.deposit(5000);
+        System.out.println("Balance after deposit: " + account.returnBalance());
+
+
+    }
+    
+}
+
+class BankAccount{
+
+    private int balance = 10000;
+
+    void deposit(int amount){
+        if (amount > 0){
+            balance += amount;
+            System.out.println("Deposited: " + amount);
+        } else {
+            System.out.println("Invalid deposit amount");
+        }
+    }
+
+    int returnBalance(){
+        return balance;
+    }
+
+}
+What the hell is Encapsulation?
+Encapsulation = wrapping data + methods into one single unit (a class) AND restricting direct access to that data.
+
+In short: Hide the dirty stuff, show only what’s needed.
+```
