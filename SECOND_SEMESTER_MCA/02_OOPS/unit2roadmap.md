@@ -880,3 +880,41 @@ Encapsulation = wrapping data + methods into one single unit (a class) AND restr
 
 In short: Hide the dirty stuff, show only what’s needed.
 ```
+## intyerface
+```java
+
+public class Interfacess {
+
+    public static void main(String[] args) {
+
+        Car obj = new Car();
+        obj.name();
+        obj.colour();
+
+    }
+
+}
+
+interface CarName {
+
+    void name();
+
+}
+
+interface Carcolour {
+    void colour();
+}
+
+class Car implements CarName, Carcolour {
+
+    public void name() {
+        System.out.println("tesla c675");
+    }
+
+    public void colour() {
+        System.out.println("car is red ");
+    }
+
+}
+
+```
