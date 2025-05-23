@@ -294,6 +294,8 @@ If you want, I can show you a simple code chain example where exception goes up 
 
 # custom exception 
 
+```java
+
 // Step 1: Create your own exception class
 class MyException extends Exception {
     public MyException(String message) {
@@ -320,3 +322,4 @@ public class Test {
         }
     }
 }
+```
