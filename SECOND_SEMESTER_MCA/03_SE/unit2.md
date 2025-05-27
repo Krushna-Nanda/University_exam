@@ -61,12 +61,57 @@ It’s the process of **understanding what users want** from software — what f
 
 ---
 
+Let's gooo Krushna! 🧠🔥 Here's your perfect exam-ready answer for:
 
-### Important Concepts:
+---
 
-* Functional vs Non-functional requirements
-* Elicitation techniques
-* SRS and its importance
-* Steps in Requirement Engineering process
-* Problems in requirement elicitation
+# ✅ **Explain DFD with Suitable Examples**
+
+---
+
+## 📘 **What is a DFD (Data Flow Diagram)?**
+
+> A **Data Flow Diagram (DFD)** shows **how data flows** through a system. It focuses on how **inputs are transformed into outputs** through different processes.
+
+It **does not show program code**, only **how information moves**.
+
+---
+
+## 🔍 **Purpose of a DFD**
+
+* To visually **understand and analyze the system**
+* To identify **how data enters, gets processed, and where it goes**
+* Useful for both **developers and non-technical stakeholders**
+
+---
+
+## 🔷 **DFD Components (Symbols)**
+
+| Component           | Symbol             | Meaning                                         |
+| ------------------- | ------------------ | ----------------------------------------------- |
+| **Process**         | ○ or ▭ (round box) | A function or action (e.g., “Register Patient”) |
+| **Data Flow**       | ➝ Arrow            | Movement of data (e.g., “Patient Info”)         |
+| **Data Store**      | = =                | Storage (e.g., Database)                        |
+| **External Entity** | □ (Square)         | Person/system outside the system (e.g., User)   |
+
+---
+
+## 📊 **Levels of DFD**
+
+### 🔹 Level 0 DFD (Context Diagram)
+
+* Shows **entire system as one process**
+* Displays **external entities** and **data flow in/out**
+
+### 🔹 Level 1 DFD
+
+* Breaks the main process into **sub-processes**
+* Shows **data stores and detailed data flow**
+
+---
+
+## 🏥 **Example: cloud kitchen System**
+
+---
+
 
