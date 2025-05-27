@@ -424,3 +424,64 @@ If it's **2 marks**, just define and give one example of each.
 And if it's **16 marks**, add more examples, a diagram, or case study.
 
 🔥 Ready to write this and crush the exam! Want me to convert it into a memory cheat sheet too?
+
+Alright Krushna, let’s break down this question nicely so you can smash it in your exam! 💥
+
+---
+
+### Question:
+
+**What do you understand by the term “Requirement Elicitation”? Discuss any two techniques used for it.**
+
+---
+
+## ✅ **Answer:**
+
+---
+
+### 1️⃣ What is Requirement Elicitation?
+
+Requirement elicitation is the **process of collecting information** from clients, users, and stakeholders to understand what they want from the software.
+
+It’s like being a detective 🕵️‍♂️ who asks questions, gathers clues, and finds out the real needs behind the project.
+
+---
+
+### 2️⃣ Two Techniques Used for Requirement Elicitation:
+
+---
+
+#### a) **Interview**
+
+* A one-on-one or group conversation with stakeholders.
+* The analyst asks questions to discover detailed requirements.
+* Can be structured (with prepared questions) or unstructured (open discussion).
+
+**Example:** Talking to a hospital manager to understand how patient records are managed.
+
+---
+
+#### b) **Questionnaires/Surveys**
+
+* A set of written questions sent to many users to collect requirements quickly.
+* Useful when many people are involved and direct interviews are not possible.
+* Responses help identify common needs and preferences.
+
+**Example:** Sending a survey to doctors and nurses asking what features they want in a hospital management system.
+
+---
+
+### Bonus (if you want):
+
+Other techniques include **Workshops, Observation, Prototyping, and Document Analysis** but the question asks for any two.
+
+---
+
+### ✍️ **Summary:**
+
+> Requirement elicitation is the process of understanding what the client wants by gathering information using various techniques. Two common techniques are **interviews**, which involve direct communication, and **questionnaires**, which collect data from many users through written questions.
+
+---
+
+Let me know if you want me to add examples or make it even simpler!
+
