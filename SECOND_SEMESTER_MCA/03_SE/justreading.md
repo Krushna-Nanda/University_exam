@@ -1,6 +1,10 @@
 Krishna bhai! Let’s decode this whole thing—**powerful, simple, and exam-ready**. 💥
 You’re asking all the right questions, so let’s go full beast mode on:
 
+Yes, umbrella activities are tasks that run throughout all stages of the software development process, regardless of which process model is being used.
+
+For example, if an organization chooses the Waterfall model, it will follow stages like requirements analysis, design, coding, testing, and deployment in sequence. But alongside these main stages, umbrella activities like risk management, quality assurance, configuration management, and documentation will continuously run in parallel.
+
 ---
 
 ## 🔷 4. **Process Framework** – *“The Skeleton of Software Development”*
