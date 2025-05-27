@@ -111,3 +111,12 @@ Prototyping falls under:
 
 Let me know if you want a hand-drawn style framework diagram with umbrella activity labels — super useful for quick revision!
 
+| Phase                             | What Happens                               | Example / Analogy                                   |
+| --------------------------------- | ------------------------------------------ | --------------------------------------------------- |
+| 1. **Requirement Analysis** 🔍    | Understand what the user/client wants      | Like asking: *“What kind of pizza do you want?”* 🍕 |
+| 2. **System Design** 🧠           | Plan the structure: UI, database, modules  | *Design the pizza layout & toppings plan*           |
+| 3. **Implementation (Coding)** 💻 | Start writing the actual code              | *Start cooking the pizza* 🍳                        |
+| 4. **Testing** 🧪                 | Check for bugs, errors, and fix them       | *Taste the pizza before delivery* 😋                |
+| 5. **Deployment** 🚀              | Deliver to the client or launch it live    | *Deliver pizza to customer* 📦                      |
+| 6. **Maintenance** 🛠️            | Fix bugs, updates, performance improvement | *Customer says: “Next time, less spicy”* 🌶️        |
+
