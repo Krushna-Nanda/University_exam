@@ -344,3 +344,113 @@ Next, wanna go into **Tree Traversals** or **Differences between BST, AVL, Heap,
 
 Your jungle, your rules. 🌴💡
 
+Here's a clear and concise **6-mark style explanation** of the requested tree types and related concepts — great for exam prep, viva, or revision!
+
+---
+
+## 🌳 **Tree Structures & Their Types**
+
+### 🔹 1. **Height Balanced Trees (AVL Trees)**
+
+* A **binary search tree** where the **height difference (balance factor)** between left and right subtree is at most **1**.
+* Ensures **log(n)** time for insertion, deletion, and search.
+* Uses **rotations** to maintain balance.
+
+🧠 *Example*: AVL Tree maintains balance after each insert.
+
+---
+
+### 🔹 2. **M-Way Search Tree**
+
+* A **generalization** of binary search trees where each node can have **more than 2 children** (up to *M*).
+* Each node has **M-1 keys** and **M pointers**.
+* All keys in the left of a key are smaller, right are larger.
+
+🧠 *Used in*: Multi-level index structures, large databases.
+
+---
+
+### 🔹 3. **B-Tree**
+
+* A **self-balancing M-way search tree** used in **databases and file systems**.
+* Each node has multiple keys and children, and data is **stored in internal and leaf nodes**.
+* Keeps data sorted and supports **log(n)** time for search, insert, delete.
+
+🧠 *Feature*: Minimizes disk reads by keeping tree height small.
+
+---
+
+### 🔹 4. **B+ Tree**
+
+* A variation of B-Tree where **data is stored only in leaf nodes**.
+* Leaf nodes are **linked**, making range searches efficient.
+* Internal nodes only guide the search.
+
+🧠 *Used in*: Databases, file indexing (better than B-Trees for search)
+
+---
+
+### 🔹 5. **General Tree**
+
+* A tree where each node can have **any number of children**.
+* No specific structure like binary or M-way.
+* Used to model **hierarchies** (e.g., file systems, org charts).
+
+---
+
+### 🔹 6. **Representation of General Trees**
+
+General trees can be represented in two ways:
+
+* **Parent-child representation** (using arrays or linked lists)
+* **Left-child, Right-sibling** binary tree form (converts general tree to binary)
+
+---
+
+### 🔹 7. **Binary Tree**
+
+* A tree where each node has **at most two children**: left and right.
+* Used in many algorithms (e.g., expression trees, binary search trees)
+
+Types:
+
+* **Full Binary Tree**: Each node has 0 or 2 children
+* **Complete Binary Tree**: All levels full except maybe last
+* **Perfect Binary Tree**: All internal nodes have 2 children and all leaves are at same level
+
+---
+
+### 🔹 8. **Forest**
+
+* A **collection of disjoint trees** (i.e., multiple root nodes).
+* Can be converted to a binary tree by representing each tree in **left-child, right-sibling** format.
+
+---
+
+### 🔹 9. **Applications of Trees**
+
+| Tree Type          | Applications                                      |
+| ------------------ | ------------------------------------------------- |
+| Binary Tree        | Expression parsing, hierarchical structures       |
+| BST                | Searching, sorting                                |
+| AVL Tree           | Balanced search operations                        |
+| B/B+ Trees         | File systems, database indexing                   |
+| General Tree       | File directory structures, organization hierarchy |
+| Trie (Prefix Tree) | Auto-complete, dictionary word lookups            |
+
+---
+
+## 📌 Summary Table
+
+| Tree Type    | Key Feature                 | Used In                  |
+| ------------ | --------------------------- | ------------------------ |
+| AVL Tree     | Height-balanced BST         | Fast lookup              |
+| M-Way Tree   | Nodes with M children       | Multi-level search       |
+| B-Tree       | Balanced, keys in all nodes | Databases                |
+| B+ Tree      | Data only in leaves, linked | Indexed file systems     |
+| General Tree | Any number of children      | Hierarchies              |
+| Forest       | Group of trees              | Parsing, compiler design |
+
+---
+
+Let me know if you'd like visual diagrams or sample code for any of these tree types (like B+ Tree or AVL)!
