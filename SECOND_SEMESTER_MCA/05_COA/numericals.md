@@ -80,3 +80,105 @@ Q5. Briefly describe the VLIW processor architecture. What are the differences b
 **What will be the execution time for a 4 GHz processor to execute your program?**
 
 ---
+
+Here’s the same breakdown by **Module → Topic → Question**, now with the **exam year** each numerical question appeared:
+
+---
+
+## Module I – Introduction & Basic Architecture
+
+1. **Control-word design** (2023)
+
+   > **Q (2023):**
+   > Design the control unit of a basic computer. A computer has 16 registers, an ALU with 32 operations, and a Shifter with eight operations, all connected to a common bus system.
+   >
+   > 1. Formulate a control word for a microoperation.
+   > 2. Specify the number of bits in each field of the control word and give an encoding scheme.
+
+2. **Instruction-sequence simulation** (2023)
+
+   > **Q (2023):**
+   > Consider the following instruction sequence … starting at address 1000, with R3=3000, MEMORY\[5000]=10, MEMORY\[3000–3010]=50 …
+   > **Find the content of memory location 3010 after execution.**
+
+---
+
+## Module II – Pipelining
+
+3. **Pipeline speedup** (2024)
+
+   > **Q (2024, part b):**
+   > Consider a 4-stage pipeline (IF=50 ns, ID=60 ns, EX=110 ns, WB=80 ns) with 10 ns register overhead.
+   > **What is the speedup under ideal conditions vs. non-pipelined?**
+
+4. **Speed-Up & Efficiency formulas** (2024)
+
+   > **Q (2024, part g):**
+   > What do you mean by Speed-Up of a pipeline?
+   > Derive equations for Speed-Up and Efficiency for:
+   >
+   > 1. Pipeline
+   > 2. Super-pipeline
+   > 3. Superscalar architecture
+
+---
+
+## Module III – Hierarchical Memory & ILP
+
+5. **Direct-mapped vs. 4-way SA cache addressing** (2024)
+
+   > **Q (2024, part e):**
+   > A computer has 8 GB memory, 64-bit words, 16-word blocks, 128-block direct-mapped cache (word-addressable).
+   >
+   > 1. What is the (Tag|Index|Offset) format?
+   > 2. If it becomes 4-way set-associative, what’s the new format?
+
+6. **Block-set-associative cache fields** (2024)
+
+   > **Q (2024, part h):**
+   > Cache = 64 blocks ÷ 4 sets; Main memory = 4096 blocks × 128 words:
+   >
+   > 1. How many bits in main-memory address?
+   > 2. How many bits in each of TAG, SET, WORD fields?
+
+7. **16-way SA cache bit counts** (2023)
+
+   > **Q4 (2023):**
+   > Describe cache mapping. For a 16-way SA cache with 64-bit words, 2 MB data, 16-word blocks, 64-bit phys. addresses, **how many tag, index & offset bits?**
+
+8. **VLIW execution time** (2023)
+
+   > **Q5 (2023):**
+   > VLIW vs. superscalar. For 2500 instructions (50% loads @2 cyc, 30% ALU @5 cyc, 20% branch @10 cyc), **what’s the exec-time on a 4 GHz processor?**
+
+9. **Cache-miss performance impact** (2023)
+
+   > **Q (2023, part d):**
+   > Miss penalty=100 cyc, instr=1 cyc, miss rate=2%, 1.5 mem-refs/instr or 30 misses/1000 instr.
+   > **Calculate impact on performance both via misses/instr and via miss-rate.**
+
+10. **Memory-chip sizing** (2023)
+
+    > **Q (2023, part b):**
+    > Using 1 K×1-bit chips:
+    >
+    > 1. How many chips & wiring for 1 K-byte?
+    > 2. How many chips & wiring for 16 K-bytes?
+
+---
+
+## Module IV – Multiprocessors
+
+* None of the straight numerical questions fall under Module IV.
+
+---
+
+### 🔍 Pattern to Watch For
+
+* **Module II:** pipelining speedup & formulas
+* **Module III:** breaking down addresses for caches (offset/index/tag)
+* **Module I:** microoperation encoding & simple instruction tracing
+* **Module I/III:** chip-count sizing and performance-impact calculations
+
+> **Pro Tip:** Any new numerical variation will almost certainly be one of these patterns—just plug in the new numbers!
+
