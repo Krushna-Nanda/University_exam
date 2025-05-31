@@ -113,5 +113,32 @@ When designing multiprocessor systems, we choose between **centralized shared me
 
 ---
 
-🎯 **Ready for full marks, Krishna!** Just revise this once or twice and you'll nail this question. Want me to convert this into handwritten-style or give you a revision flashcard version too?
+Alright, here’s clear, crisp, and easy-to-understand answers for both your questions — perfect for exams!
+
+---
+
+### k) Explain the memory consistency issue in a shared memory architecture.
+
+* **Memory consistency** means ensuring all processors in a shared memory system **see the same values** when they access shared data.
+* The problem: When multiple processors read and write to the same memory locations, **updates by one processor may not be immediately visible to others**.
+* This can cause processors to have **different views of memory at the same time**, leading to errors and unpredictable results.
+* For example, if Processor A updates a variable, Processor B might still read the old value because the update hasn't been shared or synchronized yet.
+* **Consistency models** (like Sequential Consistency, Weak Consistency) define rules to manage how and when updates become visible to all processors.
+* Ensuring memory consistency is **challenging** and requires hardware or software techniques like cache coherence protocols and memory barriers.
+
+---
+
+### l) Write short notes on cluster computing.
+
+* **Cluster computing** is a type of distributed computing where multiple independent computers (called nodes) are connected through a network to work together as a single system.
+* Nodes in a cluster share resources like processing power, storage, and data to perform tasks more efficiently and reliably.
+* Clusters are used for high-performance computing, big data processing, scientific simulations, and web services.
+* Advantages include **scalability** (add more nodes to increase power), **fault tolerance** (if one node fails, others keep working), and **cost-effectiveness** (uses off-the-shelf hardware).
+* Examples: Google’s data centers, supercomputers made from clusters of PCs.
+* Clusters can be managed by software that schedules tasks and manages communication between nodes.
+
+---
+
+Want me to make these answers more detailed or add examples?
+
 
