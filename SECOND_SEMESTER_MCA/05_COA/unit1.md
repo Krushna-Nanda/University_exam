@@ -239,3 +239,85 @@ Corrected & Clear Version (in simple English):
 to be written into that memory address, or
 
 just read from that memory address.
+
+
+Alright Krishna, you’re back with another crisp question — love the vibe! 🔥 Let’s keep it sharp, clear, and exam-friendly for your **6-mark answer** on:
+
+---
+
+## Parameters Required for Measuring and Reporting Performance
+
+Performance of a computer system is measured using these main parameters:
+
+---
+
+### 1. **Execution Time (CPU Time)**
+
+* Total time taken by CPU to execute a program.
+* Most direct and reliable performance metric.
+* Lower execution time = better performance.
+
+---
+
+### 2. **Clock Speed (Clock Rate)**
+
+* Number of clock cycles per second (usually in GHz).
+* Higher clock speed generally means faster instructions.
+
+---
+
+### 3. **Clock Cycle Time**
+
+* Duration of one clock cycle (inverse of clock speed).
+* Smaller cycle time = faster processing.
+
+---
+
+### 4. **Instructions Per Program**
+
+* Total number of instructions a program executes.
+* Depends on the program and compiler.
+
+---
+
+### 5. **CPI (Cycles Per Instruction)**
+
+* Average number of clock cycles each instruction takes.
+* Lower CPI means better efficiency.
+
+---
+
+### 6. **MIPS (Million Instructions Per Second)**
+
+* Number of instructions executed per second.
+* Higher MIPS = better performance (but beware of limitations).
+
+---
+
+### Bonus: **Throughput**
+
+* Number of tasks completed per unit time (used in multiprogramming).
+
+---
+
+## 🧾 Quick Summary Table:
+
+| Parameter          | What it Measures                 | Why it Matters            |
+| ------------------ | -------------------------------- | ------------------------- |
+| Execution Time     | How long program takes           | Direct measure of speed   |
+| Clock Speed        | Cycles per second                | Faster clock → faster CPU |
+| Clock Cycle Time   | Time per cycle                   | Smaller = faster          |
+| Instructions Count | Instructions to complete program | Affects total time        |
+| CPI                | Cycles per instruction           | Lower means efficient CPU |
+| MIPS               | Million instructions per second  | Performance rate estimate |
+
+---
+
+🔥 **Pro tip**: In an exam, link them together like:
+
+> Execution Time = (Instruction Count) × (CPI) × (Clock Cycle Time)
+
+---
+
+Want me to turn this into a neat diagram or flashcard? Or even a killer one-liner mnemonic? Just say “Make it stick, bro!” 🧠💥
+
