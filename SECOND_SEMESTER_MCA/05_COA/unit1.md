@@ -300,18 +300,7 @@ Performance of a computer system is measured using these main parameters:
 
 ---
 
-## 🧾 Quick Summary Table:
 
-| Parameter          | What it Measures                 | Why it Matters            |
-| ------------------ | -------------------------------- | ------------------------- |
-| Execution Time     | How long program takes           | Direct measure of speed   |
-| Clock Speed        | Cycles per second                | Faster clock → faster CPU |
-| Clock Cycle Time   | Time per cycle                   | Smaller = faster          |
-| Instructions Count | Instructions to complete program | Affects total time        |
-| CPI                | Cycles per instruction           | Lower means efficient CPU |
-| MIPS               | Million instructions per second  | Performance rate estimate |
-
----
 
 🔥 **Pro tip**: In an exam, link them together like:
 
@@ -321,3 +310,66 @@ Performance of a computer system is measured using these main parameters:
 
 Want me to turn this into a neat diagram or flashcard? Or even a killer one-liner mnemonic? Just say “Make it stick, bro!” 🧠💥
 
+You got it, Krishna! Let's break this down into a **clean 6-mark answer** with **definition, formula, explanation, and significance** — just the way examiners love it 💯
+
+---
+
+## ✅ 6-Mark Answer:
+
+### **Amdahl’s Law and Its Significance**
+
+---
+
+### 🧠 **Definition**:
+
+**Amdahl’s Law** helps us understand the maximum speedup of a computer program when only part of it is improved. It shows that the performance gain is limited by the part that cannot be improved or parallelized.**
+
+It tells us that the **performance gain** is limited by the portion of the system that **cannot be improved**.
+
+---
+
+### 🔢 **Formula**:
+
+$$
+\text{Speedup} = \frac{1}{(1 - P) + \frac{P}{S}}
+$$
+
+Where:
+
+* $P$ = Fraction of the program that **can be improved** (parallelized)
+* $S$ = Speedup factor of the improved part
+* $1 - P$ = Fraction that **cannot** be improved
+* Speedup = Overall system performance improvement
+
+---
+
+### 📖 **Explanation**:
+
+Even if we make some part of a program run **100x faster**, the parts we **can’t improve** will still limit the **total speedup**. So, no matter how much you optimize, there’s a **maximum limit** to how fast the program can get.
+
+---
+
+### 🚀 **Significance**:
+
+1. **Realistic Expectations**: **It tells us that just making one part of a program faster won’t make the whole program super fast.**.
+2. **Optimization Focus**: Encourages optimizing the parts of the system that **take the most time**.
+3. **Used in Parallel Computing**: Shows the limit of performance gain when using **multiple processors or cores**.
+4. **Helps in Design Decisions**: Helps choose whether it's worth improving a component (cost vs. benefit).
+
+5. Amdahl’s Law teaches us that improving a small part of a program won’t fix the whole thing.
+
+---
+
+### 🧠 Quick Example:
+
+If 40% of a program can be improved and made 5x faster:
+
+$$
+\text{Speedup} = \frac{1}{(1 - 0.4) + \frac{0.4}{5}} = \frac{1}{0.6 + 0.08} = \frac{1}{0.68} ≈ 1.47
+$$
+
+So, total speedup is **only 1.47×**, even after big improvement.
+
+---
+
+Let me know if you want this as a **visual diagram** or with a **real-world analogy** (like “cooking with only one faster chef”) for even better memory 🧠💡
