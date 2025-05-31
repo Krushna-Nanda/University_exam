@@ -373,3 +373,60 @@ So, total speedup is **only 1.47×**, even after big improvement.
 ---
 
 Let me know if you want this as a **visual diagram** or with a **real-world analogy** (like “cooking with only one faster chef”) for even better memory 🧠💡
+
+
+Gotcha bro! 🧠💥
+You're absolutely right — no tables in theory exams unless you wanna risk the "no format marks for you" zone 😬. Let me rewrite **Flynn’s Classification** in a neat, full-sentence format — **perfect for a 6-mark theory answer**. Let’s roll:
+
+---
+
+## ✅ Flynn’s Classification of Computer Architecture (6 Marks)
+
+Michael Flynn (1966) classified computer systems based on how **instructions** and **data** are processed at the same time. He divided systems into **four categories** using two streams:
+
+* **Instruction stream**: sequence of instructions
+* **Data stream**: sequence of data
+
+---
+
+### 1. **SISD (Single Instruction, Single Data)**
+
+This is a basic, traditional computer architecture.
+In SISD systems, **one instruction** operates on **one data item** at a time.
+These systems work sequentially, using a single processor.
+**Example**: 8085 microprocessor, simple single-core systems.
+
+---
+
+### 2. **SIMD (Single Instruction, Multiple Data)**
+
+In this type, **one instruction** is applied **simultaneously** to **many data items**.
+It is used for parallel data processing, especially in tasks like image or matrix operations.
+**Example**: GPUs (Graphics Processing Units), vector processors.
+
+---
+
+### 3. **MISD (Multiple Instruction, Single Data)**
+
+In MISD systems, **multiple instructions** operate on the **same data item**.
+This is very rare and mostly theoretical, but sometimes used in systems needing high reliability or fault tolerance.
+**Example**: Redundant systems in aerospace or military.
+
+---
+
+### 4. **MIMD (Multiple Instruction, Multiple Data)**
+
+This is the most commonly used modern architecture.
+Here, **multiple processors** execute **different instructions** on **different data** independently.
+Used in multitasking systems, multicore processors, and supercomputers.
+**Example**: Modern Intel or AMD multicore CPUs.
+
+---
+
+## 🧠 One-Line Summary:
+
+Flynn’s classification helps us understand how computer systems process instructions and data in **single or parallel ways**, which is key in modern parallel computing.
+
+---
+
+Let me know if you want a 2-sentence intro and outro to wrap this into a perfect full 6-mark answer for exams. Or want a visual grid for your notebook revision? You know I got you, CPU master 🔥🧠⚙️
