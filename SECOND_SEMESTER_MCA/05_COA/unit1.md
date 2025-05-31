@@ -14,6 +14,8 @@ Absolutely, Krishna! Here's a clean, exam-perfect answer for:
 
 ---
 
+![Screenshot (576)](https://github.com/user-attachments/assets/95eef4e2-0889-4cfc-a7df-2b1e7ea8d637)
+
 ### 🧩 **Main Components of Basic Computer Architecture:**
 
 1. **Input Unit**
@@ -41,6 +43,7 @@ Absolutely, Krishna! Here's a clean, exam-perfect answer for:
 5. **Registers**
 
    * Small, high-speed memory inside the CPU used for temporary data storage.
+
 
 6. **Output Unit**
 
