@@ -128,43 +128,91 @@ This is **real pipelining power**: multiple tasks in progress, **using different
 
 ---
 
-## 🔄 Now Back to Your Original Doubt:
-
-You asked:
-
-> “Is it like one stage does 267×3 and another does 267×2?”
-
-### ⚠️ No! Let’s clarify:
-
-Within a **single multiplication like 267×123**, we break it into stages:
-
-* Stage 1 handles 267×3
-* Then 267×2 (shifted)
-* Then 267×1 (shifted more)
-
-BUT all of that belongs to **one multiplication**, so it still takes time.
-
-So CPU says — “Hey! While I’m doing stage 2 and 3 of this multiplication, let me **start stage 1 of the next multiplication**.”
-
-So now it's handling **multiple multiplications** — just each one is at **a different stage**.
+Hell yeah, Krishna! 🔥 Let’s go full beast mode on this multiplication example: **267 × 123** — and show **step-by-step pipelined execution** like a real CPU champ. 💻⚙️
 
 ---
 
-## 🤖 Real Benefit:
+## 🧠 First, understand the **manual multiplication** (how humans do it):
 
-If it took **3 steps for one multiplication**, pipelining lets you get **1 result every 1 step** after initial delay — huge speedup.
+We’re multiplying:
+
+```
+      267
+   ×  123
+  _________
+      801   ← 267 × 3   (Unit's place)
+     5340   ← 267 × 2   (Ten's place → shift 1 zero)
+    26700   ← 267 × 1   (Hundred's place → shift 2 zeros)
+  _________
+    32841   ← Final answer
+```
 
 ---
 
-## 🏁 Summary (TL;DR):
+## 🎯 Now, break this into **pipeline stages** — just like CPU does in an **Arithmetic Pipeline**:
 
-| ❓ Your Doubt                                     | ✅ Clear Answer                                                     |
-| ------------------------------------------------ | ------------------------------------------------------------------ |
-| Does CPU do 267×3 and 267×2 in different stages? | Yes — but all part of 1 multiplication, broken into parts          |
-| So what’s done in parallel?                      | While finishing one multiplication, CPU **starts the next one**    |
-| How is it faster?                                | Once pipeline is full, CPU finishes **1 multiplication per clock** |
+| Stage                                    | What Happens                                                                |
+| ---------------------------------------- | --------------------------------------------------------------------------- |
+| **Stage 1** (Partial Product Generation) | CPU multiplies 267 × individual digits of 123 → 267×3, 267×2, 267×1         |
+| **Stage 2** (Shift + Alignment)          | CPU aligns/positions results: 801, 5340, 26700 (shifted by 0, 1, 2 places)  |
+| **Stage 3** (Final Addition)             | CPU adds the shifted values to get final result: 801 + 5340 + 26700 = 32841 |
 
 ---
 
-Want me to show this in **diagram form** or move to **data hazard with this same example** next? Let’s keep slaying Unit 2 like a boss 💪🔥
+## 🏗️ Let’s build the stages clearly step-by-step:
+
+### ✅ Step 1: Start of Pipeline
+
+| Clock Cycle | Stage 1       | Stage 2 | Stage 3 |
+| ----------- | ------------- | ------- | ------- |
+| Cycle 1     | 267 × 3 = 801 | —       | —       |
+
+### ✅ Step 2: Next Stage Begins
+
+| Clock Cycle | Stage 1       | Stage 2 | Stage 3 |
+| ----------- | ------------- | ------- | ------- |
+| Cycle 2     | 267 × 2 = 534 | 801     | —       |
+
+👉 801 from Stage 1 has moved to Stage 2 (it will be shifted in next step)
+
+### ✅ Step 3: Third Digit
+
+| Clock Cycle | Stage 1       | Stage 2       | Stage 3       |
+| ----------- | ------------- | ------------- | ------------- |
+| Cycle 3     | 267 × 1 = 267 | 534 (shift 1) | 801 (shift 0) |
+
+### ✅ Step 4: Finish
+
+| Clock Cycle | Stage 1 | Stage 2       | Stage 3           |
+| ----------- | ------- | ------------- | ----------------- |
+| Cycle 4     | —       | 267 (shift 2) | 5340 + 801 = 6141 |
+
+### ✅ Step 5: Final Result
+
+| Clock Cycle | Stage 1 | Stage 2 | Stage 3                    |
+| ----------- | ------- | ------- | -------------------------- |
+| Cycle 5     | —       | —       | 6141 + 26700 = **32841** ✅ |
+
+---
+
+## 🧠 Final Summary:
+
+### 🎯 Arithmetic Pipeline for 267 × 123
+
+| Stage   | Work Done                            | Result                         |
+| ------- | ------------------------------------ | ------------------------------ |
+| Stage 1 | Multiply digits: 267×3, 267×2, 267×1 | 801, 534, 267                  |
+| Stage 2 | Shift result based on position       | 801, 5340, 26700               |
+| Stage 3 | Add them up                          | 801 + 5340 + 26700 = **32841** |
+
+---
+
+## 🚨 Final Doubt Buster:
+
+> "So pipelining helps with 1 multiplication?"
+
+No bro! Pipelining lets the CPU **start another multiplication** *while* finishing this one — like a burger shop assembling multiple burgers at once, just each in different steps 🔥🍔
+
+You want that version too with multiple multiplications in pipeline stages? I got you. Or wanna jump into Data Hazards next? 😈
+
 
