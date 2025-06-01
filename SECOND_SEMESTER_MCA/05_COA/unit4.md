@@ -134,6 +134,13 @@ Alright, here’s clear, crisp, and easy-to-understand answers for both your que
 ### l) Write short notes on cluster computing.
 
 * **Cluster computing** is a type of distributed computing where multiple independent computers (called nodes) are connected through a network to work together as a single system.
+* Each node in a cluster is a separate computer with:
+Its own CPU
+Its own RAM (main memory)
+Its own storage (like SSD/HDD)
+These nodes are connected using a high-speed network (like Ethernet or InfiniBand).
+The nodes communicate using message passing — they send/receive data over the network (just like in DSM systems).
+
 * Nodes in a cluster share resources like processing power, storage, and data to perform tasks more efficiently and reliably.
 * Clusters are used for high-performance computing, big data processing, scientific simulations, and web services.
 * Advantages include **scalability** (add more nodes to increase power), **fault tolerance** (if one node fails, others keep working), and **cost-effectiveness** (uses off-the-shelf hardware).
