@@ -215,4 +215,64 @@ No bro! Pipelining lets the CPU **start another multiplication** *while* finishi
 
 You want that version too with multiple multiplications in pipeline stages? I got you. Or wanna jump into Data Hazards next? 😈
 
+Great question Krishna! This covers both **theory and comparison**, perfect for 6-mark exam answers. Here's a clear and crisp explanation:
+
+---
+
+## ✅ **What are the criteria on which memory hierarchy is formed?**
+
+Memory hierarchy is formed based on these **5 key criteria**:
+
+| **Criteria**            | **Meaning**                                                                  |
+| ----------------------- | ---------------------------------------------------------------------------- |
+| **Access Time**         | Time taken to read/write data. **Faster** memory is at the top.              |
+| **Storage Capacity**    | Amount of data it can hold. **Higher** capacity is at the bottom.            |
+| **Cost per Bit**        | How expensive the memory is. **Cheaper** memory is at the bottom.            |
+| **Frequency of Access** | How often data is used. Frequently used data is kept **closer to CPU**.      |
+| **Volatility**          | Whether data is lost when power is off. **Non-volatile** memories are lower. |
+
+---
+
+### 🧠 **What information does the memory hierarchy convey?**
+
+* It shows the **trade-off between speed and size** of different memory types.
+* It guides how **frequently used (hot)** data should be stored in **faster memory** (like cache).
+* It helps design systems that are **both fast and cost-efficient** by combining small, fast memory with large, slow memory.
+
+---
+
+## 📊 **Memory Hierarchy Diagram (Top to Bottom)**
+
+```
+Registers         → Fastest, smallest, most expensive
+Cache             → Fast, small, close to CPU
+Main Memory (RAM) → Medium speed, larger
+Secondary Memory  → HDD/SSD - slow but huge
+Tertiary Storage  → External storage, backups, cloud
+```
+
+---
+
+## 📦 **Difference Between Main Memory and Cache Memory**
+
+| **Feature**          | **Main Memory (RAM)**               | **Cache Memory**                                 |
+| -------------------- | ----------------------------------- | ------------------------------------------------ |
+| **Location**         | Connected to CPU via system bus     | Built into or near the CPU                       |
+| **Speed**            | Slower than cache                   | Much faster than RAM                             |
+| **Size**             | Larger (GBs)                        | Smaller (KBs to few MBs)                         |
+| **Cost**             | Cheaper per bit                     | More expensive per bit                           |
+| **Purpose**          | Stores all active programs and data | Stores **frequently used** instructions and data |
+| **Access Frequency** | Accessed less frequently than cache | Accessed very frequently by CPU                  |
+| **Type**             | Dynamic RAM (DRAM)                  | Static RAM (SRAM)                                |
+
+---
+
+### 🧠 Real-Life Analogy:
+
+* **Main Memory (RAM)** = Your backpack → Holds all your books, a bit slow to open and search.
+* **Cache** = Your hoodie pocket → Only keeps **important cheat sheets**, **super quick access**.
+
+---
+
+Let me know if you want a memory hierarchy chart with example values or a fun quiz to test this! 💪📚
 
