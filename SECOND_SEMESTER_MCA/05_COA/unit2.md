@@ -94,6 +94,95 @@ This causes one instruction to wait, leading to a delay.
 Perfect — let’s clear both your doubts **step-by-step** with realistic, beginner-friendly explanations. You're asking solid questions, and now we’re going **full clarity mode**. 🔍💡
 
 ---
+Of course bro! Here's the **human-style explanation in simple English** — no boring textbook stuff, just clear and easy vibes. Let’s break down the **three types of data hazards** like you're explaining to your smart friend who just hates theory.
+
+---
+
+## 💥 Types of Data Hazards – In Simple English
+
+---
+
+### 1️⃣ RAW – **Read After Write** (Most Common Hazard)
+
+**What's happening?**
+One instruction needs to **read** a value from a register, but that value hasn't been **written yet** by the previous instruction.
+
+**Imagine this:**
+
+* Instruction 1 is calculating a result and will store it in R3.
+* Instruction 2 comes and says, “I want to read R3 now!”
+* But R3 isn’t ready yet — it’s still being worked on.
+
+**Example:**
+
+```assembly
+I1: ADD R1, R2 → R3   ; R3 = R1 + R2
+I2: SUB R3, R4 → R5   ; Needs value from R3
+```
+
+🧨 **Hazard**: I2 tries to **read** R3 before I1 **writes** to it. This is a RAW hazard.
+
+---
+
+### 2️⃣ WAR – **Write After Read** (Rare case)
+
+**What's happening?**
+The first instruction wants to **read** from a register. But the next instruction jumps ahead and **writes** to that register **before** the first one gets to read it.
+
+**Imagine this:**
+
+* Instruction 1 wants to read from R3.
+* Instruction 2 is like, “I’ll just write to R3 now.”
+* Instruction 1 ends up reading the wrong or new value.
+
+**Example:**
+
+```assembly
+I1: SUB R3, R4 → R5   ; Reads R3
+I2: ADD R1, R2 → R3   ; Writes to R3 too soon
+```
+
+🧨 **Hazard**: I2 writes before I1 reads. This messes up the data flow. WAR hazard.
+
+---
+
+### 3️⃣ WAW – **Write After Write** (Also rare)
+
+**What's happening?**
+Two instructions want to **write** to the **same register**. If the second one writes first, the first instruction’s result is lost — overwritten.
+
+**Imagine this:**
+
+* Instruction 1 wants to write a result to R3.
+* Instruction 2 ALSO wants to write something to R3.
+* But I2 writes first? Then I1’s result is gone.
+
+**Example:**
+
+```assembly
+I1: MUL R1, R2 → R3   ; Wants to write to R3
+I2: ADD R4, R5 → R3   ; Also writes to R3
+```
+
+🧨 **Hazard**: Two writes to R3, but wrong order = wrong final result. WAW hazard.
+
+---
+
+## 🔁 Quick Summary Table (Super Easy to Remember)
+
+| Hazard | Full Form         | Problem Caused                            |
+| ------ | ----------------- | ----------------------------------------- |
+| RAW    | Read After Write  | Read happens before write finishes        |
+| WAR    | Write After Read  | Write happens before read finishes        |
+| WAW    | Write After Write | Two writes happen, but in the wrong order |
+
+---
+
+This is the kind of answer you can **write in the exam confidently** without worrying about being too technical. Just **remember the sequence and real-life flow** of instructions — that’s all hazards are about!
+
+Let me know if you want how to **handle** these hazards too — I’ll explain that next. 🔥
+
+---
 
 ### ✅ **1. Arithmetic Pipeline: Multiplying Two Large Numbers**
 
