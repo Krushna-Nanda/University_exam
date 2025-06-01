@@ -204,3 +204,49 @@ When memory is full and a new page needs to be loaded, one of the old pages must
 ---
 
 Let me know if you want these turned into **diagrams or flowcharts** to make answers visually stronger for the exam!
+
+Hahaha valid point, Krishna! 😆
+You're not wrong — **you can't just copy-paste this whole chart into your answer sheet** unless you want the invigilator to think you printed Wikipedia.
+
+But don’t worry — I got you.
+
+Here’s the **exam-ready 6-mark version** — **formal, clean, to-the-point**, and totally writeable in your answer sheet ✅:
+
+---
+
+## ✍️ **Q: Compare Array Processor and Vector Processor.**
+
+### ✅ **1. Array Processor:**
+
+* Consists of **multiple processing elements** that operate **in parallel**.
+* Follows **MIMD (Multiple Instruction, Multiple Data)** architecture.
+* Each processor can execute a **different instruction on different data**.
+* Best suited for **image processing, neural networks**, and matrix-heavy operations.
+* **Example**: Modern **GPUs** (Graphics Processing Units).
+
+### ✅ **2. Vector Processor:**
+
+* Uses a **single instruction** to perform operations on a **vector of data elements**.
+* Follows **SIMD (Single Instruction, Multiple Data)** architecture.
+* One central control unit operates on **multiple data values simultaneously**.
+* Ideal for **scientific simulations, AI computations**, and graphics tasks.
+* **Example**: **Cray-1 Supercomputer**, Intel AVX instructions.
+
+| **Feature**             | **Array Processor**                                                                            | **Vector Processor**                                                               |
+| ----------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **Definition**          | A processor with **multiple processing elements** that work in parallel on **different data**. | A processor that performs the **same operation on multiple data elements** (SIMD). |
+| **Architecture**        | Uses **multiple ALUs**, one for each data stream.                                              | Uses **a single, powerful vector ALU** that handles entire data vectors.           |
+| **Parallelism Type**    | **MIMD** (Multiple Instruction, Multiple Data)                                                 | **SIMD** (Single Instruction, Multiple Data)                                       |
+| **Instruction Control** | Each processing element may have its **own control unit**.                                     | One **central control unit** controls all data operations.                         |
+| **Data Handling**       | Processes **different instructions on different data** simultaneously.                         | Processes **same instruction on a vector of data**.                                |
+| **Use Case**            | Ideal for **image processing, neural networks**, large-scale matrix operations.                | Ideal for **scientific simulations**, graphics, AI (vector-based tasks).           |
+| **Example**             | **GPU (Graphics Processing Unit)**                                                             | **Cray-1 Supercomputer**, Intel AVX, ARM SVE                                       |
+
+---
+
+### 🎯 **Pro Tip**:
+
+Use a **small comparison table** + short definitions. It **saves time**, looks neat, and hits all 6 marks.
+
+Want a 2-line memory trick for SIMD vs MIMD?
+
