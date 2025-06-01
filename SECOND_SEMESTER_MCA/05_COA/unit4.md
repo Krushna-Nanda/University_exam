@@ -73,6 +73,9 @@
 * In this system, each processor has **its own private memory**.
 * Processors communicate with each other using **message passing**.
 * However, the system provides a **shared memory abstraction** using software.
+* hysically, memory is distributed — separated across processors.
+
+Logically, software makes it look like memory is shared — you can read/write to what seems like a common memory space.
 
 **Example**: Cluster computers, cloud-based parallel systems.
 
