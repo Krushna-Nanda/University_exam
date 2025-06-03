@@ -124,3 +124,207 @@ There exist **algorithms** to decide the following:
 ---
 
 Want these as a printable one-page chart for rapid revision, Krishna bhai? Or want a Pumping Lemma proof walkthrough on a tricky example? I got you! 💪😎
+
+Aye **Krishna bhai🔥**, ab tu full **regex ka Rambo** ban chuka hai — toh chalo baaki properties bhi **waise hi tod ke samjhaate hain** jaise tu ne bola: **no bakchodi, full desi clarity, solid examples, zero theory loda**. Ready? 💥
+
+---
+
+## 💻 Regular Language Operations – Full Table Style with Real Examples
+
+---
+
+### 🔹 1. **Union** – `L1 ∪ L2`
+
+➡️ "Either this OR that"
+
+**Example**:
+
+* L1 = strings with only a & b → `(a + b)*`
+* L2 = strings with only c & d → `(c + d)*`
+* `L = L1 ∪ L2`
+
+✅ Accepts:
+
+```
+"abba", "b", "", "ccd", "ddc", "c"
+```
+
+❌ Rejects:
+
+```
+"abc", "adc", "cad", "ac"
+```
+
+---
+
+### 🔹 2. **Concatenation** – `L1 · L2`
+
+➡️ "First something from L1, then from L2"
+
+**Example**:
+
+* L1 = `(a + b)*` = strings of a’s and b’s
+* L2 = `(c + d)*` = strings of c’s and d’s
+* `L = L1 · L2`
+
+✅ Accepts:
+
+```
+"ab", "abcd", "bbccdd", "aacc"
+(First part: only a/b, then c/d)
+```
+
+❌ Rejects:
+
+```
+"cdab", "ccabba", "abcabc"  
+(violates the order: a/b must come first)
+```
+
+---
+
+### 🔹 3. **Kleene Star** – `L*`
+
+➡️ "Zero or more repetitions of strings from L"
+
+**Example**:
+
+* L = `"ab"`
+* Then `L*` = {"", "ab", "abab", "ababab", ...}
+
+✅ Accepts:
+
+```
+"", "ab", "abab", "ababab"
+```
+
+❌ Rejects:
+
+```
+"a", "abb", "aabb", "ba"
+(not full repetitions of `"ab"`)
+```
+
+---
+
+### 🔹 4. **Intersection** – `L1 ∩ L2`
+
+➡️ "Only strings common to both"
+
+**Example**:
+
+* L1 = strings ending with `a`: `(a + b)*a`
+* L2 = strings starting with `a`: `a(a + b)*`
+
+✅ Accepts:
+
+```
+"a", "aba", "aa", "abba"
+(Starts and ends with a)
+```
+
+❌ Rejects:
+
+```
+"b", "ab", "bb", "baa", "bab"
+```
+
+---
+
+### 🔹 5. **Complement** – `Σ* \ L1`
+
+➡️ "Everything except what's in L1"
+
+**Example**:
+
+* Let L1 = strings that contain only even number of a's
+
+Then:
+
+* Complement = strings with **odd number of a's**
+
+✅ Accepts:
+
+```
+"a", "aba", "aaaba", "aaaaa"
+```
+
+❌ Rejects:
+
+```
+"", "aa", "abba", "aabb" (even number of a's)
+```
+
+---
+
+### 🔹 6. **Difference** – `L1 − L2` = L1 ∩ (complement of L2)
+
+➡️ "In L1 but not in L2"
+
+**Example**:
+
+* L1 = all strings over {a,b} → `(a + b)*`
+* L2 = strings ending with `b`
+
+Then `L1 - L2` = strings that **do NOT end with b**
+
+✅ Accepts:
+
+```
+"a", "aa", "aba", "babaa"
+```
+
+❌ Rejects:
+
+```
+"b", "ab", "aab", "bb"
+```
+
+---
+
+### 🔹 7. **Reversal** – `reverse(L1)`
+
+➡️ "Flip all strings from L1"
+
+**Example**:
+
+* L1 = {"ab", "abc", "baba"}
+* Reverse(L1) = {"ba", "cba", "abab"}
+
+✅ Accepts:
+
+```
+"ba", "cba", "abab"
+```
+
+❌ Rejects:
+
+```
+"ab", "abc", "baba"
+(original strings, not reversed)
+```
+
+---
+
+## 🔥 Summary Table: Desi Style
+
+| Operation     | Meaning              | Example                       | Accepts            | Rejects             |
+| ------------- | -------------------- | ----------------------------- | ------------------ | ------------------- |
+| Union         | Either L1 or L2      | `(a + b)* ∪ (c + d)*`         | `"abb"`, `"cdc"`   | `"abc"`, `"ac"`     |
+| Concatenation | L1 followed by L2    | `(a + b)* · (c + d)*`         | `"abcc"`, `"aacd"` | `"cdaa"`, `"abcab"` |
+| Kleene Star   | Repeat L any times   | `"ab"*`                       | `"abab"`, `""`     | `"a"`, `"abb"`      |
+| Intersection  | Only common strings  | `starts with a ∩ ends with a` | `"aba"`, `"aa"`    | `"ab"`, `"ba"`      |
+| Complement    | All strings NOT in L | `Σ* \ strings with even a's`  | `"a"`, `"aaa"`     | `"aa"`, `"aabb"`    |
+| Difference    | In L1 but not in L2  | `all - end with b`            | `"aa"`, `"aba"`    | `"ab"`, `"b"`       |
+| Reversal      | Flip the string      | Reverse of `"ab"` is `"ba"`   | `"ba"`             | `"ab"`              |
+
+---
+
+## 😎 Krishna Bhai Ka Exam Tip:
+
+> Agar question aaye: **“Is X closed under operation Y?”** — just remember:
+>
+> **Regular languages are total chads 💪 — closed under all these operations.**
+
+Need visual automata examples for any of these? Ya thoda coding jaise conversion? Bol bhai — beast mode ON hai 🔥
+
