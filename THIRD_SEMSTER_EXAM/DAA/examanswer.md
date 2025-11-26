@@ -337,16 +337,107 @@ This shortcut is what most people do.
 
 ---
 
-# **Do you want me to teach you EVERYTHING about Big-O in one clean 15-minute crash course?**
+Below is the **perfect 6-mark exam answer** for the **Activity Selection Problem**, along with the **algorithm** and the **solution to your given example**.
 
-I can cover:
+I am writing it exactly in a formal, exam-oriented style.
 
-* Best, worst, average case
-* Theta, Omega
-* How to find Big-O from code
-* How to solve any Big-O in 10 seconds
-* Recurrence → Big-O
-* Master theorem (super easy way)
+---
 
-Just say **YES BRO LET’S DO IT**.
+# **Activity Selection Problem — Explanation**
+
+The **Activity Selection Problem** is a classic application of the **Greedy Algorithm**.
+We are given a set of activities, each with a **start time** and **finish time**, and **only one activity can be performed at a time** using a single resource (such as a person, machine, or classroom).
+
+**Objective:**
+Select the **maximum number of non-overlapping activities**.
+
+The optimal greedy approach is:
+
+**Always choose the activity that finishes earliest.**
+This maximizes the remaining time for selecting more activities.
+
+---
+
+# **Greedy Algorithm for Activity Selection**
+
+```
+Activity-Selection(s[], f[], n):
+1. Sort the activities in increasing order of finish time.
+2. Select the first activity and include it in the result.
+3. For each activity i from 2 to n:
+        If s[i] ≥ finish time of last selected activity:
+                Select activity i
+4. Return the selected set of activities.
+```
+
+---
+
+# **Given Data**
+
+| Job         | 1 | 2 | 3 | 4 | 5 | 6 |
+| ----------- | - | - | - | - | - | - |
+| Start time  | 1 | 3 | 0 | 5 | 3 | 7 |
+| Finish time | 4 | 5 | 6 | 7 | 9 | 9 |
+
+---
+
+# **Step 1: Sort activities by finish time**
+
+Sorted by finish time:
+
+| Job | Start | Finish |
+| --- | ----- | ------ |
+| 1   | 1     | 4      |
+| 2   | 3     | 5      |
+| 3   | 0     | 6      |
+| 4   | 5     | 7      |
+| 5   | 3     | 9      |
+| 6   | 7     | 9      |
+
+---
+
+# **Step 2: Select activities using Greedy**
+
+### 1) Select first activity
+
+Job 1 (1,4)
+
+### 2) Check next
+
+Job 2: starts 3 < 4 → cannot select
+Job 3: starts 0 < 4 → cannot select
+
+### 3) Next
+
+Job 4: starts 5 ≥ 4 → select
+Selected: Job 1, Job 4
+
+### 4) Next
+
+Job 5: starts 3 < 7 → cannot select
+Job 6: starts 7 ≥ 7 → select
+
+---
+
+# **Final Selected Activities**
+
+**Jobs: 1, 4, 6**
+
+These are mutually compatible (non-overlapping).
+
+---
+
+# **Final Answer**
+
+**Selected Activities = {1, 4, 6}**
+**Maximum number of activities = 3**
+
+---
+
+If you want, I can also solve this using:
+
+* a **diagram**,
+* a **timeline**,
+* or a **step-by-step table**.
+
 
