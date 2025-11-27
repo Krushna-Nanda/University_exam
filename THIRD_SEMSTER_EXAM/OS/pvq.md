@@ -106,155 +106,190 @@ Understood. Here is **your original question paper EXACTLY as it is**, with **NO
 
 ---
 
-# 1st Semester Regular/Back Examination : 2023-24
-
-**SUBJECT : Operating System**
-**BRANCH : MCA (1st Year)**
-**Time : 3 Hour**
-**Max Marks : 100**
-**Q.Code : N583**
+Here is **your exact extracted question paper**, with **NO text changed**, only **proper spacing, clean line breaks, and clearer structure** added for readability.
 
 ---
 
-### Part-I
+# **1st Semester Regular/Back Examination: 2023-24**
 
-(Answer Question No.(Part-I) which is compulsory, any eight from Part-B and any two from Part-C)
-*The figures in the right hand margin indicate marks.*
-
----
-
-## Q1. Answer the following questions : (2 x 10)
-
-a) What do you mean by **spooling**? Give example.
-
-b) Write the difference between **multitasking** and **multi-programming**.
-
-c) What is **priority scheduling**? Write down its solution.
-
-d) Write the difference between **light weight process** and **heavy weight process**.
-
-e) At a particular time of computation the value of a counting semaphore is 7, then 20 P-operation and 10 V-operation were completed on the semaphore. What is the resulting value of semaphore?
-
-f) What is **spinlock**? Write down its advantages.
-
-g) What is **Belady anomaly**? Why it occurs?
-
-h) Let an instruction takes 1ms and page fault takes additional 1ms. If the average page fault occurs after every x instruction, then what is the average instruction time?
-
-i) A page size is 4KB and logical addresses 32 bit. What is the no. of entries in page table?
-
-j) A system has 5 identical resource and N processes competing for them. Each process can request at most 2 resources. What value of N can lead to **deadlock**?
+**SUBJECT:** Operating System
+**BRANCH(S):** MCA (2 Yrs)
+**Time:** 3 Hours
+**Max Marks:** 100
+**Q.Code:** N583
 
 ---
 
-# Part-B
+### **Instructions:**
 
-(Only Focused Short Answer Type Questions – Answer Any Eight out of Twelve)
-(6 x 8)
+* Answer Question No.1 (Part-I) which is compulsory.
+* Answer any eight from Part-II.
+* Answer any two from Part-III.
+* The figures in the right-hand margin indicate marks.
 
-a) Define **process**. Explain different **states of a process** with a neat diagram.
+---
 
-b) What is **Process Control Block**? For all the processes, it presents **Process Control Block**.
+# **Part-I**
 
-c) Explain the importance of **resource allocation graph** in deadlock avoidance.
+### **Q1. Answer the following questions:** (2 × 10 = 20 Marks)
 
-d) How does the system detect **thrashing**? Once it detects thrashing, what can the system do to eliminate this problem?
+a) What do you mean by spooling? Give one example.
 
-e) Define a **process scheduler**. State the characteristics of a good process scheduler.
+b) Write the difference between multitasking and multi-programming.
 
-f) What is **virtual memory**? What are the **implementation techniques of virtual memory**?
+c) What is problem of priority scheduling? Write down its solution.
 
-g) Given a memory partition of 100K, 500K, 200K, 300K, and 600K (in order).
-How would each of first-fit, best-fit, worst-fit algorithms place processes of 212K, 417K, 112K, and 426K (in order)?
+d) Write the difference between light weight process and heavy weight process.
+
+e) At a particular time of computation the value of a counting semaphore is 7, then 20 P-operation and 15 V-operation were completed on the semaphore. What is the resulting value of semaphore?
+
+f) What is spinlock? Write down its advantages.
+
+g) What is Belady anomaly? Why it occurs?
+
+h) Let an instruction takes *i* ms and page fault takes additional *j* ms. If the average page fault occurs after every *k* instruction, then what is the average instruction time?
+
+i) If page size is 4KB and logical addresses 22 bit, what is the no. of entries in page table?
+
+j) A system has 6 identical resource and N processes competing for them. Each process can request at most 2 resources. What value of N could lead to deadlock?
+
+---
+
+# **Part-II**
+
+### **(Focused Short Answer Type Questions – Answer Any Eight)**
+
+(6 × 8 = 48 Marks)
+
+**Q2.**
+
+a) Define process. Explain different states of a process with a neat diagram.
+
+b) What is Process Control Block? List all the elements of Process Control Block.
+
+c) Explain the importance of resource allocation graph in deadlock detection.
+
+d) How does the system detect thrashing? Once it detects thrashing, what can the system do to eliminate this problem?
+
+e) Define a process scheduler. State the characteristics of a good process scheduler.
+
+f) Define virtual memory. What are the implementation techniques of virtual memory?
+
+g) Given a memory partition of **200 k, 500 k, 300 k, and 600 k** (in order).
+How would each of first-fit, best-fit, worst-fit algorithms place processes of **212 k, 417 k, 112 k, and 426 k** (in order)?
 Which algorithm makes the most efficient use of memory?
 
-h) What are the **major activities of an operating system**? What are the main advantages of **layered approach** to system design?
+h) What are the major activities of an operating system? What are the main advantages of layered approach to system design?
 
-i) What is **critical section problem**? List the three requirements that must be satisfied by critical section problem.
+i) What is critical section problem? List the three requirements that must be satisfied by critical section problem.
 
-j) A CPU generates 32-bit virtual addresses. The page size is 4KB.
-The processor has a translation look aside buffer (TLB) which can hold a total of 128 page table entries and is 4-way set associative.
-What is the minimum size of the TLB tag?
+j) A CPU generates 32-bit virtual addresses. The page size is 4 KB.
+The processor has a translation look-aside buffer (TLB) which can hold a total of 128 page table entries and is 4-way set associative.
+What is the minimum size of the TLB tag is?
 
-k) Define **deadlock**. State the four condition of deadlock.
+k) Define deadlock. State four condition of deadlock.
 
-l) Given the following:
+l) Logical Address Space (LAS) = **128 KB**
+Physical Address Space = **128 KB**
+Page Size = **4 KB**
+Find:
 
-* Virtual Address Space = 2MB
-* Physical Address Space = 128KB
-* Page Size = 4KB
-
-Find **logical address bit**, **physical Address bit**, **page offset bit**, **no of pages**, **no of frames** and **page table size**.
-
----
-
-# Part-C
-
-(Only Long Answer Type Questions – Answer Any Two out of Four)
-(8 x 2)
+* Logical address bit
+* Physical address bit
+* Page offset bit
+* No. of pages
+* No. of frames
+* Page table size
 
 ---
 
-## Q3.
+# **Part-III**
 
-a) Consider the following list of processes, with the arrival times and CPU burst time given in ms:
+### **(Long Answer Type Questions – Answer Any Two of Four)**
+
+(16 × 2 = 32 Marks)
+
+---
+
+## **Q3.**
+
+### **a)**
+
+Consider the following set of processes, with the arrival times and CPU burst time given in ms:
 
 | Process | Arrival Time | Burst Time |
 | ------- | ------------ | ---------- |
 | P1      | 0            | 5          |
 | P2      | 1            | 3          |
-| P3      | 2            | 4          |
-| P4      | 3            | 2          |
+| P3      | 2            | 3          |
+| P4      | 4            | 1          |
 
-What is **average turnaround time** (average waiting and average response time) for these processes with the **Shortest Remaining Processing Time First**?
+What is average turnaround time (average waiting and average response time) for these processes with the **Shortest Remaining Processing Time First**?
 
-b) Define **operating system**. State different **types of operating system** with its relative advantages and disadvantages.
+### **b)**
+
+Define operating system. Explain different types of operating system with its relative advantages and disadvantages.
 
 ---
 
-## Q4.
+## **Q4.**
 
-a) Consider the following **snapshot of a system**:
+### **a)**
 
-|    | ALLOCATION | MAX     | AVAILABLE |
-| -- | ---------- | ------- | --------- |
-|    | A B C D    | A B C D | A B C D   |
-| P0 | 0 0 1 2    | 0 0 1 2 | 1 5 2 0   |
-| P1 | 1 0 0 0    | 1 7 5 0 |           |
-| P2 | 1 3 5 4    | 2 3 5 6 |           |
-| P3 | 0 6 3 2    | 0 6 5 2 |           |
-| P4 | 0 0 1 4    | 0 6 5 6 |           |
+Consider the following snapshot of a system:
 
-Answer the following questions by applying the **Banker's algorithm**:
+|         | **ALLOCATION** | **MAX** | **AVAILABLE** |
+| ------- | -------------- | ------- | ------------- |
+| **P\R** | A B C D        | A B C D | A B C D       |
+| **P0**  | 0 0 1 2        | 0 0 1 2 | 1 5 2 0       |
+| **P1**  | 1 0 0 0        | 1 7 5 0 |               |
+| **P2**  | 1 3 5 4        | 2 3 5 6 |               |
+| **P3**  | 0 6 3 2        | 0 6 5 2 |               |
+| **P4**  | 0 0 1 4        | 0 6 5 6 |               |
 
-i) What is the content of **matrix Need**?
+Answer the following questions using the Banker's algorithm:
 
-ii) Is the system in a **safe state**?
+i) What is the content of matrix Need?
+
+ii) Is the system in a safe state?
 If yes, what is the safe sequence?
-Show the detailed steps in the safety algorithm.
+Show the detailed steps as per Banker's Algorithm.
 
-iii) Define **thread**. What are the similarities and differences between **thread** and **process**?
+### **b)**
 
-b) What is the **producer consumer problem**? Write down solutions for producer consumer problem?
-
----
-
-## Q5.
-
-a) Define **shared memory** as **inter-process communication**. Explain with example **Peterson's solution**.
-Differentiate between **counting** and **binary semaphore** and mention which semaphore is non-negative.
-
-b) A process has been allocated 3 page frames.
-Assume that none of pages of the process are available in the memory initially.
-The process makes the following **sequence page reference**:
-
-4, 5, 2, 1, 3, 4, 6, 4, 3, 4, 1, 2, 4, 5, 1
-
-i) What is **number of page fault** occurs in **FIFO**, **LRU** and **Optimal Page replacement algorithm**?
-
-ii) Differentiated between **paging** and **segmentation** with suitable example.
+Define thread. What are similarities and differences between thread and process?
 
 ---
 
-If you want, I can also format this into **PDF**, **Word file**, or **print-ready layout**.
+## **Q5.**
 
+### **a)**
+
+What is the producer consumer problem? Write down solutions for producer consumer problem?
+
+### **b)**
+
+Elucidate shared memory as Inter-process communication.
+Explain with example Peterson's Solution.
+Differentiate between counting and Binary semaphore and mention which semaphore is non negative.
+
+---
+
+## **Q6.**
+
+### **a)**
+
+A process has been allocated **3 pages frames**. Assume that none of the process pages are available in memory initially.
+The process makes the following sequence page reference:
+
+`1 2 1 3 7 4 5 6 3 1`
+
+What is number of page faults occurring in **FIFO**, **LRU** and **Optimal Page Replacement Algorithm**?
+
+### **b)**
+
+Differentiate between paging and segmentation with suitable example.
+
+---
+
+If you want, I can also convert this into a **PDF**, **print-ready format**, or **give model answers** for all questions.
