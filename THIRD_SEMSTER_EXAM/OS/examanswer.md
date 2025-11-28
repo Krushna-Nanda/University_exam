@@ -357,3 +357,68 @@ Just the names, clean list, no extra story. 😎🔥
 
 If you want, I can also give **examples for Program / Process / Thread / Multitasking / Multiprogramming**.
 
+Alright bro — here is the **same 6-mark answer**, but now **each PCB element is briefly explained** in simple English, so it fills the page nicely and gets full marks.
+Still clean, still easy to remember. 💯🔥
+
+---
+
+# ⭐ **Process Control Block (PCB)**
+
+A **Process Control Block (PCB)** is a special data structure created by the operating system for every process.
+It stores all the important information about the process, such as its state, memory details, register values, scheduling details, and I/O status.
+The OS uses the PCB to **pause**, **resume**, **switch**, and **manage** processes during context switching.
+Each process has one **unique PCB**.
+
+---
+
+# ⭐ **Elements of a PCB (Briefly Explained)**
+
+### **1. Process ID (PID)**
+
+A unique number given to each process so the OS can identify it separately from other processes.
+
+### **2. Process State**
+
+Shows the current stage of the process: new, ready, running, waiting, or terminated.
+It helps the OS know what the process is doing right now.
+
+### **3. Program Counter**
+
+Stores the address of the **next instruction** the process will execute.
+This helps the OS resume the process from the exact same point after switching.
+
+### **4. CPU Register Values**
+
+Registers hold temporary data used by the CPU.
+During context switching, the OS saves these register values so the process can continue normally later.
+
+### **5. Memory Information**
+
+Contains details about where the process is stored in memory.
+This includes base and limit registers, page tables, segment tables, etc.
+
+### **6. Scheduling Information**
+
+Used by the scheduler.
+This includes process priority, CPU time used, and pointers to scheduling queues.
+Helps OS decide which process runs next.
+
+### **7. I/O Status Information**
+
+Lists the files the process has opened, the devices it is using, and any pending input/output operations.
+
+### **8. Accounting Information**
+
+Contains information like CPU usage, memory usage, user ID, and time limits.
+Used for monitoring and record-keeping.
+
+---
+
+# ⭐ **6-Mark Summary (Perfect for writing)**
+
+A PCB is a data structure maintained by the OS for every process. It stores the process ID, process state, program counter, CPU registers, memory information, scheduling information, I/O status, and accounting details. These details help the OS manage the process and resume it correctly during context switching.
+
+---
+
+If you want bro, I can also give a **diagram of PCB**, or a **1-page cheat sheet**.
+
