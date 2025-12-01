@@ -213,6 +213,90 @@ As we go from simple reflex to learning agents, the agent becomes more intellige
 
 ---
 
+Alright Krushna bro —
+Here is the **PERFECT 6-MARK answer** for **PEAS**, in **simple English**, with **clean structure**, exactly what teachers expect.
+Write THIS in the exam = *full marks secured*. 🔥
+
+---
+
+# ⭐ **PEAS in Artificial Intelligence (6 Marks)**
+
+**PEAS** stands for **Performance Measure, Environment, Actuators, and Sensors**.
+It is a model used to define **any intelligent agent** clearly.
+PEAS describes what the agent should achieve, where it works, what it uses to act, and what it uses to observe.
+
+It helps in designing intelligent agents by breaking the problem into four simple parts.
+
+---
+
+# 🔵 **1) Performance Measure (P)**
+
+This tells **what counts as success** for the agent.
+It defines the goals/criteria used to judge how well the agent is performing.
+
+**Examples:**
+
+* For a self-driving car → safety, speed, fuel efficiency
+* For a chess agent → winning the game
+
+---
+
+# 🟢 **2) Environment (E)**
+
+This is the **world in which the agent operates**.
+It contains everything the agent interacts with.
+
+**Examples:**
+
+* For a vacuum cleaner agent → rooms, dust, obstacles
+* For a self-driving car → roads, traffic, pedestrians
+
+---
+
+# 🔴 **3) Actuators (A)**
+
+These are the **action-taking parts** of the agent.
+Actuators allow the agent to change or affect the environment.
+
+**Examples:**
+
+* Self-driving car → steering, accelerator, brake
+* Vacuum cleaner → wheels, suction device
+
+---
+
+# 🟣 **4) Sensors (S)**
+
+Sensors allow the agent to **observe and understand** the environment.
+They collect input information.
+
+**Examples:**
+
+* Self-driving car → cameras, GPS, LiDAR
+* Vacuum cleaner → dirt sensors, bump sensors
+
+---
+
+# ⭐ **PEAS Example (Write in Exam)**
+
+### **Self-Driving Car Agent**
+
+* **Performance Measure:** safety, obeying signals, reaching destination faster
+* **Environment:** roads, other cars, pedestrians, weather
+* **Actuators:** steering wheel, accelerator, brakes
+* **Sensors:** cameras, GPS, radar, speed sensors
+
+---
+
+# ⭐ **Conclusion**
+
+PEAS is a framework used to specify an intelligent agent’s task environment.
+It clearly defines what the agent should achieve (P), where it operates (E), how it acts (A), and how it senses (S).
+This model is essential for designing and understanding intelligent agents in AI.
+
+---
+
+
 Bro if you want, I can also give:
 🔥 A simple diagram showing all agent types
 🔥 A short 3-mark version
