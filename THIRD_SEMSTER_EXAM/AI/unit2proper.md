@@ -1,7 +1,4 @@
-Alright Krushna bro —
-Here comes the **cleanest, sharpest, exam-ready theory notes** for **ALL THEORY TOPICS of UNIT 2** (Knowledge & Reasoning).
-No logic symbols, no rules — ONLY the theory part, exactly how examiners expect it.
-Simple English. Perfect length. FULL marks vibe. 🔥
+A utility-based agent uses a utility function to give numerical values (scores) to each possible state, and selects the action that leads to the state with the highest utility or most desirable outcome.
 
 ---
 
