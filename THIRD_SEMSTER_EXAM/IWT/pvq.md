@@ -185,61 +185,54 @@ No content changed. Just formatting ✨
 
 ---
 
-# **📘 Internet and Web Programming – Clean, Properly Spaced Question Paper**
+Nice — here’s the **complete, fully cleaned & properly spaced** question paper (every part, every table), ready to copy/paste or print. I didn’t change any content — only fixed spacing, line breaks and table formatting so it looks exam-ready.
 
-**Branch:** MCA (2 Years)
+# **Internet and Web Programming — MCA (2 Yrs)**
+
 **Paper Code:** M379
 
 ---
 
-# **PART – I**
+## PART — I
 
-### **Q1. Answer the following questions:**
+### Q1. Answer the following questions:
 
-**a)** What is WWW? Who is the inventor of WWW?
+a) What is WWW? Who is the inventor of WWW?
 
-**b)** What is the difference between a web server and a web browser?
-Name two popular web server softwares and two web browsers.
+b) What is the difference between a web server and a web browser? Name two popular web server softwares and two web browsers.
 
-**c)** Draw a neat diagram for OSI reference model.
+c) Draw a neat diagram for OSI reference model.
 
-**d)** What is the difference between rowspan and colspan property? Explain with an example.
+d) What is the difference between `rowspan` and `colspan` property? Explain with an example.
 
-**e)** Create two lists: one for flowers and another for fruits.
-While displaying the flowers, the bullet image should be an image of a flower.
-Similarly, for fruits list, the bullet image should be a fruit.
+e) Create two lists: one for flowers and another for fruits. While displaying the flowers, the bullet image should be an image of a flower; similarly for the fruits list, the bullet image should be a fruit.
 
-**f)** What is the difference between GET and POST methods in an HTML form?
-What value does the **action** attribute in a form hold?
+f) What is the difference between GET and POST methods in an HTML form? What value does the `action` attribute in a form hold?
 
-**g)** Write code in JavaScript to create an array of five numbers and sort them in ascending order.
+g) Write code in JavaScript to create an array of five numbers and sort them in ascending order.
 
-**h)** What is the Common Gateway Interface (CGI)?
-With a neat diagram, show the mechanism of dynamic webpage generation using CGI.
+h) What is the Common Gateway Interface (CGI)? With a neat diagram, show the mechanism of dynamic web page generation using CGI.
 
-**i)** What is FTP? Which ports are used for FTP applications?
+i) What is FTP? Which ports are used for FTP applications?
 
-**j)** What is a digital signature?
-Which security aspects are fulfilled while using a digital signature?
+j) What is a digital signature? Which security aspects are fulfilled while using digital signature?
 
 ---
 
-# **PART – II**
+## PART — II
 
-### **Q2. Short Answer Type (Answer Any Eight out of Twelve)**
+**Q2. Only Focused — Short Answer Type Questions (Answer Any Eight out of Twelve)**
 
----
-
-### **a)**
+### a)
 
 (i) HTML is a markup language. Justify.
-(ii) Describe the use of the following HTML tags:
-`<title>`, `<base>`, `<link>`, `<style>`, `<meta>`, `<script>`
+(ii) Describe the use of the following HTML tags: `<title>`, `<base>`, `<link>`, `<style>`, `<meta>`, `<script>`.
 
 ---
 
-### **b)** Write the use of the following JavaScript string functions with examples:
+### b)
 
+Write the use of the following string functions available in JavaScript, providing an example for each:
 i. `trim()`
 ii. `charAt()`
 iii. `concat()`
@@ -249,166 +242,167 @@ vi. `substring()`
 
 ---
 
-### **c)** Differentiate between padding and margin.
+### c)
 
-Write HTML + CSS code to create a paragraph with:
+Differentiate between padding and margin.
+Write HTML + CSS code to create a paragraph with the following CSS properties:
 
-* background-color: blue
-* margin-top: 50px
-* margin-bottom: 50px
-* margin-right: 100px
-* margin-left: 100px
-
----
-
-### **d)** What is a regular expression in JavaScript?
-
-Write code using regex to do case-insensitive search for string **"bput"**
-in the source string **"Workshop on IOT conducted in BPUT"**.
-What will be returned in the search?
+* `background-color: blue;`
+* `margin-top: 50px;`
+* `margin-bottom: 50px;`
+* `margin-right: 100px;`
+* `margin-left: 100px;`
 
 ---
 
-### **e)**
+### d)
 
-(i) Write a JavaScript function that takes a year as input and displays whether it is a leap year.
-(ii) Differentiate between `let`, `var` and `const` with one example each.
-
----
-
-### **f)**
-
-HTTP protocol is used in which network layer?
-What is a stateful protocol?
-Is HTTP stateful or stateless? Give reason.
-For a banking application, which method (GET/POST) is used for sending authentication details and why?
+What is a regular expression in JavaScript?
+Write code using a regular expression to do a case-insensitive search for the string `"bput"` in the source string `"Workshop on IOT conducted in BPUT"`. What will be returned in the search?
 
 ---
 
-### **g)**
+### e)
 
-Differentiate between symmetric and asymmetric key encryption.
-Name two algorithms for each.
-For large files, which type of encryption is suitable and why?
+(i) Write a function in JavaScript that takes as input a year and displays whether it is a leap year or not.
+(ii) Differentiate between the use of `let`, `var` and `const` in JavaScript with an example of each.
 
 ---
 
-### **h)** What is an object in JavaScript?
+### f)
 
-Create a JavaScript object **person** with:
+HTTP protocol is used in which layer of the network? What is a stateful protocol? Is HTTP stateful or stateless? Give reason. For a banking application, which method — GET or POST — is used for sending user authentication details to the server and why?
+
+---
+
+### g)
+
+Differentiate between symmetric and asymmetric key encryption. Name two encryption algorithms for each category. For large files, which type of encryption is suitable and why?
+
+---
+
+### h)
+
+What is an object in JavaScript? Create a JavaScript object named `person` with the following attributes:
 
 * First Name: "Priyanka"
 * Last Name: "Murmu"
 * Age: 50
-* Eye Color: blue
-
-Write HTML code to display these details on a web page.
-
----
-
-### **i)**
-
-(i) Write a program using HTML and JavaScript that takes an input string and displays it in reverse.
-(ii) A positive integer is perfect if it equals the sum of its proper divisors.
-Example: 6 → 3 + 2 + 1
-28 → 14 + 7 + 4 + 2 + 1
-There are 4 perfect numbers below 10,000.
-Write a JavaScript function to find these four numbers.
+* Eye color: blue.
+  Write code in HTML to display the details of the person on the web page.
 
 ---
 
-### **j)**
+### i)
 
-What is a firewall?
-What are the various firewall techniques?
-Explain their working principle.
-How is a firewall different from an IDS?
+(i) Write a program using HTML and JavaScript that takes an input string in a text field and displays the string in reverse order.
+(ii) A positive integer is called a perfect number if it is equal to the sum of all of its positive divisors, excluding itself. Example: `6 = 3 + 2 + 1`, `28 = 14 + 7 + 4 + 2 + 1`. There are four perfect numbers less than 10,000. Write a function in JavaScript to find all these four numbers.
 
 ---
 
-### **k)**
+### j)
 
-What is an event in JavaScript?
-Give examples of events.
-Create an HTML form with a text field and button.
-On button click, convert the text field content to uppercase.
+What is a firewall? What are the various types of firewall techniques? Write a few lines about their working principle. How is a firewall different from an IDS?
 
 ---
 
-### **l)**
+### k)
 
-What is a layout in a webpage?
-Explain with example how the `<div>` tag is used to create layouts.
-
----
-
-# **PART – III**
-
-### **(Long Answer Type – Answer Any Two out of Four)**
+What is an event in JavaScript? Give examples of a few events in JavaScript. Create an HTML form with a text field and a button. When the button is clicked after providing input in the text field, the contents of the text field should change to uppercase.
 
 ---
 
-# **Q3.**
+### l)
 
-**(a)** Write HTML code to create the following table layout:
-
-(Use the same Day / Schedule / Topic structure as shown.)
-
-**(b)** Write HTML code to create a web page for your CV.
-
-**(c)** What are the different types of lists in HTML?
-Demonstrate each with examples.
-Using CSS, change bullet type for unordered lists and set start number for ordered lists.
-
-**(d)** Differentiate between various types of CSS (inline, internal, external) with examples.
+What is a layout in a webpage? Explain with example how the `<div>` tag is used to create layouts in HTML.
 
 ---
 
-# **Q4.**
+## PART — III
 
-Design a webpage for a **Workshop** to be conducted in BPUT.
-The webpage must include sections like:
-
-* About the Workshop
-* Location map
-* Course details
-* Registration process
-* Committee members
-* Instructor details
-* Registration form
-* Contact us section
+**Only Long Answer Type Questions (Answer Any Two out of Four)**
 
 ---
 
-# **Q5.**
+### Q3.
 
-**(a)** Describe the document structure in HTML.
-**(b)** What are the advantages of using CSS in an HTML document?
-**(c)** Explain with examples the following CSS background properties:
+**(a)** Write code in HTML to create a table as shown below.
 
-* background-color
-* background-image
-* background-repeat
-* background-attachment
-* background-position
+**Table (clean, exam-ready version):**
 
-**(d)** Write a program using HTML, CSS, and JavaScript to change the color of a link depending on its state (visited, hover, active).
+| Day       | Begin      | End        | Topic                      |
+| --------- | ---------- | ---------- | -------------------------- |
+| Monday    | 8:00 a.m.  | 5:00 p.m.  | Introduction to XML        |
+|           |            |            | Validity: DTD and Relax NG |
+| Tuesday   | 8:00 a.m.  | 11:00 a.m. | XPath                      |
+|           | 11:00 a.m. | 2:00 p.m.  |                            |
+|           | 2:00 p.m.  | 5:00 p.m.  | XSL Transformations        |
+| Wednesday | 8:00 a.m.  | 12:00 p.m. | XSL Formatting Objects     |
 
----
-
-# **Q6.**
-
-Write an HTML + JavaScript program to calculate U.S. federal personal income tax (2009 rates).
-Input: filing status + taxable income
-Output: calculated tax based on slab rates.
-
-(Use the given tax table.)
+*(Note: the exam paper had a header row showing “Schedule” split into Begin/End — above is the same structure presented as columns: Day / Begin / End / Topic.)*
 
 ---
 
-If you want, I can also **convert this into a printable PDF**, **add borders**, or **format by unit only**.
+**(b)** Write HTML code to create the web page for your CV.
 
-Got it — same text, cleaned up and neatly spaced. I haven’t changed the content — only improved spacing and layout so it’s exam-ready. Here you go:
+**(c)** What are the different types of lists available in HTML? Demonstrate the use of the different types of lists through examples. Using CSS change bullet type for unordered list and start numbering for ordered list.
+
+**(d)** Differentiate between different types of CSS. Provide example of each (inline, internal, external).
+
+---
+
+### Q4.
+
+Design a webpage for a Workshop to be conducted in BPUT. The webpage should include sections such as: information about the Workshop, Location map, course details, registration process, committee members, Instructor details, registration page/form where users can register, contact us section, etc.
+
+---
+
+### Q5.
+
+a) Describe the document structure in HTML.
+
+b) What are the advantages of using CSS in an HTML document?
+
+c) Describe the use of the following background properties in CSS through examples:
+
+* `background-color`
+* `background-image`
+* `background-repeat`
+* `background-attachment`
+* `background-position`
+
+d) Write a program using JavaScript, HTML and CSS which will change the color of a link (`<a>`) depending on visited, hover or active state.
+
+---
+
+### Q6.
+
+The United States federal personal income tax is calculated based on filing status and taxable income. There are four filing statuses: single filers, married filing jointly or qualified widow(er), married filing separately, and head of household. The tax rates vary every year. Table below shows the rates for 2009.
+
+If you are, say, single with a taxable income of $10,000, the first $8,350 is taxed at 10% and the other $1,650 is taxed at 15%, so your total tax is $1,082.50. Write a program using HTML and JavaScript to take input from user about their filing status and taxable income. After the user submits the details, the tax payable is calculated and displayed to the user.
+
+*(Table 3.2: 2009 U.S. Federal Personal Tax Rates)*
+
+| Marginal Tax Rate | Single              | Married Filing Jointly or Qualifying Widow(er) | Married Filing Separately | Head of Household   |
+| ----------------- | ------------------- | ---------------------------------------------- | ------------------------- | ------------------- |
+| **10%**           | $0 – $8,350         | $0 – $16,700                                   | $0 – $8,350               | $0 – $11,950        |
+| **15%**           | $8,351 – $33,950    | $16,701 – $67,900                              | $8,351 – $33,950          | $11,951 – $45,500   |
+| **25%**           | $33,951 – $82,250   | $67,901 – $137,050                             | $33,951 – $68,525         | $45,501 – $117,450  |
+| **28%**           | $82,251 – $171,550  | $137,051 – $208,850                            | $68,526 – $104,425        | $117,451 – $190,200 |
+| **33%**           | $171,551 – $372,950 | $208,851 – $372,950                            | $104,426 – $186,475       | $190,201 – $372,950 |
+| **35%**           | $372,951+           | $372,951+                                      | $186,476+                 | $372,951+           |
+
+---
+
+If you want any of the following, I’ll drop it instantly — no back-and-forth:
+
+* ✅ The **exact HTML** that reproduces the XML-schedule table (Q3a).
+* ✅ A **print-ready PDF** of this formatted paper.
+* ✅ **Solutions / model answers** for any question (e.g., JavaScript reverse-string, perfect-number finder, leap-year function, or the tax-calculator).
+* ✅ A **neat HTML template** for the Workshop webpage (Q4) — responsive + form + embedded map.
+
+Tell me which of the bullets you want right now (pick one or more) and I’ll produce it straight away. What do you want next?
+
 
 # 🎓 MCA 2nd Sem — Internet and Web Programming (Cleaned Text)
 
