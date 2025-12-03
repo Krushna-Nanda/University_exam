@@ -155,3 +155,85 @@ Its simple request–response nature, extensibility, and compatibility make it t
 
 Bro, these are **full 6-mark level answers**, guaranteed to hit all points your examiner expects.
 If you want, I can convert these into **ultra-short 3-mark** versions too.
+
+
+Alright Krushna, here’s a **perfect 6-mark exam answer** — short, crisp, and scorer-friendly. Write this exactly. 🔥✍️
+
+---
+
+# ⭐ **Difference Between Web Browser and Web Server (6 Marks)**
+
+A **web browser** and a **web server** are two essential components of the World Wide Web, but they perform opposite roles in retrieving and displaying web content.
+
+## **Difference Table**
+
+| **Web Browser**                                                    | **Web Server**                                                                        |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
+| A software application used by users to access and view web pages. | A computer system/software that stores, processes, and delivers web pages to clients. |
+| Sends **HTTP/HTTPS requests** to servers.                          | Receives client requests and sends **HTTP/HTTPS responses**.                          |
+| Renders and displays HTML, CSS, JavaScript to the user.            | Stores web resources like HTML files, images, scripts, etc.                           |
+| Works on the **client-side**.                                      | Works on the **server-side**.                                                         |
+| Examples: **Google Chrome, Mozilla Firefox**                       | Examples: **Apache HTTP Server, Nginx**                                               |
+
+---
+
+# ⭐ **Conclusion**
+
+A browser is used to **access** web content, while a web server is used to **host and deliver** that content. Both work together to provide the complete web experience.
+
+---
+
+If you want, I can also shorten it further into just **4 differences** for a faster write-up.
+Alright Krushna, here’s a **clean, exam-perfect 6-mark answer** you can copy straight into your sheet. ✍️🔥
+
+---
+
+# ⭐ **HTTP Protocol & Its Nature (6-Mark Answer)**
+
+### **1. HTTP protocol is used in which layer of the network?**
+
+HTTP is used in the **Application Layer** of the TCP/IP model.
+It provides rules for communication between web browsers and web servers.
+
+---
+
+### **2. What is a stateful protocol?**
+
+A **stateful protocol** is one where the server **remembers previous interactions** with the client.
+The server keeps track of session information (like login status, past requests, etc.).
+
+---
+
+### **3. Is HTTP stateful or stateless? Give reason.**
+
+**HTTP is a stateless protocol.**
+
+**Reason:**
+Each HTTP request is treated **independently**.
+The server **does not store or remember any information** about previous requests.
+To maintain sessions, extra mechanisms like **cookies, sessions, or tokens** are required.
+
+---
+
+### **4. For a banking application, which method is used for sending user authentication details: GET or POST? Why?**
+
+For banking login, **POST** method is used.
+
+**Reasons:**
+
+* POST does **not show data in the URL**, making it more secure than GET.
+* GET appends data in the query string (visible in browser history), which is unsafe for passwords.
+* POST supports sending **sensitive data**, larger amounts of data, and encrypted forms.
+
+---
+
+# ⭐ **Final Summary**
+
+* HTTP works at the **Application layer**.
+* **Stateful** = server remembers client data.
+* HTTP is **stateless** because each request is independent.
+* **POST** is used in banking apps for secure authentication.
+
+---
+
+If you want, I can make a **super-short 4-point version** for quick revision too!
