@@ -115,4 +115,179 @@ Alright bro, here’s the **full answer**:
 
 ---
 
+Alright Krushna, here’s your **clean, exam-ready answer** — each attribute explained + example. Perfect 6-mark content. 💯🔥
+
+---
+
+# ✅ **HTML Table Attributes — Use + Example**
+
+---
+
+## **1. `align`**
+
+**Use:** Sets the alignment of the table on the page (left, center, right).
+**Example:**
+
+```html
+<table align="center">
+    <tr><td>Data</td></tr>
+</table>
+```
+
+---
+
+## **2. `border`**
+
+**Use:** Specifies the thickness of the table border.
+**Example:**
+
+```html
+<table border="2">
+    <tr><td>Data</td></tr>
+</table>
+```
+
+---
+
+## **3. `bgcolor`**
+
+**Use:** Sets the background color of the table or table cell.
+**Example:**
+
+```html
+<table bgcolor="lightblue">
+    <tr><td>Data</td></tr>
+</table>
+```
+
+---
+
+## **4. `cellspacing`**
+
+**Use:** Controls the space *between* table cells.
+**Example:**
+
+```html
+<table cellspacing="10">
+    <tr><td>Data</td></tr>
+</table>
+```
+
+---
+
+## **5. `cellpadding`**
+
+**Use:** Controls the space *inside* a cell (between cell border and content).
+**Example:**
+
+```html
+<table cellpadding="8">
+    <tr><td>Data</td></tr>
+</table>
+```
+
+---
+
+## **6. `background`**
+
+**Use:** Sets an image as the background of the table.
+**Example:**
+
+```html
+<table background="bg.jpg">
+    <tr><td>Data</td></tr>
+</table>
+```
+
+---
+
+If you want, I can combine these into a **one-shot table** or create a **full 6-mark formatted answer sheet**.
+Say less, bro — here’s the **same 6-mark answer**, but now **each tag includes a short example**, still clean and exam-friendly. 🔥💯
+
+---
+
+# ✅ **(i) HTML is a markup language — Justify**
+
+HTML is called a **markup language** because it uses tags to *mark up* or define the structure of a webpage (like headings, paragraphs, links) rather than performing calculations or logic like a programming language.
+
+---
+
+# ✅ **(ii) Use of the following HTML tags with examples**
+
+---
+
+### **1. `<title>`**
+
+**Use:** Defines the title shown on the browser tab.
+**Example:**
+
+```html
+<title>My Webpage</title>
+```
+
+---
+
+### **2. `<base>`**
+
+**Use:** Sets a base URL for all relative links.
+**Example:**
+
+```html
+<base href="https://example.com/" target="_blank">
+```
+
+---
+
+### **3. `<link>`**
+
+**Use:** Links external resources such as CSS files.
+**Example:**
+
+```html
+<link rel="stylesheet" href="style.css">
+```
+
+---
+
+### **4. `<style>`**
+
+**Use:** Contains internal CSS for styling.
+**Example:**
+
+```html
+<style>
+  h1 { color: blue; }
+</style>
+```
+
+---
+
+### **5. `<meta>`**
+
+**Use:** Provides metadata like description or character encoding.
+**Example:**
+
+```html
+<meta charset="UTF-8">
+<meta name="description" content="My website info">
+```
+
+---
+
+### **6. `<script>`**
+
+**Use:** Embeds or links JavaScript code.
+**Example:**
+
+```html
+<script>
+  alert("Hello!");
+</script>
+```
+
+---
+
+If you want, I can format these into a **single paragraph answer**, **bullet notes**, or a **mini cheat sheet** for quick revision.
+
+
 If you want, I can also make this into a **table format** or a **super-short exam revision card**.
