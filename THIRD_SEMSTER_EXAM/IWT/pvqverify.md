@@ -1,112 +1,118 @@
-# 2024
----
-
-# ✅ **PART–II (6 Marks Each) WITH NEW SYLLABUS MODULE TAGS**
+Alright bro, here’s the **full answer**:
+**Syntax + One-line purpose + Example** — perfect for a 6-mark question. 💯🔥
 
 ---
 
-### **a) What is the difference between an element and a tag?**
-
-**MODULE:** ✔ **Module-2 (HTML Basics)**
+# ✅ **HTML Tags — Syntax, Purpose, Example**
 
 ---
 
-### **b) Explain the syntax of the following HTML tags:**
+## **1. `<img>` (Image Tag)**
 
-• `<h1>` or `<h2>` (heading)
-• `<b>` (bold)
-• `<i>` (italics)
-**MODULE:** ✔ **Module-2 (HTML Formatting & Fonts)**
+**Syntax:**
 
----
+```html
+<img src="path/image.jpg" alt="description">
+```
 
-### **c) Describe the use of the following attributes in an HTML table with an example:**
+**Purpose:** Used to display an image on a webpage.
+**Example:**
 
-• align
-• border
-• bgcolor
-• cellspacing
-• cellpadding
-• background
-**MODULE:** ✔ **Module-2 (HTML Tables)**
+```html
+<img src="car.png" alt="Car Image">
+```
 
 ---
 
-### **d) What is an operator in JavaScript? What is the difference between operator precedence and associativity?**
+## **2. `<p>` (Paragraph Tag)**
 
-**MODULE:** ✔ **Module-3 (JavaScript Basics)**
+**Syntax:**
 
----
+```html
+<p>Text</p>
+```
 
-### **e) Differentiate between external CSS and internal CSS.**
+**Purpose:** Used to define a paragraph of text.
+**Example:**
 
-**MODULE:** ✔ **Module-2 (CSS — Internal/External/Inline Styles)**
-
----
-
-### **f) What is DOM in JavaScript?**
-
-**MODULE:** ✔ **Module-3 (DOM & Browser Environment)**
-
----
-
-### **g) Explain the use of the following DOM methods with suitable examples:**
-
-• document.getElementById()
-• document.getElementsByTagName()
-• document.getElementsByClassName()
-• document.createElement()
-• element.setAttribute()
-**MODULE:** ✔ **Module-3 (DOM Manipulation)**
+```html
+<p>This is a paragraph.</p>
+```
 
 ---
 
-### **h) What is the difference between pseudo-class and pseudo-element in CSS? Explain each with an example.**
+## **3. `<div>` (Division Tag)**
 
-**MODULE:** ✔ **Module-2 (CSS Selectors & Pseudo-selectors)**
+**Syntax:**
 
----
+```html
+<div>Content</div>
+```
 
-### **i) Using a combinator, select the paragraph occurring immediately after the `<h1>` and style it with color blue, font size 25, bold.**
+**Purpose:** Used to create block-level sections for layout and grouping.
+**Example:**
 
-*(Code snippet given)*
-**MODULE:** ✔ **Module-2 (CSS Combinators)**
-
----
-
-### **j) What is a block element and inline element in HTML? Give examples. Using CSS, change a link element `<a>` to a block element and remove underline.**
-
-**MODULE:** ✔ **Module-2 (HTML Display Properties & CSS Display)**
-
----
-
-### **k) CSS position property values (static, relative, fixed, absolute, sticky). Explain their use with examples.**
-
-**MODULE:** ✔ **Module-2 (CSS Positioning)**
+```html
+<div>
+  <p>Inside a division.</p>
+</div>
+```
 
 ---
 
-### **l) Differentiate between padding and border with diagram & examples.**
+## **4. `<span>` (Inline Tag)**
 
-**MODULE:** ✔ **Module-2 (CSS Box Model)**
+**Syntax:**
 
----
+```html
+<span>Inline text</span>
+```
 
-### **m) Write HTML code to create the following table:**
+**Purpose:** Used to style or group inline text.
+**Example:**
 
-(Complex rowspan table: David & Alex)
-**MODULE:** ✔ **Module-2 (HTML Tables)**
-
----
-
-# ⭐ SUMMARY OF PART-II
-
-All Part-II questions come FROM **Module-2 and Module-3**
-→ ✔ 100% present in NEW syllabus
-→ ❌ NONE are out of syllabus
+```html
+<p>This is <span>highlighted</span> text.</p>
+```
 
 ---
 
-# 2023 
+## **5. `<b>` (Bold Tag)**
 
-Bro if you want, I can now do the same clean mapping for **PART–III (16-mark)** questions too — just say **“Do Part-III now”** and I’ll format it the same way.
+**Syntax:**
+
+```html
+<b>Bold text</b>
+```
+
+**Purpose:** Used to display text in bold (non-semantic emphasis).
+**Example:**
+
+```html
+<p>This is <b>important</b> text.</p>
+```
+
+---
+
+## **6. `<h1>` to `<h6>` (Heading Tags)**
+
+**Syntax:**
+
+```html
+<h1>Main Heading</h1>
+<h2>Sub Heading</h2>
+...
+<h6>Smallest Heading</h6>
+```
+
+**Purpose:** Used to define headings with different importance levels.
+**Example:**
+
+```html
+<h1>Title</h1>
+<h3>Section Heading</h3>
+```
+
+---
+
+If you want, I can also make this into a **table format** or a **super-short exam revision card**.
