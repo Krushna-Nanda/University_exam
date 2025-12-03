@@ -390,38 +390,13 @@ An **object** in JavaScript is a collection of key-value pairs (properties) and/
 **Rule:** Year is leap if divisible by 400 or (divisible by 4 and not by 100).
 
 **HTML + JS:**
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Leap Year Checker</title>
-</head>
-<body>
-  <h3>Leap Year Checker</h3>
-  <input type="number" id="yearInput" placeholder="Enter year">
-  <button onclick="checkLeap()">Check</button>
-  <p id="leapResult"></p>
-
-  <script>
-    function isLeapYear(year) {
-      return (year % 400 === 0) || (year % 4 === 0 && year % 100 !== 0);
+function checkLeapYear(year) {
+    if ((year % 400 === 0) || (year % 4 === 0 && year % 100 !== 0)) {
+        console.log(year + " is a leap year");
+    } else {
+        console.log(year + " is NOT a leap year");
     }
-
-    function checkLeap() {
-      const y = parseInt(document.getElementById('yearInput').value, 10);
-      const res = document.getElementById('leapResult');
-      if (isNaN(y)) {
-        res.textContent = "Please enter a valid year.";
-        return;
-      }
-      res.textContent = y + (isLeapYear(y) ? " is a leap year." : " is NOT a leap year.");
-    }
-  </script>
-</body>
-</html>
-```
+}
 
 ---
 
