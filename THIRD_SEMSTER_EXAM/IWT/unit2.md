@@ -283,4 +283,115 @@ The CSS box model defines how every element takes space on a webpage. It control
 
 Bro, if you want, I can also give a **short 3-mark version**, or a **big paragraph version**, or help you learn to draw the diagram quickly in exam.
 
+Got you bro — here comes the **perfect 6-mark answer** for
+**Inline, Block, and Inline-Block elements** with clean examples and super clear explanations.
+Write this EXACTLY in exam → FULL MARKS GUARANTEED 💯🔥
+
+---
+
+# ⭐ **Inline, Block, and Inline-Block Elements (6-Mark Answer)**
+
+In HTML and CSS, elements are displayed in three main ways: **block**, **inline**, and **inline-block**. These display types decide how an element behaves in the page layout.
+
+---
+
+# ⭐ **1) Block-Level Elements**
+
+### ✔ Characteristics
+
+* Always start on a **new line**
+* Take up the **full width** of the parent container
+* You can set **width, height, margin, and padding** freely
+* Stack vertically
+
+### ✔ Examples
+
+`<div>`, `<h1>–<h6>`, `<p>`, `<section>`, `<ul>`, `<li>`
+
+### ✔ Example Code
+
+```html
+<div style="background: lightblue;">
+    This is a block-level element.
+</div>
+
+<p style="background: lightgreen;">
+    This paragraph is also a block element.
+</p>
+```
+
+### ✔ Result
+
+Each element appears on a new line and stretches across the page.
+
+---
+
+# ⭐ **2) Inline Elements**
+
+### ✔ Characteristics
+
+* Do **not** start on a new line
+* Only take up **space needed by their content**
+* **Width and height cannot be set**
+* Margin/padding works only **left-right**, not top-bottom
+
+### ✔ Examples
+
+`<a>`, `<span>`, `<strong>`, `<em>`, `<img>`*
+
+(*img behaves slightly differently but still inline)
+
+### ✔ Example Code
+
+```html
+<span style="background: yellow;">Inline 1</span>
+<span style="background: pink;">Inline 2</span>
+```
+
+### ✔ Result
+
+Both spans appear **on the same line**, side-by-side.
+
+---
+
+# ⭐ **3) Inline-Block Elements**
+
+### ✔ Characteristics
+
+* Behave like **inline** elements (sit side-by-side)
+* But allow **block-level styling**:
+
+  * can set **width**
+  * can set **height**
+  * padding and margin work normally
+* Do **not** force a new line
+
+### ✔ Examples
+
+`<img>`, `<input>`, `button`
+or any element forced using CSS:
+
+```css
+display: inline-block;
+```
+
+### ✔ Example Code
+
+```html
+<div style="display: inline-block; width: 100px; height: 50px; background: lightcoral;">
+    Box 1
+</div>
+
+<div style="display: inline-block; width: 100px; height: 50px; background: lightseagreen;">
+    Box 2
+</div>
+```
+
+### ✔ Result
+
+Elements appear **side-by-side** AND respect width/height.
+
+---
+
+
 If you want, I can also write a **full 6-mark paragraph answer** to copy directly in the exam.
