@@ -289,5 +289,112 @@ HTML is called a **markup language** because it uses tags to *mark up* or define
 
 If you want, I can format these into a **single paragraph answer**, **bullet notes**, or a **mini cheat sheet** for quick revision.
 
+Alright Krushna, here’s the clean, exam-ready explanation — but still in my chill style so you actually *get* it.
+
+---
+
+# ⭐ **Difference Between Pseudo-Class and Pseudo-Element in CSS**
+
+| Feature          | Pseudo-Class                                       | Pseudo-Element                          |
+| ---------------- | -------------------------------------------------- | --------------------------------------- |
+| **What it does** | Selects a **state** or **condition** of an element | Selects a **part** of an element        |
+| **Syntax**       | `:` (single colon)                                 | `::` (double colon)                     |
+| **Acts on**      | Whole element                                      | Specific portion inside the element     |
+| **Examples**     | `:hover`, `:active`, `:first-child`                | `::before`, `::after`, `::first-letter` |
+
+---
+
+# 🎯 **1. Pseudo-Class (acts on a state of an element)**
+
+Pseudo-classes apply **when an element is in a certain condition**.
+
+### ✔ Example: `:hover`
+
+When the user hovers over a button, it changes color.
+
+```html
+<button>Click Me</button>
+```
+
+```css
+button:hover {
+    background-color: blue;
+    color: white;
+}
+```
+
+### ✔ Example: `:first-child`
+
+Selects the first child element.
+
+```html
+<ul>
+    <li>Apple</li>
+    <li>Mango</li>
+</ul>
+```
+
+```css
+li:first-child {
+    color: red;
+}
+```
+
+---
+
+# 🎯 **2. Pseudo-Element (acts on part of an element)**
+
+Pseudo-elements style **specific portions inside an element**.
+
+### ✔ Example: `::first-letter`
+
+Makes only the first letter big and fancy.
+
+```html
+<p>Hello world!</p>
+```
+
+```css
+p::first-letter {
+    font-size: 40px;
+    color: green;
+}
+```
+
+---
+
+### ✔ Example: `::before` and `::after`
+
+Adds virtual content before/after an element.
+
+```html
+<h1>Krushna</h1>
+```
+
+```css
+h1::before {
+    content: "🔥 ";
+}
+
+h1::after {
+    content: " 🚀";
+}
+```
+
+Result → **🔥 Krushna 🚀**
+
+---
+
+# 🎁 **Short 6-Mark Ready Answer Summary**
+
+**Pseudo-class** selects an element based on its *state* (hover, visited, first-child).
+**Pseudo-element** selects a *specific part* of an element (first letter, first line, before, after).
+Pseudo-class uses `:` while pseudo-element uses `::`.
+
+---
+
+If you want, I can create a **table + code output screenshot style** explanation too.
+
+
 
 If you want, I can also make this into a **table format** or a **super-short exam revision card**.
