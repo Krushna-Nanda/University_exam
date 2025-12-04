@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My CV</title>
+</head>
+<body>
+
+<h1>My Curriculum Vitae</h1>
+
+<h2>Personal Details</h2>
+<p>Name: Krushna Chandra Nanda</p>
+<p>Email: krushna@example.com</p>
+<p>Phone: 9123456789</p>
+
+<h2>Career Objective</h2>
+<p>To work in a challenging environment where I can apply my skills and grow professionally.</p>
+
+<h2>Educational Qualification</h2>
+<ul>
+    <li>MCA - XYZ University</li>
+    <li>BSc Computer Science - ABC College</li>
+    <li>12th - CHSE Odisha</li>
+</ul>
+
+<h2>Technical Skills</h2>
+<ul>
+    <li>HTML, CSS, JavaScript</li>
+    <li>Python, Java</li>
+    <li>DBMS, SQL</li>
+</ul>
+
+<h2>Projects</h2>
+<p>Online Shopping System (HTML, CSS, JS)</p>
+
+<h2>Hobbies</h2>
+<ul>
+    <li>Coding</li>
+    <li>Reading</li>
+    <li>Playing Games</li>
+</ul>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Details Form</title>
+</head>
+<body>
+
+<h2>Person Contact Details</h2>
+
+<form action="process.php" method="post">
+
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" required><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label>
+
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label>
+    <br><br>
+
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="1"></textarea><br><br>
+
+    <label>Interests:</label><br>
+    <input type="checkbox" id="sports" name="interest[]" value="Sports">
+    <label for="sports">Sports</label><br>
+
+    <input type="checkbox" id="music" name="interest[]" value="Music">
+    <label for="music">Music</label><br>
+
+    <input type="checkbox" id="reading" name="interest[]" value="Reading">
+    <label for="reading">Reading</label><br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Time Table</title>
+
+<style>
+    table{
+        border: 4px solid black;
+        border-collapse: collapse;
+    }
+</style>
+
+</head>
+<body>
+
+    <h2>TIME TABLE</h2>
+
+    <table border="1" cellpadding="10" >
+        <thead>
+            <tr>
+                <th>Day/Period</th>
+                <th>I<br>9:30-10:20</th>
+                <th>II<br>10:20-11:10</th>
+                <th>III<br>11:10-12:00</th>
+                <th>12:00-12:40</th>
+                <th>IV<br>12:40-1:30</th>
+                <th>V<br>1:30-2:20</th>
+                <th>VI<br>2:20-3:10</th>
+                <th>VII<br>3:10-4:00</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Monday</strong></td>
+                <td>Eng</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td rowspan="6" class="lunch-col">L<br>U<br>N<br>C<br>H</td>
+                <td colspan="3">LAB</td>
+                 <td>Phy</td>
+            </tr>
+            <tr>
+                <td><strong>Tuesday</strong></td>
+                <td colspan="3">LAB</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td>SPORTS</td>
+            </tr>
+            <tr>
+                <td><strong>Wednesday</strong></td>
+                <td>Mat</td>
+                <td>phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LIBRARY</td>
+            </tr>
+            <tr>
+                <td><strong>Thursday</strong></td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LAB</td>
+                 <td>Mat</td>
+            </tr>
+            <tr>
+                <td><strong>Friday</strong></td>
+                <td colspan="3">LAB</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td>Eng</td>
+                <td>Phy</td>
+            </tr>
+            <tr>
+                <td><strong>Saturday</strong></td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td colspan="3">SEMINAR</td>
+                <td>SPORTS</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Person Object Display</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  <h3>Person Details</h3>
+  <div id="personDetails"></div>
+
+  <a href="dddd" target="_blank" style="text-decoration: none;">sssss</a>
+
+  <script>
+    // Create person object
+    const person = {
+      firstName: "Priyanka",
+      lastName: "Murmu",
+      age: 50,
+      eyeColor: "blue"
+    };
+
+    // Display on page
+    const output = document.getElementById("personDetails");
+    output.innerHTML =
+      "<p>First Name: " +  person.firstName + "</p>" +
+      "<p>Last Name: " + person.lastName + "</p>" +
+      "<p>Age: " + person.age + "</p>" +
+      "<p>Eye Colour: " + person.eyeColor + "</p>";
+      
+  </script>
+  <script src=""></script>
+</body>
+</html>

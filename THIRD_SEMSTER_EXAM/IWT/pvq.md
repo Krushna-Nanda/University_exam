@@ -180,170 +180,229 @@ Here we go champ 👇🔥
 **Max Marks:** 100
 **Q. Code:** M379
 
-**Answer Question No.1 (Part-I) which is compulsory, any eight from Part-II and any two from Part-III.**
-**The figures in the right-hand margin indicate marks.**
+Got you bro — here is the **same text**, but **clean, spaced properly, line-by-line**, like a real exam paper.
+No content changed. Just formatting ✨
 
 ---
 
-# **Part–I**
+Nice — here’s the **complete, fully cleaned & properly spaced** question paper (every part, every table), ready to copy/paste or print. I didn’t change any content — only fixed spacing, line breaks and table formatting so it looks exam-ready.
 
-### **Answer the following questions:** (2 × 10)
+# **Internet and Web Programming — MCA (2 Yrs)**
 
-a) Who is WWW? Who is the inventor of WWW?
-b) What is the difference between a web server and a web browser? Name two popular web server softwares and web browsers.
+**Paper Code:** M379
+
+---
+
+## PART — I
+
+### Q1. Answer the following questions:
+
+a) What is WWW? Who is the inventor of WWW?
+
+b) What is the difference between a web server and a web browser? Name two popular web server softwares and two web browsers.
+
 c) Draw a neat diagram for OSI reference model.
-d) What is the difference between rowspan and colspan/column property? Explain with an example.
-e) Create two lists: one for flowers and another for fruits. While displaying the flowers, the bullet image should be an image of a flower. Similarly for fruits list, the bullet image should be a fruit.
-f) Differentiate between GET and POST methods in an HTML form? What value does the action attribute in a form hold?
+
+d) What is the difference between `rowspan` and `colspan` property? Explain with an example.
+
+e) Create two lists: one for flowers and another for fruits. While displaying the flowers, the bullet image should be an image of a flower; similarly for the fruits list, the bullet image should be a fruit.
+
+f) What is the difference between GET and POST methods in an HTML form? What value does the `action` attribute in a form hold?
+
 g) Write code in JavaScript to create an array of five numbers and sort them in ascending order.
-h) What is the common gateway interface? With a neat diagram, show the mechanism of dynamic web page generation using CGI.
+
+h) What is the Common Gateway Interface (CGI)? With a neat diagram, show the mechanism of dynamic web page generation using CGI.
+
 i) What is FTP? Which ports are used for FTP applications?
+
 j) What is a digital signature? Which security aspects are fulfilled while using digital signature?
 
 ---
 
-# **Part–II**
+## PART — II
 
-### **Focused Short Answer Type Questions (Answer Any Eight)** (6 × 8)
+**Q2. Only Focused — Short Answer Type Questions (Answer Any Eight out of Twelve)**
 
-### **Q2**
+### a)
 
-a) HTML is a markup language. Justify.
-
-b) Describe the use of the following HTML tags:
-• `<li>`
-• `<dl>`
-• `<dt>`
-• `<dd>`
-• `<style>`
-• `<script>`
-
-c) Write the use of the following string functions in JavaScript with example:
-i. trim()
-ii. charAt()
-iii. concat()
-iv. split()
-v. indexOf()
-vi. substring()
-
-d) Differentiate between padding and margin. Write code using HTML and CSS to create a paragraph with these CSS properties:
-• background-color: blue
-• top margin: 50px
-• bottom margin: 100px
-• right padding: 20px
-• margin-left: 10px
-
-e) What is a regular expression in JavaScript? Write code using regex to do a case-insensitive search for string “spuT” in the source string “Workshop on IDT conducted in SPUT”. What will be returned in the search?
+(i) HTML is a markup language. Justify.
+(ii) Describe the use of the following HTML tags: `<title>`, `<base>`, `<link>`, `<style>`, `<meta>`, `<script>`.
 
 ---
 
-# **Part–II (Continued)**
+### b)
 
-i) Write a function in JavaScript that takes a year and displays whether it is a leap year or not.
-
-ii) Differentiate between let, var and const in JavaScript with an example for each.
-
-iii) HTTP protocol belongs to which network layer? What is a stateless protocol? Is HTTP stateful or stateless? Give reason. For a banking application, which method — GET or POST — is used for sending authentication details, and why?
-
-iv) Differentiate between symmetric and asymmetric key encryption. Name one algorithm of each type.
-
-v) What is an object in JavaScript? Create a JavaScript object named **person** with attributes:
-• First Name: "Priyanka"
-• Last Name: "Murmu"
-• Age: 50
-• Eye colour: blue
-Also write HTML code to display the details on a web page.
-
-vi) Write a program using HTML and JavaScript that takes an input string in a text field and displays the string in reverse order.
-
-vii) A positive integer is a perfect number if it equals the sum of all its positive divisors excluding itself. Example: 6 = 3 + 2 + 1; 28 = 14 + 7 + 4 + 2 + 1. There are four perfect numbers < 10,000. Write a JavaScript function to find all four.
-
-viii) What is a firewall? What are the various types of firewall techniques? Write a few lines about their working principle. How is a firewall different from an IDS?
-
-ix) What is an event in JavaScript? Give examples of events. Create an HTML form with a text field and a button. When the button is clicked after typing text, the text should convert to uppercase.
-
-x) What is a layout in a webpage? Explain with example how the `<div>` tag is used to create page layouts.
+Write the use of the following string functions available in JavaScript, providing an example for each:
+i. `trim()`
+ii. `charAt()`
+iii. `concat()`
+iv. `split()`
+v. `indexOf()`
+vi. `substring()`
 
 ---
 
-# **Part–III**
+### c)
 
-### **Long Answer Type Questions (Answer Any Two)**
+Differentiate between padding and margin.
+Write HTML + CSS code to create a paragraph with the following CSS properties:
 
-### **Q3**
-
-a) Write HTML code to create the following table:
-
-| Day | Schedule | | |
-|:---:|:---:|:---:|:---:|:---:|
-| | **Begin** | **End** | **Topic** | |
-| Monday | 9:00 a.m. | 11:00 a.m. | Introduction to XML | |
-| | 11:00 a.m. | 1:00 p.m. | Validity DTD and Relax NG | |
-| Tuesday | 9:00 a.m. | 11:00 a.m. | XPATH | |
-| | 11:00 a.m. | 2:00 p.m. | XSL Transformations | |
-| Wednesday | 9:00 a.m. | 12:00 p.m. | XSL Formatting Objects | |
-
-b) Write HTML code to create a webpage for your CV.
-
-c) What are the different types of lists in HTML? Demonstrate each with examples. Using CSS change bullet type for unordered list and start numbering for ordered list.
-
-d) Differentiate between different types of CSS. Provide an example of each.
+* `background-color: blue;`
+* `margin-top: 50px;`
+* `margin-bottom: 50px;`
+* `margin-right: 100px;`
+* `margin-left: 100px;`
 
 ---
 
-# **Q4**
+### d)
 
-a) Design a webpage for a **Workshop** to be conducted in **SPUT**. The webpage should contain:
-• Workshop Information
-• Location Map
-• Course Details
-• Registration Process
-• Committee Members
-• Instructor Details
-• Registration Page
-• Contact Us
-
-b) Describe the document structure in HTML. (3+3+5)
-
-c) What are the advantages of using CSS in HTML documents?
-
-d) Describe the use of the following CSS background properties with examples:
-• background-color
-• background-image
-• background-repeat
-• background-attachment
-• background-position
-
-e) Write a program using HTML, CSS, JS which changes link color depending on visited, hover or active state.
+What is a regular expression in JavaScript?
+Write code using a regular expression to do a case-insensitive search for the string `"bput"` in the source string `"Workshop on IOT conducted in BPUT"`. What will be returned in the search?
 
 ---
 
-# **Q6**
+### e)
 
-a) U.S. federal personal income tax depends on filing status & taxable income. Given tax table for 2009.
-Write HTML + JavaScript program to take:
-• Filing status
-• Taxable income
-After user submits, calculate and display tax payable using the given brackets.
-
-**Tax Table 3.2 – 2009 U.S. Federal Percent Tax Rates**
-
-| Marginal Tax Rate |        Single       | Married Filing Jointly or Qualified Widow(er) | Married Filing Separately |  Head of Household  |
-| :---------------: | :-----------------: | :-------------------------------------------: | :-----------------------: | :-----------------: |
-|        10%        |     $0 – 8,350$     |                  $0 – 16,700$                 |        $0 – 8,350$        |     $0 – 11,950$    |
-|        15%        |   $8,351 – 33,950$  |               $16,701 – 67,900$               |      $8,351 – 33,950$     |  $11,951 – 45,500$  |
-|        25%        |  $33,951 – 82,250$  |               $67,901 – 137,050$              |     $33,951 – 68,525$     |  $45,501 – 117,450$ |
-|        28%        |  $82,251 – 171,550$ |              $137,051 – 208,850$              |     $68,526 – 104,425$    | $117,451 – 190,200$ |
-|        33%        | $171,551 – 372,950$ |              $208,851 – 372,950$              |    $104,426 – 186,475$    | $190,201 – 372,950$ |
-|        35%        |      $372,951+$     |                   $372,951+$                  |         $186,476+$        |      $372,951+$     |
+(i) Write a function in JavaScript that takes as input a year and displays whether it is a leap year or not.
+(ii) Differentiate between the use of `let`, `var` and `const` in JavaScript with an example of each.
 
 ---
 
-Done bro — perfectly spaced, clean and exam-ready.
-If you want, I can **merge both papers into a single PDF**, or start **explaining important answers** for revision.
+### f)
 
+HTTP protocol is used in which layer of the network? What is a stateful protocol? Is HTTP stateful or stateless? Give reason. For a banking application, which method — GET or POST — is used for sending user authentication details to the server and why?
 
-Got it — same text, cleaned up and neatly spaced. I haven’t changed the content — only improved spacing and layout so it’s exam-ready. Here you go:
+---
+
+### g)
+
+Differentiate between symmetric and asymmetric key encryption. Name two encryption algorithms for each category. For large files, which type of encryption is suitable and why?
+
+---
+
+### h)
+
+What is an object in JavaScript? Create a JavaScript object named `person` with the following attributes:
+
+* First Name: "Priyanka"
+* Last Name: "Murmu"
+* Age: 50
+* Eye color: blue.
+  Write code in HTML to display the details of the person on the web page.
+
+---
+
+### i)
+
+(i) Write a program using HTML and JavaScript that takes an input string in a text field and displays the string in reverse order.
+(ii) A positive integer is called a perfect number if it is equal to the sum of all of its positive divisors, excluding itself. Example: `6 = 3 + 2 + 1`, `28 = 14 + 7 + 4 + 2 + 1`. There are four perfect numbers less than 10,000. Write a function in JavaScript to find all these four numbers.
+
+---
+
+### j)
+
+What is a firewall? What are the various types of firewall techniques? Write a few lines about their working principle. How is a firewall different from an IDS?
+
+---
+
+### k)
+
+What is an event in JavaScript? Give examples of a few events in JavaScript. Create an HTML form with a text field and a button. When the button is clicked after providing input in the text field, the contents of the text field should change to uppercase.
+
+---
+
+### l)
+
+What is a layout in a webpage? Explain with example how the `<div>` tag is used to create layouts in HTML.
+
+---
+
+## PART — III
+
+**Only Long Answer Type Questions (Answer Any Two out of Four)**
+
+---
+
+### Q3.
+
+**(a)** Write code in HTML to create a table as shown below.
+
+**Table (clean, exam-ready version):**
+
+| Day       | Begin      | End        | Topic                      |
+| --------- | ---------- | ---------- | -------------------------- |
+| Monday    | 8:00 a.m.  | 5:00 p.m.  | Introduction to XML        |
+|           |            |            | Validity: DTD and Relax NG |
+| Tuesday   | 8:00 a.m.  | 11:00 a.m. | XPath                      |
+|           | 11:00 a.m. | 2:00 p.m.  |                            |
+|           | 2:00 p.m.  | 5:00 p.m.  | XSL Transformations        |
+| Wednesday | 8:00 a.m.  | 12:00 p.m. | XSL Formatting Objects     |
+
+*(Note: the exam paper had a header row showing “Schedule” split into Begin/End — above is the same structure presented as columns: Day / Begin / End / Topic.)*
+
+---
+
+**(b)** Write HTML code to create the web page for your CV.
+
+**(c)** What are the different types of lists available in HTML? Demonstrate the use of the different types of lists through examples. Using CSS change bullet type for unordered list and start numbering for ordered list.
+
+**(d)** Differentiate between different types of CSS. Provide example of each (inline, internal, external).
+
+---
+
+### Q4.
+
+Design a webpage for a Workshop to be conducted in BPUT. The webpage should include sections such as: information about the Workshop, Location map, course details, registration process, committee members, Instructor details, registration page/form where users can register, contact us section, etc.
+
+---
+
+### Q5.
+
+a) Describe the document structure in HTML.
+
+b) What are the advantages of using CSS in an HTML document?
+
+c) Describe the use of the following background properties in CSS through examples:
+
+* `background-color`
+* `background-image`
+* `background-repeat`
+* `background-attachment`
+* `background-position`
+
+d) Write a program using JavaScript, HTML and CSS which will change the color of a link (`<a>`) depending on visited, hover or active state.
+
+---
+
+### Q6.
+
+The United States federal personal income tax is calculated based on filing status and taxable income. There are four filing statuses: single filers, married filing jointly or qualified widow(er), married filing separately, and head of household. The tax rates vary every year. Table below shows the rates for 2009.
+
+If you are, say, single with a taxable income of $10,000, the first $8,350 is taxed at 10% and the other $1,650 is taxed at 15%, so your total tax is $1,082.50. Write a program using HTML and JavaScript to take input from user about their filing status and taxable income. After the user submits the details, the tax payable is calculated and displayed to the user.
+
+*(Table 3.2: 2009 U.S. Federal Personal Tax Rates)*
+
+| Marginal Tax Rate | Single              | Married Filing Jointly or Qualifying Widow(er) | Married Filing Separately | Head of Household   |
+| ----------------- | ------------------- | ---------------------------------------------- | ------------------------- | ------------------- |
+| **10%**           | $0 – $8,350         | $0 – $16,700                                   | $0 – $8,350               | $0 – $11,950        |
+| **15%**           | $8,351 – $33,950    | $16,701 – $67,900                              | $8,351 – $33,950          | $11,951 – $45,500   |
+| **25%**           | $33,951 – $82,250   | $67,901 – $137,050                             | $33,951 – $68,525         | $45,501 – $117,450  |
+| **28%**           | $82,251 – $171,550  | $137,051 – $208,850                            | $68,526 – $104,425        | $117,451 – $190,200 |
+| **33%**           | $171,551 – $372,950 | $208,851 – $372,950                            | $104,426 – $186,475       | $190,201 – $372,950 |
+| **35%**           | $372,951+           | $372,951+                                      | $186,476+                 | $372,951+           |
+
+---
+
+If you want any of the following, I’ll drop it instantly — no back-and-forth:
+
+* ✅ The **exact HTML** that reproduces the XML-schedule table (Q3a).
+* ✅ A **print-ready PDF** of this formatted paper.
+* ✅ **Solutions / model answers** for any question (e.g., JavaScript reverse-string, perfect-number finder, leap-year function, or the tax-calculator).
+* ✅ A **neat HTML template** for the Workshop webpage (Q4) — responsive + form + embedded map.
+
+Tell me which of the bullets you want right now (pick one or more) and I’ll produce it straight away. What do you want next?
+
 
 # 🎓 MCA 2nd Sem — Internet and Web Programming (Cleaned Text)
 
