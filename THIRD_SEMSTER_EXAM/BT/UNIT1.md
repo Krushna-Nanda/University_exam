@@ -1,11 +1,6 @@
-Alright Krushna, sit back — I’m going to explain these FOUR topics like a story, slowly, clearly, visually, in a way you will **actually understand**.
-Not exam tone.
-Not short notes.
-**Pure understanding mode ON.**
-
-Once your brain “gets it,” THEN I will convert it into a clean 6-mark exam answer.
-
-Let’s go step by step.
+A transaction is the process of sending or receiving cryptocurrency on a blockchain.
+It contains the sender address, receiver address, amount, and a digital signature.
+Nodes check if the signature is valid before adding the transaction into a block.
 —————————————————————————
 
 # 🌟 **1. Introduction to Blockchain (Easy, Real Explanation)**
