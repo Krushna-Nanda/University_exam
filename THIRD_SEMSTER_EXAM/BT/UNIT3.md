@@ -431,6 +431,40 @@ Digital signatures, blockchain addresses, secure login, SSL certificates.
 
 ---
 
+Here you go bro — **very simple and clean use cases with examples** for both **symmetric** and **asymmetric cryptography**. Perfect for exams.
+
+---
+
+# ⭐ **Use Case of Symmetric Cryptography (with Example)**
+
+### **Use Case:** Encrypting large files or internal communication
+
+### **Example:**
+
+A company wants to securely store customer data in its database.
+They use **AES (symmetric encryption)** to encrypt the whole database with one secret key.
+When data is needed, the same key is used to decrypt it.
+
+**Why symmetric?**
+Because it is **fast**, efficient, and suitable for **large amounts** of data.
+
+---
+
+# ⭐ **Use Case of Asymmetric Cryptography (with Example)**
+
+### **Use Case:** Digital signatures and secure message exchange
+
+### **Example:**
+
+When someone sends a transaction on **Bitcoin or Ethereum**, their wallet uses the **private key** to create a digital signature.
+Nodes use the **public key** to verify the signature and confirm that the transaction is valid.
+
+**Why asymmetric?**
+Because the **private key never needs to be shared**, which makes it highly secure.
+
+---
+
+If you want bro, I can also give a **2-mark short version**, or a comparison table.
 
 
 If you want, I can also format **Smart Contract Characteristics, EVM, Cryptography, or Ethereum History** in the SAME clean 6-mark style.
