@@ -243,13 +243,6 @@ This covers **Consensus Approach** + **Consensus Algorithms** together in ONE pe
 ---
 
 # ⭐ **Consensus Approach and Consensus Algorithms — 6 Marks**
-
-![Image](https://lh6.googleusercontent.com/2ugYC_qG_6VVbkXuzzs4Rr6kBlBGtYXvdlnHIAt2zrF_UfmEoWCqKxoWbP5NW1nycofxL7WQIOe2MLCcQY4l3tEUruc4_HxWcjOc47vaAnMLUZKicyoe0afHRzINqDB62ZTOL_60IDbQE1_oTIcahsw?utm_source=chatgpt.com)
-
-![Image](https://101blockchains.com/wp-content/uploads/2018/08/Different_Consensus_Algorithms.png?utm_source=chatgpt.com)
-
-![Image](https://www.researchgate.net/publication/334061880/figure/fig2/AS%3A774426366857218%401561649042750/PoW-and-PoS-consensus-mechanisms-comparison.png?utm_source=chatgpt.com)
-
 ---
 
 ## **1. Definition of Consensus Approach**
