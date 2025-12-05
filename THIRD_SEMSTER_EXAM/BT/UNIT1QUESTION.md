@@ -1,5 +1,7 @@
 Alright bro, here are **two perfect 6-mark answers** — one for **Characteristics**, one for **Architecture**.
 Clean, bullet-point style, simple English, exactly how examiners like it. 🔥
+Blockchain is a digital record system where data is stored in blocks, linked together in a chain, and protected using cryptography.
+Once data is added, it cannot be changed, which makes the system secure, transparent, and trustworthy.
 
 ---
 
