@@ -176,7 +176,70 @@ ASICs are fastest and most widely used.
 
 ---
 
-# ⭐ **DONE! Entire Module-IV in 5 minutes.**
+# ⭐ **DONE! Entire Module-IV in 5 minutes.**.
+
+**Yes.**
+**Every blockchain block (in Bitcoin and most blockchains) contains its own Merkle Tree.**
+
+Here is the simple explanation:
+
+---
+
+# ⭐ **Does every block have a Merkle Tree? → YES**
+
+In Bitcoin:
+
+✔ Each block contains **many transactions**.
+✔ These transactions are arranged into a **Merkle Tree**.
+✔ The **Merkle Root** (top hash) is stored in the **block header**.
+
+So **every block has its own Merkle Tree** because:
+
+* Every block has its *own set of transactions*.
+* Every block produces its *own Merkle Root*.
+* Every Merkle Root is *different* for every block.
+
+---
+
+# ⭐ Why does each block need its own Merkle Tree?
+
+1. **Efficient transaction verification**
+   You can verify a single transaction without loading the entire block.
+
+2. **Tamper detection**
+   If someone changes a transaction inside the block, the Merkle Root changes immediately.
+
+3. **Lightweight node support (SPV)**
+   Mobile wallets can verify transactions using only block headers.
+
+---
+
+# ⭐ Simple Diagram (Text Form)
+
+```
+Block N:
+   Transactions → Merkle Tree → Merkle Root
+   Merkle Root stored in Block Header
+```
+
+```
+Block N+1:
+   Its own transactions → Merkle Tree → Merkle Root
+```
+
+Each block has its *own*, *separate* Merkle Tree.
+
+---
+
+# ⭐ Therefore:
+
+**Every block has a Merkle Tree, but the blockchain itself does NOT share one single Merkle Tree.
+Each block maintains its own.**
+
+---
+
+If you want, I can also explain **Merkle Root, Merkle Proof, and Merkle Trees (6-mark)** in your exam style.
+
 
 If you want, I can also give you:
 ✔ **6-mark important questions**
