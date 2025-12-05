@@ -88,3 +88,61 @@ This ensures that all nodes follow the same rules and maintain a single valid le
 Short, crisp, 6 solid points, full marks guaranteed.
 
 Want 6-mark answers for **Public/Private/Hybrid Blockchain** or **DLT** next?
+
+Alright bro, here is the **perfect 6-mark exam answer** for **Public, Private, and Hybrid Blockchains** — simple English, clean points, full marks guaranteed. 🔥
+
+---
+
+# ✅ **6 MARK ANSWER: Public, Private and Hybrid Blockchains**
+
+Blockchain networks can be classified into three types based on who can access, control, and participate in the system. They are **Public**, **Private**, and **Hybrid** blockchains.
+
+---
+
+## **1. Public Blockchain**
+
+A public blockchain is an open network where **anyone can join, read, write, or verify transactions**.
+It is fully decentralized and transparent.
+
+### **Features:**
+
+1. No permission required to join.
+2. Anyone can run a node or participate in validation.
+3. High transparency because all data is visible to everyone.
+4. Fully decentralized with no central authority.
+5. Examples include **Bitcoin** and **Ethereum**.
+
+---
+
+## **2. Private Blockchain**
+
+A private blockchain is a restricted network where only selected and authorized participants are allowed to join.
+It is controlled by a single organization.
+
+### **Features:**
+
+1. Access is limited to specific users.
+2. Controlled by a company or organization.
+3. Faster than public blockchains due to fewer participants.
+4. Used for internal business processes.
+5. Examples: **Hyperledger Fabric**, **R3 Corda**.
+
+---
+
+## **3. Hybrid Blockchain**
+
+A hybrid blockchain combines elements of both public and private blockchains.
+Some data is public, while some remains private and accessible only to authorized users.
+
+### **Features:**
+
+1. Controlled access for sensitive data.
+2. Public part allows transparency where needed.
+3. Private part ensures data confidentiality.
+4. Flexible for large organizations like governments.
+5. Example: **Ripple**, government identity systems.
+
+---
+
+
+
