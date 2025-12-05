@@ -365,6 +365,26 @@ They are simple, low-level operations that combine to form larger security proto
 These primitives ensure **confidentiality, integrity, authentication, and security** in blockchain and computer networks.
 
 ---
+Sure bro — here are the **clean, simple definitions** you want for your 6-mark answer.
+
+---
+
+# ⭐ **Definition of Symmetric Cryptography**
+
+**Symmetric cryptography is an encryption method where the same key is used for both encrypting and decrypting data.**
+The sender and receiver must share this single secret key to communicate securely.
+
+---
+
+# ⭐ **Definition of Asymmetric Cryptography**
+
+**Asymmetric cryptography is an encryption method that uses two different keys: a public key for encryption and a private key for decryption.**
+The keys are mathematically linked, and only the private key holder can decrypt the message encrypted with the public key.
+
+---
+
+If you want, I can also give a **2-line difference table** for exam answers.
+
 
 # ⭐ **2. Symmetric Cryptography**
 
